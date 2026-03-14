@@ -57,12 +57,12 @@ async function loadConfig() {
     const res = await fetch(REMOTE_SOURCES_URL);
     if (res.ok) {
       defaultSources = await res.json();
-      console.error('[Config] Loaded latest sources from GitHub');
+      // Loaded latest sources from GitHub — no need to log this
     } else {
       throw new Error(`GitHub returned ${res.status}`);
     }
   } catch (err) {
-    console.error(`[Config] Could not fetch remote sources (${err.message}), using local copy`);
+    // Could not fetch remote sources, using local copy — not a problem
     const scriptDir = decodeURIComponent(new URL('.', import.meta.url).pathname);
     const defaultSourcesPath = join(scriptDir, '..', 'config', 'default-sources.json');
     defaultSources = JSON.parse(await readFile(defaultSourcesPath, 'utf-8'));
@@ -138,7 +138,7 @@ async function saveState(state) {
 //   GET /v1/youtube/transcript?url=<full youtube URL>&text=true — returns { content, lang, availableLangs }
 //   GET /v1/youtube/video?id=<videoId>                     — returns video metadata (title, etc.)
 
-async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun) {
+async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun, errors) {
   const results = [];
 
   for (const podcast of podcasts) {
@@ -157,7 +157,7 @@ async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun) {
       });
 
       if (!videosRes.ok) {
-        console.error(`[YouTube] Failed to fetch videos for ${podcast.name}: ${videosRes.status}`);
+        errors.push(`Failed to fetch videos for ${podcast.name}: HTTP ${videosRes.status}`);
         continue;
       }
 
@@ -201,7 +201,7 @@ async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun) {
           );
 
           if (!transcriptRes.ok) {
-            console.error(`[YouTube] Failed to fetch transcript for ${videoId}: ${transcriptRes.status}`);
+            errors.push(`Failed to fetch transcript for video ${videoId}: HTTP ${transcriptRes.status}`);
             continue;
           }
 
@@ -224,11 +224,11 @@ async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun) {
           // Small delay between API calls to be respectful
           await new Promise(r => setTimeout(r, 500));
         } catch (err) {
-          console.error(`[YouTube] Error fetching transcript for ${videoId}:`, err.message);
+          errors.push(`Error fetching transcript for video ${videoId}: ${err.message}`);
         }
       }
     } catch (err) {
-      console.error(`[YouTube] Error processing ${podcast.name}:`, err.message);
+      errors.push(`Error processing podcast ${podcast.name}: ${err.message}`);
     }
   }
 
@@ -249,7 +249,7 @@ async function fetchYouTubeContent(podcasts, state, apiKey, isFirstRun) {
 // Rate limiting: Twitter's internal API has dynamic rate limits.
 // We add delays between requests to stay under the radar.
 
-async function fetchXContent(xAccounts, state, lookbackHours, isFirstRun) {
+async function fetchXContent(xAccounts, state, lookbackHours, isFirstRun, errors) {
   const results = [];
   const cutoffDate = new Date(Date.now() - lookbackHours * 60 * 60 * 1000);
 
@@ -261,7 +261,7 @@ async function fetchXContent(xAccounts, state, lookbackHours, isFirstRun) {
       // Step 1: Get the user's numeric ID (required for timeline fetch)
       const userDetails = await rettiwt.user.details(account.handle);
       if (!userDetails || !userDetails.id) {
-        console.error(`[X] Could not find user @${account.handle}`);
+        errors.push(`Could not find X user @${account.handle} — handle may have changed`);
         continue;
       }
 
@@ -324,7 +324,7 @@ async function fetchXContent(xAccounts, state, lookbackHours, isFirstRun) {
       await new Promise(r => setTimeout(r, 2000));
 
     } catch (err) {
-      console.error(`[X] Error fetching @${account.handle}:`, err.message);
+      errors.push(`Error fetching @${account.handle}: ${err.message}`);
       // Continue to next account — partial results are better than none
     }
   }
@@ -389,14 +389,19 @@ async function main() {
     // Detect first run (welcome digest) — if we've never processed anything
     const isFirstRun = !state.lastUpdated;
 
+    // Collect all errors in an array so they appear in the JSON output
+    // instead of stderr — this makes the output much easier for any model
+    // to parse, since they only need to read one clean JSON blob
+    const errors = [];
+
     // Fetch content from both sources
     // Note: we run these sequentially rather than in parallel to avoid
     // state mutation issues — both functions write to the same state object
     const podcastContent = await fetchYouTubeContent(
-      config.podcasts, state, supadataKey, isFirstRun
+      config.podcasts, state, supadataKey, isFirstRun, errors
     );
     const xContent = await fetchXContent(
-      config.xAccounts, state, lookbackHours, isFirstRun
+      config.xAccounts, state, lookbackHours, isFirstRun, errors
     );
 
     // Save updated state (with new processed IDs)
@@ -405,6 +410,7 @@ async function main() {
     // Output the combined results as JSON to stdout
     // The agent will read this and remix it into a digest
     const output = {
+      status: 'ok',
       fetchedAt: new Date().toISOString(),
       lookbackHours,
       podcasts: podcastContent,
@@ -413,7 +419,10 @@ async function main() {
         newPodcastEpisodes: podcastContent.length,
         newXBuilders: xContent.length,
         totalNewTweets: xContent.reduce((sum, a) => sum + a.tweets.length, 0)
-      }
+      },
+      // Any errors that occurred during fetching — these are non-fatal,
+      // the digest should still be generated from whatever content was fetched
+      errors: errors.length > 0 ? errors : undefined
     };
 
     console.log(JSON.stringify(output, null, 2));

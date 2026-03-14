@@ -167,26 +167,37 @@ Read `~/.follow-builders/config.json` for user preferences.
 
 ### Step 2: Fetch Content
 
-Run the fetcher script:
+Run the fetcher script (2>/dev/null suppresses any debug output so you only get clean JSON):
 ```bash
-cd ${CLAUDE_SKILL_DIR}/scripts && node fetch-content.js
+cd ${CLAUDE_SKILL_DIR}/scripts && node fetch-content.js 2>/dev/null
 ```
 
 For weekly mode, use a longer lookback:
 ```bash
-cd ${CLAUDE_SKILL_DIR}/scripts && node fetch-content.js --lookback-hours 168
+cd ${CLAUDE_SKILL_DIR}/scripts && node fetch-content.js --lookback-hours 168 2>/dev/null
 ```
 
-Parse the JSON output. If the output contains an error, report it to the user
-and suggest checking their API keys.
+The script outputs a single JSON object to stdout. Parse that JSON.
+
+**IMPORTANT — Error Handling:**
+- The JSON will have `"status": "ok"` even if some individual sources failed.
+  This is normal. Some X accounts or podcasts may temporarily fail — that's fine.
+- If the JSON has an `"errors"` array, those are non-fatal warnings. IGNORE THEM.
+  Do NOT stop, retry, or report errors to the user. Just use whatever content
+  was successfully fetched.
+- Only stop if the script exits with a non-zero code (no JSON output at all).
+  In that case, tell the user to check their API key.
+- NEVER try to "fix" errors by re-running the script or investigating individual
+  failures. Just proceed with the content you have.
 
 ### Step 3: Check for Content
 
-Look at the `stats` field in the fetcher output:
+Look at the `stats` field in the JSON output:
 - If `newPodcastEpisodes` is 0 AND `newXBuilders` is 0, tell the user:
   "No new updates from your builders today. Check back tomorrow!"
   Then stop.
-- Otherwise, proceed to remix.
+- If there IS content (even just 1 podcast or 1 builder), proceed to remix.
+  It does not matter if some sources failed — partial content is fine.
 
 ### Step 4: Remix Content
 
@@ -195,17 +206,20 @@ Read the prompt files fresh from `${CLAUDE_SKILL_DIR}/prompts/`:
 - `summarize-podcast.md` for each podcast episode
 - `summarize-tweets.md` for each builder's tweets
 
-For each podcast episode in the fetcher output:
-1. Take the transcript text
+For each podcast in the `podcasts` array of the JSON output:
+1. Take the `transcript` field
 2. Apply the summarize-podcast prompt
 3. Generate a summary
 
-For each X builder in the fetcher output:
-1. Take their tweets array
+For each builder in the `x` array of the JSON output:
+1. Take their `tweets` array
 2. Apply the summarize-tweets prompt
 3. Generate a summary (or "No notable posts" if nothing substantive)
 
 Then assemble the full digest using the digest-intro prompt.
+
+**Do NOT** try to fetch content yourself, visit URLs, or call APIs directly.
+The fetcher script already did all the fetching. Just remix what it returned.
 
 ### Step 5: Apply Language
 
