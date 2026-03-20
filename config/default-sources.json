@@ -29,6 +29,18 @@
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@DataDrivenNYC/videos",
       "channelHandle": "DataDrivenNYC"
+    },
+    {
+      "name": "Lex Fridman Podcast",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@lexfridman",
+      "channelHandle": "lexfridman"
+    },
+    {
+      "name": "All-In Podcast",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@allin",
+      "channelHandle": "allin"
     }
   ],
   "x_accounts": [
