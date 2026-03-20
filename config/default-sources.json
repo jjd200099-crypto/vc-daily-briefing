@@ -4,7 +4,7 @@
       "name": "Latent Space",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "channelHandle": "LatentSpacePod"
+      "channelId": "UCxBcwypKK-W3GHd_RZ9FZrQ"
     },
     {
       "name": "Training Data",
@@ -16,55 +16,55 @@
       "name": "No Priors",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "channelHandle": "NoPriorsPodcast"
+      "channelId": "UCSI7h9hydQ40K5MJHnCrQvw"
     },
     {
       "name": "Unsupervised Learning",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@RedpointAI",
-      "channelHandle": "RedpointAI"
+      "channelId": "UCUl-s_Vp-Kkk_XVyDylNwLA"
     },
     {
       "name": "Data Driven NYC",
       "type": "youtube_channel",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "channelHandle": "DataDrivenNYC"
+      "url": "https://www.youtube.com/@DataDrivenNYC",
+      "channelId": "UCQID78IY6EOojr5RUdD47MQ"
     },
     {
       "name": "Lex Fridman Podcast",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@lexfridman",
-      "channelHandle": "lexfridman"
+      "channelId": "UCJIfeSCssxSC_Dhc5s7woww"
     },
     {
       "name": "All-In Podcast",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@allin",
-      "channelHandle": "allin"
+      "channelId": "UCESLZhusAkFfsNsApnjF_Cg"
     },
     {
       "name": "BG2Pod",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@BG2Pod",
-      "channelHandle": "BG2Pod"
+      "channelId": "UC-yRDvpR99LUc5l7i7jLzew"
     },
     {
       "name": "20VC",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@20vc",
-      "channelHandle": "20vc"
+      "channelId": "UCzcaUuCHysK5Wul-bVzeedA"
     },
     {
       "name": "Acquired",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@AcquiredFM",
-      "channelHandle": "AcquiredFM"
+      "channelId": "UCyFqFYfTW2VoIQKylJ04Rtw"
     },
     {
       "name": "Invest Like the Best",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@joincolossus",
-      "channelHandle": "joincolossus"
+      "channelId": "UCfnHKTFEryHWyqr4Xjsjb3w"
     }
   ],
   "x_accounts": [

@@ -10,7 +10,8 @@
 // state-feed.json so content is never repeated across runs.
 //
 // Usage: node generate-feed.js [--tweets-only | --podcasts-only]
-// Env vars needed: X_BEARER_TOKEN, SUPADATA_API_KEY
+// Env vars needed: X_BEARER_TOKEN (for tweets), SUPADATA_API_KEY (optional)
+// Podcasts now use free YouTube RSS feeds — no API key required.
 // ============================================================================
 
 import { readFile, writeFile } from 'fs/promises';
@@ -19,7 +20,7 @@ import { join } from 'path';
 
 // -- Constants ---------------------------------------------------------------
 
-const SUPADATA_BASE = 'https://api.supadata.ai/v1';
+const YT_RSS_BASE = 'https://www.youtube.com/feeds/videos.xml';
 const X_API_BASE = 'https://api.x.com/2';
 const TWEET_LOOKBACK_HOURS = 24;
 const PODCAST_LOOKBACK_HOURS = 72;
@@ -64,104 +65,68 @@ async function loadSources() {
   return JSON.parse(await readFile(sourcesPath, 'utf-8'));
 }
 
-// -- YouTube Fetching (Supadata API) -----------------------------------------
+// -- YouTube Fetching (Free RSS feeds) ----------------------------------------
+// Uses YouTube's built-in RSS feeds — no API key, no cost, no rate limits.
+// Returns title + date + URL only (no transcript).
 
-async function fetchYouTubeContent(podcasts, apiKey, state, errors) {
+function parseRssEntries(xml) {
+  const entries = [];
+  const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
+  let match;
+  while ((match = entryRegex.exec(xml)) !== null) {
+    const block = match[1];
+    const videoId = block.match(/<yt:videoId>(.*?)<\/yt:videoId>/)?.[1] || '';
+    const title = block.match(/<title>(.*?)<\/title>/)?.[1] || 'Untitled';
+    const published = block.match(/<published>(.*?)<\/published>/)?.[1] || '';
+    if (videoId) entries.push({ videoId, title, published });
+  }
+  return entries;
+}
+
+async function fetchYouTubeContent(podcasts, state, errors) {
   const cutoff = new Date(Date.now() - PODCAST_LOOKBACK_HOURS * 60 * 60 * 1000);
-  const allCandidates = [];
+  const results = [];
 
   for (const podcast of podcasts) {
     try {
-      let videosUrl;
+      let rssUrl;
       if (podcast.type === 'youtube_playlist') {
-        videosUrl = `${SUPADATA_BASE}/youtube/playlist/videos?id=${podcast.playlistId}`;
+        rssUrl = `${YT_RSS_BASE}?playlist_id=${podcast.playlistId}`;
       } else {
-        videosUrl = `${SUPADATA_BASE}/youtube/channel/videos?id=${podcast.channelHandle}&type=video`;
+        rssUrl = `${YT_RSS_BASE}?channel_id=${podcast.channelId}`;
       }
 
-      await new Promise(r => setTimeout(r, 1200)); // respect 1 req/s rate limit
-      const videosRes = await fetch(videosUrl, {
-        headers: { 'x-api-key': apiKey }
-      });
-
-      if (!videosRes.ok) {
-        errors.push(`YouTube: Failed to fetch videos for ${podcast.name}: HTTP ${videosRes.status}`);
+      const res = await fetch(rssUrl);
+      if (!res.ok) {
+        errors.push(`RSS: Failed to fetch ${podcast.name}: HTTP ${res.status}`);
         continue;
       }
 
-      const videosData = await videosRes.json();
-      const videoIds = videosData.videoIds || videosData.video_ids || [];
+      const xml = await res.text();
+      const entries = parseRssEntries(xml);
 
-      // Check first 2 videos per channel, skip already-seen ones
-      for (const videoId of videoIds.slice(0, 2)) {
-        if (state.seenVideos[videoId]) continue; // dedup
+      for (const entry of entries.slice(0, 3)) {
+        if (state.seenVideos[entry.videoId]) continue; // dedup
+        if (new Date(entry.published) < cutoff) continue; // too old
 
-        try {
-          const metaRes = await fetch(
-            `${SUPADATA_BASE}/youtube/video?id=${videoId}`,
-            { headers: { 'x-api-key': apiKey } }
-          );
-          if (!metaRes.ok) continue;
-          const meta = await metaRes.json();
-          const publishedAt = meta.uploadDate || meta.publishedAt || meta.date || null;
-
-          allCandidates.push({
-            podcast, videoId,
-            title: meta.title || 'Untitled',
-            publishedAt
-          });
-          await new Promise(r => setTimeout(r, 1200));
-        } catch (err) {
-          errors.push(`YouTube: Error fetching metadata for ${videoId}: ${err.message}`);
-        }
+        state.seenVideos[entry.videoId] = Date.now();
+        results.push({
+          source: 'podcast',
+          name: podcast.name,
+          title: entry.title,
+          videoId: entry.videoId,
+          url: `https://youtube.com/watch?v=${entry.videoId}`,
+          publishedAt: entry.published
+        });
       }
     } catch (err) {
-      errors.push(`YouTube: Error processing ${podcast.name}: ${err.message}`);
+      errors.push(`RSS: Error processing ${podcast.name}: ${err.message}`);
     }
   }
 
-  // Pick 1 unseen video from the last 72 hours.
-  // Sort OLDEST first so videos are featured in chronological order —
-  // if 3 videos were published in 72h, day 1 gets the oldest, day 2 the
-  // next, day 3 the newest. Dedup ensures each is featured exactly once.
-  const withinWindow = allCandidates
-    .filter(v => v.publishedAt && new Date(v.publishedAt) >= cutoff)
-    .sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt)); // oldest first
-
-  const selected = withinWindow[0]; // oldest unseen video
-  if (!selected) return [];
-
-  // Fetch transcript
-  try {
-    const videoUrl = `https://www.youtube.com/watch?v=${selected.videoId}`;
-    const transcriptRes = await fetch(
-      `${SUPADATA_BASE}/youtube/transcript?url=${encodeURIComponent(videoUrl)}&text=true`,
-      { headers: { 'x-api-key': apiKey } }
-    );
-
-    if (!transcriptRes.ok) {
-      errors.push(`YouTube: Failed to get transcript for ${selected.videoId}: HTTP ${transcriptRes.status}`);
-      return [];
-    }
-
-    const transcriptData = await transcriptRes.json();
-
-    // Mark as seen
-    state.seenVideos[selected.videoId] = Date.now();
-
-    return [{
-      source: 'podcast',
-      name: selected.podcast.name,
-      title: selected.title,
-      videoId: selected.videoId,
-      url: `https://youtube.com/watch?v=${selected.videoId}`,
-      publishedAt: selected.publishedAt,
-      transcript: transcriptData.content || ''
-    }];
-  } catch (err) {
-    errors.push(`YouTube: Error fetching transcript for ${selected.videoId}: ${err.message}`);
-    return [];
-  }
+  // Sort by published date, newest first
+  results.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  return results;
 }
 
 // -- X/Twitter Fetching (Official API v2) ------------------------------------
@@ -282,12 +247,7 @@ async function main() {
   const podcastsOnly = args.includes('--podcasts-only');
 
   const xBearerToken = process.env.X_BEARER_TOKEN;
-  const supadataKey = process.env.SUPADATA_API_KEY;
 
-  if (!tweetsOnly && !supadataKey) {
-    console.error('SUPADATA_API_KEY not set');
-    process.exit(1);
-  }
   if (!podcastsOnly && !xBearerToken) {
     console.error('X_BEARER_TOKEN not set');
     process.exit(1);
@@ -320,8 +280,8 @@ async function main() {
   // Fetch podcasts (unless --tweets-only)
   let podcasts = [];
   if (!tweetsOnly) {
-    console.error('Fetching YouTube content...');
-    podcasts = await fetchYouTubeContent(sources.podcasts, supadataKey, state, errors);
+    console.error('Fetching YouTube RSS feeds...');
+    podcasts = await fetchYouTubeContent(sources.podcasts, state, errors);
     console.error(`  Found ${podcasts.length} new episodes`);
 
     const podcastFeed = {
@@ -329,8 +289,8 @@ async function main() {
       lookbackHours: PODCAST_LOOKBACK_HOURS,
       podcasts,
       stats: { podcastEpisodes: podcasts.length },
-      errors: errors.filter(e => e.startsWith('YouTube')).length > 0
-        ? errors.filter(e => e.startsWith('YouTube')) : undefined
+      errors: errors.filter(e => e.startsWith('RSS')).length > 0
+        ? errors.filter(e => e.startsWith('RSS')) : undefined
     };
     await writeFile(join(SCRIPT_DIR, '..', 'feed-podcasts.json'), JSON.stringify(podcastFeed, null, 2));
     console.error(`  feed-podcasts.json: ${podcasts.length} episodes`);
