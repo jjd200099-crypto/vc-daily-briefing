@@ -41,6 +41,30 @@
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@allin",
       "channelHandle": "allin"
+    },
+    {
+      "name": "BG2Pod",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@BG2Pod",
+      "channelHandle": "BG2Pod"
+    },
+    {
+      "name": "20VC",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@20vc",
+      "channelHandle": "20vc"
+    },
+    {
+      "name": "Acquired",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@AcquiredFM",
+      "channelHandle": "AcquiredFM"
+    },
+    {
+      "name": "Invest Like the Best",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@joincolossus",
+      "channelHandle": "joincolossus"
     }
   ],
   "x_accounts": [
