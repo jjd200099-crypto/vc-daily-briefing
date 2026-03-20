@@ -1,41 +1,8 @@
 {
-  "generatedAt": "2026-03-20T07:26:15.672Z",
+  "generatedAt": "2026-03-20T07:47:31.051Z",
   "lookbackHours": 72,
-  "podcasts": [
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "“I forget how boring corporate life is…”",
-      "videoId": "z9sL4pG7psg",
-      "url": "https://youtube.com/watch?v=z9sL4pG7psg",
-      "publishedAt": "2026-03-20T05:00:56+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "If Travis was still CEO of Uber they would be worth...",
-      "videoId": "z8VtxBTAXBc",
-      "url": "https://youtube.com/watch?v=z8VtxBTAXBc",
-      "publishedAt": "2026-03-19T21:03:39+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "NVIDIA GTC, Return of Travis Kalanick, Anduril's $20B Contract &amp; lots more...",
-      "videoId": "Qjyzais4fv4",
-      "url": "https://youtube.com/watch?v=Qjyzais4fv4",
-      "publishedAt": "2026-03-19T15:03:46+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "How to bet on yourself (without venture capital)",
-      "videoId": "hFIvttHf0oo",
-      "url": "https://youtube.com/watch?v=hFIvttHf0oo",
-      "publishedAt": "2026-03-17T12:01:13+00:00"
-    }
-  ],
+  "podcasts": [],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 0
   }
 }
