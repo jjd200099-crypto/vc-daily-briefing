@@ -2,7 +2,6 @@ name: Generate Feeds
 
 on:
   schedule:
-    # Both tweets and podcasts: once daily at 6am UTC
     - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
@@ -29,15 +28,20 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: cd scripts && npm install
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Generate feeds
-        env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
+      - name: Install dependencies
         run: |
-          cd scripts && node generate-feed.js --podcasts-only
+          cd scripts && npm install
+          pip install youtube-transcript-api
+
+      - name: Generate feeds (RSS)
+        run: cd scripts && node generate-feed.js --podcasts-only
+
+      - name: Fetch transcripts
+        run: python scripts/fetch_transcripts.py
 
       - name: Commit and push feeds
         run: |
