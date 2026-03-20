@@ -79,6 +79,7 @@ async function fetchYouTubeContent(podcasts, apiKey, state, errors) {
         videosUrl = `${SUPADATA_BASE}/youtube/channel/videos?id=${podcast.channelHandle}&type=video`;
       }
 
+      await new Promise(r => setTimeout(r, 1200)); // respect 1 req/s rate limit
       const videosRes = await fetch(videosUrl, {
         headers: { 'x-api-key': apiKey }
       });
@@ -109,7 +110,7 @@ async function fetchYouTubeContent(podcasts, apiKey, state, errors) {
             title: meta.title || 'Untitled',
             publishedAt
           });
-          await new Promise(r => setTimeout(r, 300));
+          await new Promise(r => setTimeout(r, 1200));
         } catch (err) {
           errors.push(`YouTube: Error fetching metadata for ${videoId}: ${err.message}`);
         }
