@@ -26,9 +26,9 @@
     },
     {
       "name": "Data Driven NYC",
-      "type": "youtube_channel",
+      "type": "youtube_playlist",
       "url": "https://www.youtube.com/@DataDrivenNYC",
-      "channelId": "UCQID78IY6EOojr5RUdD47MQ"
+      "playlistId": "PLHYy8ChnMLKCeCHjcBiv3VGZcbpNnWLsR"
     },
     {
       "name": "Lex Fridman Podcast",
@@ -52,7 +52,7 @@
       "name": "20VC",
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@20vc",
-      "channelId": "UCzcaUuCHysK5Wul-bVzeedA"
+      "channelId": "UCf0PBRjhf0rF8fWBIxTuoWA"
     },
     {
       "name": "Acquired",
@@ -62,9 +62,9 @@
     },
     {
       "name": "Invest Like the Best",
-      "type": "youtube_channel",
+      "type": "youtube_playlist",
       "url": "https://www.youtube.com/@joincolossus",
-      "channelId": "UCfnHKTFEryHWyqr4Xjsjb3w"
+      "playlistId": "PLxhOp2VJFcPY9noc2nigKYwZ3jI7ChpTY"
     }
   ],
   "x_accounts": [
