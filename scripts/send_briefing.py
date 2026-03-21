@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
 """
-每日简报 v3 — 6-section Daily Briefing
-1. 💰 融资头条 (AI funding deals)
-2. 🚀 技术突破 (AI product launches & breakthroughs)
-3. 🏛 湾区顶级VC动态 (VC blog posts)
-4. 📡 科技媒体更新 (general tech media)
-5. 🎙 播客追踪 (podcast episodes)
-6. 📰 行业资讯 (independent blogs/newsletters)
-
-Gmail SMTP + Gemini 2.0 Flash for structured Chinese summaries
+每日简报 v4 — 6-section Daily Briefing
+1. 💰 融资头条   2. 🚀 技术突破   3. 🏛 VC动态
+4. 📡 科技媒体   5. 🎙 播客追踪   6. 📰 行业资讯
 """
 
 import json
@@ -27,9 +21,7 @@ from urllib.request import Request, urlopen
 
 PODCAST_FEED_URL = "https://raw.githubusercontent.com/jjd200099-crypto/follow-builders/main/feed-podcasts.json"
 
-# --- Funding-specific sources ---
 FUNDING_SOURCES = [
-    {"name": "FinSMES", "url": "https://www.finsmes.com/feed"},
     {"name": "Crunchbase News", "url": "https://news.crunchbase.com/feed/"},
     {"name": "TechCrunch Venture", "url": "https://techcrunch.com/category/venture/feed/"},
     {"name": "SaaStr", "url": "https://www.saastr.com/feed/"},
@@ -38,60 +30,46 @@ FUNDING_SOURCES = [
     {"name": "Sifted (EU)", "url": "https://sifted.eu/feed"},
     {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss"},
     {"name": "36Kr", "url": "https://36kr.com/feed"},
-    {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"},
+    {"name": "FinSMES", "url": "https://www.finsmes.com/feed"},
 ]
 
-# --- AI company blogs (for tech breakthroughs) ---
 TECH_SOURCES = [
     {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml"},
     {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
-    {"name": "Anthropic News", "url": "https://www.anthropic.com/rss.xml"},
-    {"name": "Meta AI Blog", "url": "https://ai.meta.com/blog/rss/"},
+    {"name": "Anthropic News", "url": "https://www.anthropic.com/feed.xml"},
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/"},
     {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/"},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
     {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
     {"name": "Apple ML Research", "url": "https://machinelearning.apple.com/rss.xml"},
-    {"name": "Mistral AI Blog", "url": "https://mistral.ai/feed.xml"},
 ]
 
-# --- General tech media ---
 MEDIA_SOURCES = [
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
     {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
     {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
     {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/"},
     {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
-    {"name": "The Information", "url": "https://www.theinformation.com/feed"},
     {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss"},
 ]
 
-# --- Top Bay Area VC Blogs ---
 VC_BLOG_SOURCES = [
-    {"name": "a16z", "url": "https://a16z.com/feed/"},
-    {"name": "Sequoia Capital", "url": "https://www.sequoiacap.com/feed/"},
-    {"name": "Greylock Partners", "url": "https://greylock.com/feed/"},
-    {"name": "First Round Review", "url": "https://review.firstround.com/feed.xml"},
-    {"name": "Bessemer Venture Partners", "url": "https://www.bvp.com/atlas/feed"},
-    {"name": "Lightspeed Venture Partners", "url": "https://lsvp.com/feed/"},
-    {"name": "Founders Fund", "url": "https://foundersfund.com/feed/"},
+    {"name": "a16z", "url": "https://a16z.com/blog/feed/"},
+    {"name": "Sequoia Capital", "url": "https://www.sequoiacap.com/blog/feed/"},
+    {"name": "Greylock Partners", "url": "https://greylock.com/greymatter/feed/"},
     {"name": "Above the Crowd (Benchmark)", "url": "https://abovethecrowd.com/feed/"},
-    {"name": "Felicis Ventures", "url": "https://www.felicis.com/feed"},
+    {"name": "Lightspeed Venture Partners", "url": "https://lsvp.com/feed/"},
     {"name": "Union Square Ventures", "url": "https://www.usv.com/feed"},
+    {"name": "Founder Collective", "url": "https://foundercollective.medium.com/feed"},
+    {"name": "Y Combinator Blog", "url": "https://www.ycombinator.com/blog/rss/"},
+    {"name": "NFX", "url": "https://www.nfx.com/rss.xml"},
 ]
 
-# --- Independent Analysts & Newsletters ---
 BLOG_SOURCES = [
     {"name": "Stratechery", "url": "https://stratechery.com/feed/"},
-    {"name": "Tom Tunguz", "url": "https://tomtunguz.com/feed/"},
-    {"name": "Different Funds", "url": "https://differentfunds.substack.com/feed"},
-    {"name": "Accelerated Capital", "url": "https://accelerated.substack.com/feed"},
-    {"name": "Alex Danco", "url": "https://alexdanco.substack.com/feed"},
     {"name": "Not Boring", "url": "https://www.notboring.co/feed"},
-    {"name": "Late Checkout", "url": "https://www.latecheckout.co/feed"},
-    {"name": "Electric Sheep", "url": "https://electricsheep.substack.com/feed"},
-    {"name": "NBT (Next Big Thing)", "url": "https://nbt.substack.com/feed"},
     {"name": "Lenny's Newsletter", "url": "https://www.lennysnewsletter.com/feed"},
+    {"name": "Late Checkout", "url": "https://www.latecheckout.co/feed"},
     {"name": "kwokchain", "url": "https://kwokchain.com/feed/"},
     {"name": "Deconstructor of Fun", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
 ]
@@ -103,11 +81,13 @@ RECIPIENT = os.environ.get("RECIPIENT_EMAIL", "jjd200099@gmail.com")
 
 BJT = timezone(timedelta(hours=8))
 
-
 # ── Fetching ────────────────────────────────────────────────────────────────
 
 def http_get(url, timeout=15):
-    req = Request(url, headers={"User-Agent": "FollowBuilders/3.0"})
+    req = Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    })
     with urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
@@ -121,26 +101,52 @@ def fetch_podcast_feed():
         return []
 
 
+def ensure_aware(dt):
+    """Ensure a datetime is timezone-aware (assume UTC if naive)."""
+    if dt is not None and dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
 def parse_rss_date(date_str):
     if not date_str:
         return None
+    date_str = date_str.strip()
+    # ISO 8601
     try:
-        return datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        return ensure_aware(datetime.fromisoformat(date_str.replace("Z", "+00:00")))
     except ValueError:
         pass
+    # RFC 2822
     for fmt in [
         "%a, %d %b %Y %H:%M:%S %z",
         "%a, %d %b %Y %H:%M:%S %Z",
+        "%a, %d %b %Y %H:%M:%S",
         "%d %b %Y %H:%M:%S %z",
+        "%d %b %Y %H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S",
     ]:
         try:
-            return datetime.strptime(date_str.strip(), fmt)
+            return ensure_aware(datetime.strptime(date_str, fmt))
         except ValueError:
             continue
+    # Last resort: try dateutil-style
+    try:
+        # Handle "GMT" timezone
+        cleaned = date_str.replace("GMT", "+0000").replace("EST", "-0500").replace("PST", "-0800").replace("EDT", "-0400").replace("PDT", "-0700")
+        for fmt in ["%a, %d %b %Y %H:%M:%S %z"]:
+            try:
+                return ensure_aware(datetime.strptime(cleaned, fmt))
+            except ValueError:
+                continue
+    except Exception:
+        pass
     return None
 
 
 def strip_html(text):
+    if not text:
+        return ""
     text = re.sub(r"<[^>]+>", "", text)
     return unescape(text).strip()
 
@@ -153,6 +159,7 @@ def fetch_rss_entries(sources, cutoff):
             root = ET.fromstring(xml_text)
             ns = {"atom": "http://www.w3.org/2005/Atom"}
 
+            # RSS 2.0
             items = root.findall(".//item")
             if items:
                 for item in items[:10]:
@@ -165,16 +172,17 @@ def fetch_rss_entries(sources, cutoff):
                         entries.append({
                             "source": source["name"],
                             "title": strip_html(title),
-                            "url": link.strip(),
+                            "url": (link or "").strip(),
                             "publishedAt": dt.isoformat(),
                             "snippet": strip_html(desc)[:800],
                         })
                 continue
 
+            # Atom
             atom_entries = root.findall("atom:entry", ns)
             if not atom_entries:
                 atom_entries = root.findall("entry")
-            for entry in atom_entries[:10]:
+            for entry in (atom_entries or [])[:10]:
                 title = entry.findtext("atom:title", "", ns) or entry.findtext("title", "Untitled")
                 link_el = (entry.find("atom:link[@rel='alternate']", ns)
                            or entry.find("atom:link", ns) or entry.find("link"))
@@ -183,18 +191,18 @@ def fetch_rss_entries(sources, cutoff):
                        or entry.findtext("atom:updated", "", ns)
                        or entry.findtext("published", "")
                        or entry.findtext("updated", ""))
-                summary = (entry.findtext("atom:summary", "", ns)
-                           or entry.findtext("atom:content", "", ns)
-                           or entry.findtext("summary", "")
-                           or entry.findtext("content", ""))
+                summary_el = (entry.findtext("atom:summary", "", ns)
+                              or entry.findtext("atom:content", "", ns)
+                              or entry.findtext("summary", "")
+                              or entry.findtext("content", ""))
                 dt = parse_rss_date(pub)
                 if dt and dt >= cutoff:
                     entries.append({
                         "source": source["name"],
                         "title": strip_html(title),
-                        "url": link.strip(),
+                        "url": (link or "").strip(),
                         "publishedAt": dt.isoformat(),
-                        "snippet": strip_html(summary)[:800],
+                        "snippet": strip_html(summary_el)[:800],
                     })
 
         except Exception as e:
@@ -225,10 +233,8 @@ def gemini_call(prompt, max_tokens=8192):
 
 
 def extract_funding_deals(funding_entries):
-    """Use Gemini to extract structured funding deals from news articles."""
     if not funding_entries:
-        return ""
-
+        return "暂无融资交易"
     items_text = []
     for i, item in enumerate(funding_entries):
         items_text.append(
@@ -238,10 +244,9 @@ def extract_funding_deals(funding_entries):
             f"    链接: {item['url']}\n"
             f"    发布时间: {item['publishedAt'][:16].replace('T', ' ')}"
         )
-
     prompt = f"""你是一位资深的AI行业投融资分析师。请从以下新闻中筛选出所有与AI/科技相关的融资交易（Series A/B/C/D、种子轮、IPO、收购等），并按以下格式输出每笔交易。
 
-如果某条新闻不是融资交易（比如是行业分析、观点文章），请跳过它。
+如果某条新闻不是融资交易（比如是行业分析、观点文章、产品发布），请跳过它。
 
 新闻列表：
 {chr(10).join(items_text)}
@@ -255,20 +260,17 @@ def extract_funding_deals(funding_entries):
 • 亮点2
 • 亮点3（如有）
 融资用途：一句话说明资金用途
-领投方：投资机构名称
-发布时间：X小时前
+领投方：投资机构名称（如文中未提及，写"未披露"）
+发布时间：从原文推断的时间
 原文：链接URL
 
-如果没有找到任何融资交易，请输出"暂无融资交易"。"""
-
-    return gemini_call(prompt, max_tokens=4096)
+如果没有找到任何融资交易，请输出"暂无融资交易"。不要输出任何其他解释文字。"""
+    return gemini_call(prompt, max_tokens=6144)
 
 
 def extract_tech_breakthroughs(tech_entries):
-    """Use Gemini to extract structured tech breakthrough summaries."""
     if not tech_entries:
-        return ""
-
+        return "暂无重大技术突破"
     items_text = []
     for i, item in enumerate(tech_entries):
         items_text.append(
@@ -278,10 +280,9 @@ def extract_tech_breakthroughs(tech_entries):
             f"    链接: {item['url']}\n"
             f"    发布时间: {item['publishedAt'][:16].replace('T', ' ')}"
         )
+    prompt = f"""你是一位资深的AI技术分析师。请从以下新闻中筛选出重要的AI技术突破、新模型发布、重大产品更新，并按以下格式输出。
 
-    prompt = f"""你是一位资深的AI技术分析师。请从以下新闻中筛选出所有重要的AI技术突破、产品发布和模型更新，并按以下格式输出。
-
-筛选标准：新模型发布、重大产品更新、研究突破、开源项目发布、基准测试新记录等。跳过一般性的行业评论或融资新闻。
+跳过一般性的行业评论、融资新闻或非技术内容。
 
 新闻列表：
 {chr(10).join(items_text)}
@@ -295,36 +296,38 @@ def extract_tech_breakthroughs(tech_entries):
 • 特性1
 • 特性2
 • 特性3（如有）
-发布时间：X小时前
+发布时间：从原文推断的时间
 原文：链接URL
 
-如果没有找到重要技术突破，请输出"暂无重大技术突破"。"""
+如果没有找到重要技术突破，请输出"暂无重大技术突破"。不要输出任何其他解释文字。"""
+    return gemini_call(prompt, max_tokens=6144)
 
-    return gemini_call(prompt, max_tokens=4096)
 
-
-def summarize_section(entries, section_desc):
-    """Generate detailed Chinese summaries for a section."""
+def summarize_items(entries, section_desc):
+    """Generate detailed Chinese summaries for any list of items."""
     if not entries:
         return {}
     items_text = []
     for i, entry in enumerate(entries):
-        name = entry.get("source", entry.get("name", ""))
+        name = entry.get("source", entry.get("name", "Unknown"))
         title = entry.get("title", "")
         snippet = entry.get("snippet", entry.get("transcript", ""))
         items_text.append(
             f"{i+1}. [{name}] {title}\n"
-            f"   内容片段: {str(snippet)[:500]}"
+            f"   内容片段: {str(snippet)[:500] if snippet else '无'}"
         )
     prompt = (
         f"你是一位资深的科技投资领域分析师。请为以下{section_desc}各写一段详细的中文摘要（4-6句话）。\n"
-        f"摘要需包括：核心论点、关键数据或案例、对投资者和创业者的启示。\n\n"
+        f"摘要需包括：核心论点、关键数据或案例、对投资者/创业者/从业者的启示。\n"
+        f"如果标题是英文，请翻译后再总结。\n\n"
         + "\n".join(items_text)
-        + "\n\n请按编号逐条给出摘要，格式：\n1. 摘要内容\n2. 摘要内容\n..."
+        + "\n\n请严格按编号逐条给出摘要，格式如下：\n1. 摘要内容\n2. 摘要内容\n..."
     )
-    text = gemini_call(prompt, max_tokens=4096)
+    text = gemini_call(prompt, max_tokens=6144)
+    if not text:
+        return {}
     summaries = {}
-    for m in re.finditer(r"(\d+)\.\s*(.+?)(?=\n\d+\.|\Z)", text, re.DOTALL):
+    for m in re.finditer(r"(\d+)[.、]\s*(.+?)(?=\n\d+[.、]|\Z)", text, re.DOTALL):
         summaries[int(m.group(1)) - 1] = m.group(2).strip()
     return summaries
 
@@ -361,23 +364,23 @@ def format_briefing(funding_text, tech_text, vc_entries, vc_summaries,
         "",
     ]
 
-    # ── 1. Funding Deals ──
-    lines.append("💰 融资头条（过去 24 小时）")
+    # 1. Funding
+    lines.append("💰 融资头条")
     lines.append(sep)
     lines.append("")
     lines.append(funding_text if funding_text else "  暂无融资交易")
     lines.append("")
     lines.append("")
 
-    # ── 2. Tech Breakthroughs ──
-    lines.append("🚀 技术突破（过去 24 小时）")
+    # 2. Tech
+    lines.append("🚀 技术突破")
     lines.append(sep)
     lines.append("")
     lines.append(tech_text if tech_text else "  暂无重大技术突破")
     lines.append("")
     lines.append("")
 
-    # ── 3. VC Updates ──
+    # 3. VC
     lines.append(f"🏛 湾区顶级 VC 动态（{len(vc_entries)} 篇）")
     lines.append(sep)
     lines.append("")
@@ -389,7 +392,7 @@ def format_briefing(funding_text, tech_text, vc_entries, vc_summaries,
         lines.append("")
     lines.append("")
 
-    # ── 4. Tech Media ──
+    # 4. Media
     lines.append(f"📡 科技媒体更新（{len(media_entries)} 篇）")
     lines.append(sep)
     lines.append("")
@@ -401,7 +404,7 @@ def format_briefing(funding_text, tech_text, vc_entries, vc_summaries,
         lines.append("")
     lines.append("")
 
-    # ── 5. Podcasts ──
+    # 5. Podcasts
     lines.append(f"🎙 播客追踪（{len(podcasts)} 期新节目）")
     lines.append(sep)
     lines.append("")
@@ -413,7 +416,7 @@ def format_briefing(funding_text, tech_text, vc_entries, vc_summaries,
         lines.append("")
     lines.append("")
 
-    # ── 6. Industry Blogs ──
+    # 6. Blogs
     lines.append(f"📰 行业资讯（{len(blogs)} 篇新文章）")
     lines.append(sep)
     lines.append("")
@@ -465,7 +468,7 @@ def main():
         if not pub:
             continue
         try:
-            dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            dt = ensure_aware(datetime.fromisoformat(pub.replace("Z", "+00:00")))
             if dt >= cutoff:
                 podcasts.append(ep)
         except ValueError:
@@ -473,47 +476,49 @@ def main():
     podcasts.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     print(f"  {len(podcasts)} podcasts", file=sys.stderr)
 
-    # 2. Funding sources
+    # 2-6. All RSS sections
     print("Fetching funding news...", file=sys.stderr)
     funding_entries = fetch_rss_entries(FUNDING_SOURCES, cutoff)
     print(f"  {len(funding_entries)} funding articles", file=sys.stderr)
 
-    # 3. Tech company blogs
     print("Fetching tech blogs...", file=sys.stderr)
     tech_entries = fetch_rss_entries(TECH_SOURCES, cutoff)
     print(f"  {len(tech_entries)} tech articles", file=sys.stderr)
 
-    # 4. General media
     print("Fetching tech media...", file=sys.stderr)
     media_entries = fetch_rss_entries(MEDIA_SOURCES, cutoff)
     print(f"  {len(media_entries)} media articles", file=sys.stderr)
 
-    # 5. VC blogs
     print("Fetching VC blogs...", file=sys.stderr)
     vc_entries = fetch_rss_entries(VC_BLOG_SOURCES, cutoff)
     print(f"  {len(vc_entries)} VC posts", file=sys.stderr)
 
-    # 6. Independent blogs
     print("Fetching industry blogs...", file=sys.stderr)
     blogs = fetch_rss_entries(BLOG_SOURCES, cutoff)
     print(f"  {len(blogs)} blog posts", file=sys.stderr)
 
-    # 7. Gemini: structured extraction + summaries
-    print("Generating AI analysis (may take 30-60s)...", file=sys.stderr)
+    # Gemini summaries
+    print("Generating AI analysis...", file=sys.stderr)
 
     funding_text = extract_funding_deals(funding_entries)
-    print(f"  Funding deals extracted", file=sys.stderr)
+    print("  ✓ Funding deals", file=sys.stderr)
 
     tech_text = extract_tech_breakthroughs(tech_entries)
-    print(f"  Tech breakthroughs extracted", file=sys.stderr)
+    print("  ✓ Tech breakthroughs", file=sys.stderr)
 
-    vc_summaries = summarize_section(vc_entries, "湾区顶级VC博客文章")
-    media_summaries = summarize_section(media_entries[:15], "科技媒体报道")
-    podcast_summaries = summarize_section(podcasts, "播客节目")
-    blog_summaries = summarize_section(blogs, "独立分析师/newsletter文章")
-    print(f"  All summaries generated", file=sys.stderr)
+    vc_summaries = summarize_items(vc_entries, "湾区顶级VC博客文章")
+    print(f"  ✓ {len(vc_summaries)} VC summaries", file=sys.stderr)
 
-    # 8. Format and send
+    media_summaries = summarize_items(media_entries[:15], "科技媒体报道")
+    print(f"  ✓ {len(media_summaries)} media summaries", file=sys.stderr)
+
+    podcast_summaries = summarize_items(podcasts, "播客节目（请根据标题和嘉宾信息推断内容）")
+    print(f"  ✓ {len(podcast_summaries)} podcast summaries", file=sys.stderr)
+
+    blog_summaries = summarize_items(blogs, "独立分析师/newsletter文章")
+    print(f"  ✓ {len(blog_summaries)} blog summaries", file=sys.stderr)
+
+    # Format and send
     body = format_briefing(
         funding_text, tech_text,
         vc_entries, vc_summaries,
