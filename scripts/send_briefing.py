@@ -36,7 +36,7 @@ FUNDING_SOURCES = [
 TECH_SOURCES = [
     {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml"},
     {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
-    {"name": "Anthropic News", "url": "https://www.anthropic.com/feed.xml"},
+
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/"},
     {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/"},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
@@ -54,15 +54,13 @@ MEDIA_SOURCES = [
 ]
 
 VC_BLOG_SOURCES = [
-    {"name": "a16z", "url": "https://a16z.com/blog/feed/"},
-    {"name": "Sequoia Capital", "url": "https://www.sequoiacap.com/blog/feed/"},
-    {"name": "Greylock Partners", "url": "https://greylock.com/greymatter/feed/"},
+    {"name": "Sequoia Capital", "url": "https://www.sequoiacap.com/feed/"},
     {"name": "Above the Crowd (Benchmark)", "url": "https://abovethecrowd.com/feed/"},
     {"name": "Lightspeed Venture Partners", "url": "https://lsvp.com/feed/"},
     {"name": "Union Square Ventures", "url": "https://www.usv.com/feed"},
     {"name": "Founder Collective", "url": "https://foundercollective.medium.com/feed"},
     {"name": "Y Combinator Blog", "url": "https://www.ycombinator.com/blog/rss/"},
-    {"name": "NFX", "url": "https://www.nfx.com/rss.xml"},
+    {"name": "Andreessen Horowitz (a16z)", "url": "https://a16z.com/feed/"},
 ]
 
 BLOG_SOURCES = [
