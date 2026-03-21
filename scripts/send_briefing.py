@@ -31,9 +31,14 @@ PODCAST_FEED_URL = "https://raw.githubusercontent.com/jjd200099-crypto/follow-bu
 FUNDING_SOURCES = [
     {"name": "FinSMES", "url": "https://www.finsmes.com/feed"},
     {"name": "Crunchbase News", "url": "https://news.crunchbase.com/feed/"},
-    {"name": "Fortune AI", "url": "https://fortune.com/tag/artificial-intelligence/feed/"},
-    {"name": "TechCrunch Funding", "url": "https://techcrunch.com/category/venture/feed/"},
+    {"name": "TechCrunch Venture", "url": "https://techcrunch.com/category/venture/feed/"},
     {"name": "SaaStr", "url": "https://www.saastr.com/feed/"},
+    {"name": "CB Insights", "url": "https://www.cbinsights.com/research/feed/"},
+    {"name": "AlleyWatch", "url": "https://www.alleywatch.com/feed/"},
+    {"name": "Sifted (EU)", "url": "https://sifted.eu/feed"},
+    {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss"},
+    {"name": "36Kr", "url": "https://36kr.com/feed"},
+    {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"},
 ]
 
 # --- AI company blogs (for tech breakthroughs) ---
