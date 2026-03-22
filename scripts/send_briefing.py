@@ -478,7 +478,7 @@ def main():
         sys.exit(0)
 
     today = datetime.now(BJT).strftime("%Y-%m-%d")
-    lookback_hours = 72
+    lookback_hours = 24
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
 
     print("Fetching podcast feed...", file=sys.stderr)
