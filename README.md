@@ -1,124 +1,77 @@
-**English** | [中文](README.zh-CN.md)
+# VC 每日简报
 
-# Follow Builders, Not Influencers
+每天早上 9 点（北京时间），自动发送一封结构化的科技投资日报到你的邮箱。
 
-An AI-powered digest that tracks the top builders in AI — researchers, founders, PMs,
-and engineers who are actually building things — and delivers curated summaries of
-what they're saying.
+## 📬 简报内容
 
-**Philosophy:** Follow people who build products and have original opinions, not
-influencers who regurgitate information.
+| 板块 | 内容 | 数据来源 |
+|------|------|----------|
+| 💰 **融资头条** | AI/科技公司最新融资交易，含金额、轮次、领投方 | Crunchbase, TechCrunch, Bloomberg, 36Kr, CB Insights 等 |
+| 🚀 **技术突破** | 新模型发布、产品更新、研究进展 | OpenAI, Google AI, NVIDIA, DeepMind, Microsoft AI 等官方博客 |
+| 🏛 **湾区顶级 VC 动态** | 最新投资观点、行业分析 | a16z, Sequoia, Greylock, Accel, Bessemer, Kleiner Perkins 等 14 家 VC 官网 |
+| 📡 **科技媒体更新** | AI 行业重要报道 | TechCrunch, VentureBeat, The Verge, MIT Tech Review, Wired 等 |
+| 🎙 **播客追踪** | 投资/科技播客新集速览 | Lex Fridman, All-In, 20VC, Acquired, BG2Pod 等 11 个频道 |
+| 📰 **行业资讯** | 独立分析师与 newsletter | Stratechery, Not Boring, Lenny's Newsletter 等 |
 
-## What You Get
+所有内容均由 **Gemini AI 生成中文摘要**，详细到可以直接转发给同事。
 
-A daily or weekly digest delivered to your preferred messaging app (Telegram, Discord,
-WhatsApp, etc.) with:
+## 🚀 快速部署（5 分钟）
 
-- Summaries of new podcast episodes from top AI podcasts
-- Key posts and insights from 25 curated AI builders on X/Twitter
-- Links to all original content
-- Available in English, Chinese, or bilingual
+### 1. Fork 本仓库
 
-## Quick Start
+点击右上角 **Fork** 按钮。
 
-1. Install the skill in your agent (OpenClaw or Claude Code)
-2. Say "set up follow builders" or invoke `/follow-builders`
-3. The agent walks you through setup conversationally — no config files to edit
+### 2. 配置 Secrets
 
-The agent will ask you:
-- How often you want your digest (daily or weekly) and what time
-- What language you prefer
-- How you want it delivered (Telegram, email, or in-chat)
+进入你 fork 的仓库 → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**，添加以下 4 个：
 
-No API keys needed — all content is fetched centrally.
-Your first digest arrives immediately after setup.
+| Secret 名称 | 说明 | 获取方式 |
+|---|---|---|
+| `GMAIL_USER` | 发件 Gmail 地址 | 你的 Gmail，如 `yourname@gmail.com` |
+| `GMAIL_APP_PASSWORD` | Gmail 应用密码（16 位） | [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) 创建 |
+| `GEMINI_API_KEY` | Gemini API 密钥（免费） | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) 创建 |
+| `RECIPIENT_EMAIL` | 收件邮箱，多人用逗号分隔 | 如 `a@gmail.com,b@outlook.com` |
 
-## Changing Settings
+### 3. 启用 GitHub Actions
 
-Your delivery preferences are configurable through conversation. Just tell your agent:
+进入仓库 → **Actions** 标签页 → 点击 **I understand my workflows, go ahead and enable them**。
 
-- "Switch to weekly digests on Monday mornings"
-- "Change language to Chinese"
-- "Make the summaries shorter"
-- "Show me my current settings"
+### 4. 测试发送
 
-The source list (builders and podcasts) is curated centrally and updates
-automatically — you always get the latest sources without doing anything.
+进入 **Actions** → 选择 **每日简报** workflow → 点击 **Run workflow** → **Run workflow**。
 
-## Customizing the Summaries
+几分钟后检查收件箱，第一封简报就到了。
 
-The skill uses plain-English prompt files to control how content is summarized.
-You can customize them two ways:
+之后每天北京时间早上 9:00 自动发送，无需任何维护。
 
-**Through conversation (recommended):**
-Tell your agent what you want — "Make summaries more concise," "Focus on actionable
-insights," "Use a more casual tone." The agent updates the prompts for you.
+## ⚙️ 自定义
 
-**Direct editing (power users):**
-Edit the files in the `prompts/` folder:
-- `summarize-podcast.md` — how podcast episodes are summarized
-- `summarize-tweets.md` — how X/Twitter posts are summarized
-- `digest-intro.md` — the overall digest format and tone
-- `translate.md` — how English content is translated to Chinese
+### 修改发送时间
 
-These are plain English instructions, not code. Changes take effect on the next digest.
+编辑 `.github/workflows/daily-briefing.yml` 中的 cron 表达式：
 
-## Default Sources
-
-### Podcasts (5)
-- [Latent Space](https://www.youtube.com/@LatentSpacePod)
-- [Training Data](https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8)
-- [No Priors](https://www.youtube.com/@NoPriorsPodcast)
-- [Unsupervised Learning](https://www.youtube.com/@RedpointAI)
-- [Data Driven NYC](https://www.youtube.com/@DataDrivenNYC)
-
-### AI Builders on X (25)
-[Andrej Karpathy](https://x.com/karpathy), [Swyx](https://x.com/swyx), [Josh Woodward](https://x.com/joshwoodward), [Kevin Weil](https://x.com/kevinweil), [Peter Yang](https://x.com/petergyang), [Nan Yu](https://x.com/thenanyu), [Madhu Guru](https://x.com/realmadhuguru), [Amanda Askell](https://x.com/AmandaAskell), [Cat Wu](https://x.com/_catwu), [Thariq](https://x.com/trq212), [Google Labs](https://x.com/GoogleLabs), [Amjad Masad](https://x.com/amasad), [Guillermo Rauch](https://x.com/rauchg), [Alex Albert](https://x.com/alexalbert__), [Aaron Levie](https://x.com/levie), [Ryo Lu](https://x.com/ryolu_), [Garry Tan](https://x.com/garrytan), [Matt Turck](https://x.com/mattturck), [Zara Zhang](https://x.com/zarazhangrui), [Nikunj Kothari](https://x.com/nikunj), [Peter Steinberger](https://x.com/steipete), [Dan Shipper](https://x.com/danshipper), [Aditya Agarwal](https://x.com/adityaag), [Sam Altman](https://x.com/sama), [Claude](https://x.com/claudeai)
-
-## Installation
-
-### OpenClaw
-```bash
-# From ClawhHub (coming soon)
-clawhub install follow-builders
-
-# Or manually
-git clone https://github.com/zarazhangrui/follow-builders.git ~/skills/follow-builders
-cd ~/skills/follow-builders/scripts && npm install
+```yaml
+schedule:
+  - cron: '0 1 * * *'  # UTC 1:00 = 北京时间 9:00
 ```
 
-### Claude Code
-```bash
-git clone https://github.com/zarazhangrui/follow-builders.git ~/.claude/skills/follow-builders
-cd ~/.claude/skills/follow-builders/scripts && npm install
+### 添加播客源
+
+编辑 `config/default-sources.json`，在 `podcasts` 数组中添加：
+
+```json
+{
+  "name": "播客名称",
+  "type": "youtube_channel",
+  "url": "https://www.youtube.com/@频道名",
+  "channelId": "频道ID"
+}
 ```
 
-## Requirements
+### 添加/修改 RSS 源或 VC 列表
 
-- An AI agent (OpenClaw, Claude Code, or similar)
-- Internet connection (to fetch the central feed)
+直接编辑 `scripts/send_briefing.py` 中的 `FUNDING_SOURCES`、`TECH_SOURCES`、`MEDIA_SOURCES`、`VC_SCRAPE_SOURCES`、`BLOG_SOURCES` 列表。
 
-That's it. No API keys needed. All content (YouTube transcripts + X/Twitter posts)
-is fetched centrally and updated daily.
-
-## How It Works
-
-1. A central feed is updated daily with the latest content from all sources
-   (YouTube transcripts via Supadata, X/Twitter via official API)
-2. Your agent fetches the feed — one HTTP request, no API keys
-3. Your agent remixes the raw content into a digestible summary using your preferences
-4. The digest is delivered to your messaging app (or shown in-chat)
-
-See [examples/sample-digest.md](examples/sample-digest.md) for what the output looks like.
-
-## Privacy
-
-- No API keys are sent anywhere — all content is fetched centrally
-- If you use Telegram/email delivery, those keys are stored locally in `~/.follow-builders/.env`
-- The skill only reads public content (public YouTube videos, public X posts)
-- Your configuration, preferences, and reading history stay on your machine
-
-## License
+## 📄 License
 
 MIT
-
