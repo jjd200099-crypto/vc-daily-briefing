@@ -17,7 +17,7 @@ from email.mime.text import MIMEText
 from html import unescape
 from urllib.request import Request, urlopen
 
-PODCAST_FEED_URL = "https://raw.githubusercontent.com/jjd200099-crypto/follow-builders/main/feed-podcasts.json"
+PODCAST_FEED_URL = "https://raw.githubusercontent.com/jjd200099-crypto/vc-daily-briefing/main/feed-podcasts.json"
 
 FUNDING_SOURCES = [
     {"name": "Crunchbase News", "url": "https://news.crunchbase.com/feed/"},
