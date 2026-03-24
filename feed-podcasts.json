@@ -1,33 +1,81 @@
 {
-  "generatedAt": "2026-03-23T07:23:01.715Z",
+  "generatedAt": "2026-03-24T07:14:41.024Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "How Matt Mahan Thinks He Can Save California",
-      "videoId": "blBlD-mrIoE",
-      "url": "https://youtube.com/watch?v=blBlD-mrIoE",
-      "publishedAt": "2026-03-23T01:25:36+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Will AI replace programmers? - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+      "videoId": "N_wq9OV4T4c",
+      "url": "https://youtube.com/watch?v=N_wq9OV4T4c",
+      "publishedAt": "2026-03-24T06:47:18+00:00"
     },
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "Why F1 success is all about exploiting gaps in the rules",
-      "videoId": "CixEdKsOqnM",
-      "url": "https://youtube.com/watch?v=CixEdKsOqnM",
-      "publishedAt": "2026-03-22T19:17:34+00:00"
+      "name": "All-In Podcast",
+      "title": "AI Built Him a Custom CRM in Seconds: This Is the Moment Everything Changed",
+      "videoId": "k5I6W00Tl84",
+      "url": "https://youtube.com/watch?v=k5I6W00Tl84",
+      "publishedAt": "2026-03-24T02:59:57+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Why China is successful in tech - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+      "videoId": "LpkmUa-CqaE",
+      "url": "https://youtube.com/watch?v=LpkmUa-CqaE",
+      "publishedAt": "2026-03-23T22:26:11+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;Never forget I am an international arms dealer&quot;",
-      "videoId": "4Wyk9W3hEKs",
-      "url": "https://youtube.com/watch?v=4Wyk9W3hEKs",
-      "publishedAt": "2026-03-22T15:00:05+00:00"
+      "title": "The Ethics of Defence Technology",
+      "videoId": "BCY56HoRNbs",
+      "url": "https://youtube.com/watch?v=BCY56HoRNbs",
+      "publishedAt": "2026-03-23T18:55:37+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
+      "videoId": "-JBhTBu9ZbA",
+      "url": "https://youtube.com/watch?v=-JBhTBu9ZbA",
+      "publishedAt": "2026-03-23T18:11:13+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Will NVIDIA be worth $10 trillion? | Jensen Huang and Lex Fridman",
+      "videoId": "yqLMaJ8AjUc",
+      "url": "https://youtube.com/watch?v=yqLMaJ8AjUc",
+      "publishedAt": "2026-03-23T17:36:50+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Inside Anduril with CBO Matthew Steckman",
+      "videoId": "nKZWY6QrDWY",
+      "url": "https://youtube.com/watch?v=nKZWY6QrDWY",
+      "publishedAt": "2026-03-23T15:54:29+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "99% of Drone Companies Will Die &amp; Why Anduril’s Products Aren’t an Ethics Debate | Matthew Steckman",
+      "videoId": "Qc6hjJ9Zze0",
+      "url": "https://youtube.com/watch?v=Qc6hjJ9Zze0",
+      "publishedAt": "2026-03-23T15:02:46+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Andrej Karpathy on Claude, Codex, and OpenClaw",
+      "videoId": "iuhYOHFWN8o",
+      "url": "https://youtube.com/watch?v=iuhYOHFWN8o",
+      "publishedAt": "2026-03-23T13:28:15+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 9
   }
 }
