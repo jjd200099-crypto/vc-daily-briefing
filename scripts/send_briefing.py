@@ -278,12 +278,12 @@ def fetch_all_vc_content(cutoff, lookback_hours):
     print("  RSS:", file=sys.stderr)
     rss = fetch_rss_entries(VC_RSS, cutoff)
 
-    all_entries = wp + html_entries + rss
+    all_entries = [e for e in (wp + html_entries + rss) if e is not None]
     # Dedup by title
     seen = set()
     unique = []
     for e in all_entries:
-        key = e["title"].lower()[:50]
+        key = (e.get("title") or "").lower()[:50]
         if key not in seen:
             seen.add(key)
             unique.append(e)
@@ -367,6 +367,7 @@ def extract_tech_breakthroughs(entries):
     return gemini_call(prompt, 6144)
 
 def summarize_vc_content(entries):
+    entries = [e for e in (entries or []) if e is not None]
     if not entries:
         return "暂无 VC 博客更新"
     items = [f"[{i}] VC: {e['source']}\n    标题: {e['title']}\n    内容: {e.get('snippet','')[:500]}\n    链接: {e['url']}" for i, e in enumerate(entries)]
