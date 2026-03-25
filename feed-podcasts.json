@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-03-24T07:14:41.024Z",
+  "generatedAt": "2026-03-25T07:12:54.432Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Will AI replace programmers? - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
-      "videoId": "N_wq9OV4T4c",
-      "url": "https://youtube.com/watch?v=N_wq9OV4T4c",
-      "publishedAt": "2026-03-24T06:47:18+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "AI Built Him a Custom CRM in Seconds: This Is the Moment Everything Changed",
-      "videoId": "k5I6W00Tl84",
-      "url": "https://youtube.com/watch?v=k5I6W00Tl84",
-      "publishedAt": "2026-03-24T02:59:57+00:00"
+      "name": "20VC",
+      "title": "advice to graduates leaving uni",
+      "videoId": "D4UcAp0UlFc",
+      "url": "https://youtube.com/watch?v=D4UcAp0UlFc",
+      "publishedAt": "2026-03-25T05:00:17+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Why China is successful in tech - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
-      "videoId": "LpkmUa-CqaE",
-      "url": "https://youtube.com/watch?v=LpkmUa-CqaE",
-      "publishedAt": "2026-03-23T22:26:11+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "The Ethics of Defence Technology",
-      "videoId": "BCY56HoRNbs",
-      "url": "https://youtube.com/watch?v=BCY56HoRNbs",
-      "publishedAt": "2026-03-23T18:55:37+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
-      "videoId": "-JBhTBu9ZbA",
-      "url": "https://youtube.com/watch?v=-JBhTBu9ZbA",
-      "publishedAt": "2026-03-23T18:11:13+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Will NVIDIA be worth $10 trillion? | Jensen Huang and Lex Fridman",
-      "videoId": "yqLMaJ8AjUc",
-      "url": "https://youtube.com/watch?v=yqLMaJ8AjUc",
-      "publishedAt": "2026-03-23T17:36:50+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Inside Anduril with CBO Matthew Steckman",
-      "videoId": "nKZWY6QrDWY",
-      "url": "https://youtube.com/watch?v=nKZWY6QrDWY",
-      "publishedAt": "2026-03-23T15:54:29+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "99% of Drone Companies Will Die &amp; Why Anduril’s Products Aren’t an Ethics Debate | Matthew Steckman",
-      "videoId": "Qc6hjJ9Zze0",
-      "url": "https://youtube.com/watch?v=Qc6hjJ9Zze0",
-      "publishedAt": "2026-03-23T15:02:46+00:00"
+      "title": "NVIDIA CEO on why TSMC and Taiwan are incredibly successful | Jensen Huang and Lex Fridman",
+      "videoId": "PBqXRVPxxgE",
+      "url": "https://youtube.com/watch?v=PBqXRVPxxgE",
+      "publishedAt": "2026-03-25T02:02:13+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Andrej Karpathy on Claude, Codex, and OpenClaw",
-      "videoId": "iuhYOHFWN8o",
-      "url": "https://youtube.com/watch?v=iuhYOHFWN8o",
-      "publishedAt": "2026-03-23T13:28:15+00:00"
+      "title": "America's Energy System Isn't Ready for AI",
+      "videoId": "wv-WkkX0IzE",
+      "url": "https://youtube.com/watch?v=wv-WkkX0IzE",
+      "publishedAt": "2026-03-24T20:18:36+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "&quot;It's Nonsense Being Pushed by Short Sellers.&quot; - CoreWeave CEO on the GPU Depreciation Debate",
+      "videoId": "U2O_Yg3Mjp8",
+      "url": "https://youtube.com/watch?v=U2O_Yg3Mjp8",
+      "publishedAt": "2026-03-24T17:06:11+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Culture is BS",
+      "videoId": "hMqUze0SKYk",
+      "url": "https://youtube.com/watch?v=hMqUze0SKYk",
+      "publishedAt": "2026-03-24T17:01:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "🔬There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik",
+      "videoId": "KSCCKCz2x04",
+      "url": "https://youtube.com/watch?v=KSCCKCz2x04",
+      "publishedAt": "2026-03-24T16:51:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "The Truth Behind Cursor's Biggeset Model Launch",
+      "videoId": "UNiv_3Vtbr0",
+      "url": "https://youtube.com/watch?v=UNiv_3Vtbr0",
+      "publishedAt": "2026-03-24T16:07:55+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "NVIDIA CEO says AGI is already here | Jensen Huang and Lex Fridman",
+      "videoId": "awE5DV-M48o",
+      "url": "https://youtube.com/watch?v=awE5DV-M48o",
+      "publishedAt": "2026-03-24T16:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "Biology's Waymo Moment: Ginkgo Bioworks' Jason Kelly",
+      "videoId": "g45Alfg7diw",
+      "url": "https://youtube.com/watch?v=g45Alfg7diw",
+      "publishedAt": "2026-03-24T12:01:12+00:00"
     }
   ],
   "stats": {
