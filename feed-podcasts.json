@@ -1,81 +1,57 @@
 {
-  "generatedAt": "2026-03-25T07:12:54.432Z",
+  "generatedAt": "2026-03-26T07:21:12.755Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "advice to graduates leaving uni",
-      "videoId": "D4UcAp0UlFc",
-      "url": "https://youtube.com/watch?v=D4UcAp0UlFc",
-      "publishedAt": "2026-03-25T05:00:17+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "NVIDIA CEO on why TSMC and Taiwan are incredibly successful | Jensen Huang and Lex Fridman",
-      "videoId": "PBqXRVPxxgE",
-      "url": "https://youtube.com/watch?v=PBqXRVPxxgE",
-      "publishedAt": "2026-03-25T02:02:13+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "America's Energy System Isn't Ready for AI",
-      "videoId": "wv-WkkX0IzE",
-      "url": "https://youtube.com/watch?v=wv-WkkX0IzE",
-      "publishedAt": "2026-03-24T20:18:36+00:00"
+      "title": "NVIDIA CEO responds to DLSS 5 drama about AI slop | Jensen Huang and Lex Fridman",
+      "videoId": "MH_beCDBtJc",
+      "url": "https://youtube.com/watch?v=MH_beCDBtJc",
+      "publishedAt": "2026-03-26T04:00:04+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "&quot;It's Nonsense Being Pushed by Short Sellers.&quot; - CoreWeave CEO on the GPU Depreciation Debate",
-      "videoId": "U2O_Yg3Mjp8",
-      "url": "https://youtube.com/watch?v=U2O_Yg3Mjp8",
-      "publishedAt": "2026-03-24T17:06:11+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Culture is BS",
-      "videoId": "hMqUze0SKYk",
-      "url": "https://youtube.com/watch?v=hMqUze0SKYk",
-      "publishedAt": "2026-03-24T17:01:15+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Latent Space",
-      "title": "🔬There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik",
-      "videoId": "KSCCKCz2x04",
-      "url": "https://youtube.com/watch?v=KSCCKCz2x04",
-      "publishedAt": "2026-03-24T16:51:15+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Latent Space",
-      "title": "The Truth Behind Cursor's Biggeset Model Launch",
-      "videoId": "UNiv_3Vtbr0",
-      "url": "https://youtube.com/watch?v=UNiv_3Vtbr0",
-      "publishedAt": "2026-03-24T16:07:55+00:00"
+      "title": "Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World... Here's What It Was Like",
+      "videoId": "Axpnkqd-Agk",
+      "url": "https://youtube.com/watch?v=Axpnkqd-Agk",
+      "publishedAt": "2026-03-26T01:13:16+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "NVIDIA CEO says AGI is already here | Jensen Huang and Lex Fridman",
-      "videoId": "awE5DV-M48o",
-      "url": "https://youtube.com/watch?v=awE5DV-M48o",
-      "publishedAt": "2026-03-24T16:00:05+00:00"
+      "title": "The secret to NVIDIA's success: Inside the mind of Jensen Huang | Lex Fridman Podcast Clips",
+      "videoId": "peaL1uF5MO0",
+      "url": "https://youtube.com/watch?v=peaL1uF5MO0",
+      "publishedAt": "2026-03-26T00:00:04+00:00"
     },
     {
       "source": "podcast",
-      "name": "Training Data",
-      "title": "Biology's Waymo Moment: Ginkgo Bioworks' Jason Kelly",
-      "videoId": "g45Alfg7diw",
-      "url": "https://youtube.com/watch?v=g45Alfg7diw",
-      "publishedAt": "2026-03-24T12:01:12+00:00"
+      "name": "No Priors",
+      "title": "GitHub CEO: Our Devs Barely Write Code",
+      "videoId": "3gEhfsenzTk",
+      "url": "https://youtube.com/watch?v=3gEhfsenzTk",
+      "publishedAt": "2026-03-25T21:01:13+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "OWN THE OXYGEN IN THE ROOM",
+      "videoId": "8qNS9F-eCNw",
+      "url": "https://youtube.com/watch?v=8qNS9F-eCNw",
+      "publishedAt": "2026-03-25T17:34:40+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "What is NVIDIA's &quot;moat&quot; against competitors? - CEO explains | Jensen Huang and Lex Fridman",
+      "videoId": "KEL_8WnDUqE",
+      "url": "https://youtube.com/watch?v=KEL_8WnDUqE",
+      "publishedAt": "2026-03-25T16:14:49+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 9
+    "podcastEpisodes": 6
   }
 }
