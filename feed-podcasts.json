@@ -1,57 +1,73 @@
 {
-  "generatedAt": "2026-03-26T07:21:12.755Z",
+  "generatedAt": "2026-03-27T07:19:45.058Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "NVIDIA CEO responds to DLSS 5 drama about AI slop | Jensen Huang and Lex Fridman",
-      "videoId": "MH_beCDBtJc",
-      "url": "https://youtube.com/watch?v=MH_beCDBtJc",
-      "publishedAt": "2026-03-26T04:00:04+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World... Here's What It Was Like",
-      "videoId": "Axpnkqd-Agk",
-      "url": "https://youtube.com/watch?v=Axpnkqd-Agk",
-      "publishedAt": "2026-03-26T01:13:16+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The secret to NVIDIA's success: Inside the mind of Jensen Huang | Lex Fridman Podcast Clips",
-      "videoId": "peaL1uF5MO0",
-      "url": "https://youtube.com/watch?v=peaL1uF5MO0",
-      "publishedAt": "2026-03-26T00:00:04+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "No Priors",
-      "title": "GitHub CEO: Our Devs Barely Write Code",
-      "videoId": "3gEhfsenzTk",
-      "url": "https://youtube.com/watch?v=3gEhfsenzTk",
-      "publishedAt": "2026-03-25T21:01:13+00:00"
+      "title": "How America Changed Its AI Strategy",
+      "videoId": "VVR9TQ_20QM",
+      "url": "https://youtube.com/watch?v=VVR9TQ_20QM",
+      "publishedAt": "2026-03-27T02:21:48+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "The limits of AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+      "videoId": "WoNSsBWFyEk",
+      "url": "https://youtube.com/watch?v=WoNSsBWFyEk",
+      "publishedAt": "2026-03-27T00:00:06+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Does money and power corrupt? | Jensen Huang and Lex Fridman",
+      "videoId": "sAKKQuNXyOk",
+      "url": "https://youtube.com/watch?v=sAKKQuNXyOk",
+      "publishedAt": "2026-03-26T20:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "Why F1 drivers refused to wear their seatbelts... and how the sport got safer",
+      "videoId": "ib5m-GqTnJ8",
+      "url": "https://youtube.com/watch?v=ib5m-GqTnJ8",
+      "publishedAt": "2026-03-26T19:48:59+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "No 1-on-1 meetings: How Jensen Huang runs NVIDIA | Lex Fridman Podcast Clips",
+      "videoId": "2bpc5iGl0po",
+      "url": "https://youtube.com/watch?v=2bpc5iGl0po",
+      "publishedAt": "2026-03-26T16:00:25+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "OWN THE OXYGEN IN THE ROOM",
-      "videoId": "8qNS9F-eCNw",
-      "url": "https://youtube.com/watch?v=8qNS9F-eCNw",
-      "publishedAt": "2026-03-25T17:34:40+00:00"
+      "title": "The BIGGEST Tech News This Week",
+      "videoId": "Kbwh6L8_tfY",
+      "url": "https://youtube.com/watch?v=Kbwh6L8_tfY",
+      "publishedAt": "2026-03-26T15:12:21+00:00"
     },
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "What is NVIDIA's &quot;moat&quot; against competitors? - CEO explains | Jensen Huang and Lex Fridman",
-      "videoId": "KEL_8WnDUqE",
-      "url": "https://youtube.com/watch?v=KEL_8WnDUqE",
-      "publishedAt": "2026-03-25T16:14:49+00:00"
+      "name": "20VC",
+      "title": "Why You Need a $1B Fund To Do Series A | SpaceX at $2TRN &amp; Data Centers in Space | Groq's $20BN Deal",
+      "videoId": "yLmM3M7d9v8",
+      "url": "https://youtube.com/watch?v=yLmM3M7d9v8",
+      "publishedAt": "2026-03-26T15:00:29+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "Why Now is the Best Time to Buy Public Software Companies",
+      "videoId": "0G1st54tRBI",
+      "url": "https://youtube.com/watch?v=0G1st54tRBI",
+      "publishedAt": "2026-03-24T12:00:03+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 8
   }
 }
