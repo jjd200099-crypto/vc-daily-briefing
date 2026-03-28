@@ -1,73 +1,65 @@
 {
-  "generatedAt": "2026-03-27T07:19:45.058Z",
+  "generatedAt": "2026-03-28T07:08:17.043Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Did NVIDIA predict OpenClaw? | Jensen Huang and Lex Fridman",
+      "videoId": "VHg7g7N1Axs",
+      "url": "https://youtube.com/watch?v=VHg7g7N1Axs",
+      "publishedAt": "2026-03-28T04:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Future of AI clusters in space | Jensen Huang and Lex Fridman",
+      "videoId": "s5Jzr-eZNOA",
+      "url": "https://youtube.com/watch?v=s5Jzr-eZNOA",
+      "publishedAt": "2026-03-28T00:00:06+00:00"
+    },
+    {
+      "source": "podcast",
       "name": "No Priors",
-      "title": "How America Changed Its AI Strategy",
-      "videoId": "VVR9TQ_20QM",
-      "url": "https://youtube.com/watch?v=VVR9TQ_20QM",
-      "publishedAt": "2026-03-27T02:21:48+00:00"
+      "title": "Are Superhuman Agents Here?",
+      "videoId": "nF3A97R1kR4",
+      "url": "https://youtube.com/watch?v=nF3A97R1kR4",
+      "publishedAt": "2026-03-27T21:41:04+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits",
+      "videoId": "4Gmd5UTF4rk",
+      "url": "https://youtube.com/watch?v=4Gmd5UTF4rk",
+      "publishedAt": "2026-03-27T20:21:04+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The limits of AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
-      "videoId": "WoNSsBWFyEk",
-      "url": "https://youtube.com/watch?v=WoNSsBWFyEk",
-      "publishedAt": "2026-03-27T00:00:06+00:00"
+      "title": "NVIDIA CEO's leadership lessons from failure, embarrassment, suffering | Jensen Huang",
+      "videoId": "ziL09IyS0cw",
+      "url": "https://youtube.com/watch?v=ziL09IyS0cw",
+      "publishedAt": "2026-03-27T20:00:04+00:00"
     },
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Does money and power corrupt? | Jensen Huang and Lex Fridman",
-      "videoId": "sAKKQuNXyOk",
-      "url": "https://youtube.com/watch?v=sAKKQuNXyOk",
-      "publishedAt": "2026-03-26T20:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Why F1 drivers refused to wear their seatbelts... and how the sport got safer",
-      "videoId": "ib5m-GqTnJ8",
-      "url": "https://youtube.com/watch?v=ib5m-GqTnJ8",
-      "publishedAt": "2026-03-26T19:48:59+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "No 1-on-1 meetings: How Jensen Huang runs NVIDIA | Lex Fridman Podcast Clips",
-      "videoId": "2bpc5iGl0po",
-      "url": "https://youtube.com/watch?v=2bpc5iGl0po",
-      "publishedAt": "2026-03-26T16:00:25+00:00"
+      "name": "All-In Podcast",
+      "title": "DMT: The Best Longevity Protocol?",
+      "videoId": "-4zzC7ZXNx8",
+      "url": "https://youtube.com/watch?v=-4zzC7ZXNx8",
+      "publishedAt": "2026-03-27T19:43:53+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The BIGGEST Tech News This Week",
-      "videoId": "Kbwh6L8_tfY",
-      "url": "https://youtube.com/watch?v=Kbwh6L8_tfY",
-      "publishedAt": "2026-03-26T15:12:21+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Why You Need a $1B Fund To Do Series A | SpaceX at $2TRN &amp; Data Centers in Space | Groq's $20BN Deal",
-      "videoId": "yLmM3M7d9v8",
-      "url": "https://youtube.com/watch?v=yLmM3M7d9v8",
-      "publishedAt": "2026-03-26T15:00:29+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "Why Now is the Best Time to Buy Public Software Companies",
-      "videoId": "0G1st54tRBI",
-      "url": "https://youtube.com/watch?v=0G1st54tRBI",
-      "publishedAt": "2026-03-24T12:00:03+00:00"
+      "title": "removing stigma from money Convos",
+      "videoId": "j88DNLPauCc",
+      "url": "https://youtube.com/watch?v=j88DNLPauCc",
+      "publishedAt": "2026-03-27T08:31:01+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 8
+    "podcastEpisodes": 7
   }
 }
