@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-03-28T07:08:17.043Z",
+  "generatedAt": "2026-03-29T07:14:57.466Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Did NVIDIA predict OpenClaw? | Jensen Huang and Lex Fridman",
-      "videoId": "VHg7g7N1Axs",
-      "url": "https://youtube.com/watch?v=VHg7g7N1Axs",
-      "publishedAt": "2026-03-28T04:00:05+00:00"
+      "title": "How NVIDIA almost went bankrupt: The big CUDA bet | Jensen Huang and Lex Fridman",
+      "videoId": "ZUSPpDBEfmQ",
+      "url": "https://youtube.com/watch?v=ZUSPpDBEfmQ",
+      "publishedAt": "2026-03-29T04:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Future of AI clusters in space | Jensen Huang and Lex Fridman",
-      "videoId": "s5Jzr-eZNOA",
-      "url": "https://youtube.com/watch?v=s5Jzr-eZNOA",
-      "publishedAt": "2026-03-28T00:00:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Are Superhuman Agents Here?",
-      "videoId": "nF3A97R1kR4",
-      "url": "https://youtube.com/watch?v=nF3A97R1kR4",
-      "publishedAt": "2026-03-27T21:41:04+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits",
-      "videoId": "4Gmd5UTF4rk",
-      "url": "https://youtube.com/watch?v=4Gmd5UTF4rk",
-      "publishedAt": "2026-03-27T20:21:04+00:00"
+      "title": "Greatest game of all time - according to NVIDIA CEO | Jensen Huang and Lex Fridman",
+      "videoId": "B_iAd54w6Cs",
+      "url": "https://youtube.com/watch?v=B_iAd54w6Cs",
+      "publishedAt": "2026-03-29T00:00:06+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "NVIDIA CEO's leadership lessons from failure, embarrassment, suffering | Jensen Huang",
-      "videoId": "ziL09IyS0cw",
-      "url": "https://youtube.com/watch?v=ziL09IyS0cw",
-      "publishedAt": "2026-03-27T20:00:04+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "DMT: The Best Longevity Protocol?",
-      "videoId": "-4zzC7ZXNx8",
-      "url": "https://youtube.com/watch?v=-4zzC7ZXNx8",
-      "publishedAt": "2026-03-27T19:43:53+00:00"
+      "title": "Can AI be conscious? - NVIDIA CEO | Jensen Huang and Lex Fridman",
+      "videoId": "wSQR0pkf_bM",
+      "url": "https://youtube.com/watch?v=wSQR0pkf_bM",
+      "publishedAt": "2026-03-28T20:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "removing stigma from money Convos",
-      "videoId": "j88DNLPauCc",
-      "url": "https://youtube.com/watch?v=j88DNLPauCc",
-      "publishedAt": "2026-03-27T08:31:01+00:00"
+      "title": "Harry Stebbings on the role gaming plays in success",
+      "videoId": "0wIL0IQXcLE",
+      "url": "https://youtube.com/watch?v=0wIL0IQXcLE",
+      "publishedAt": "2026-03-28T18:00:03+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "AI Is Killing Brands (And Most Companies Have No Idea)",
+      "videoId": "gxze1s3dexg",
+      "url": "https://youtube.com/watch?v=gxze1s3dexg",
+      "publishedAt": "2026-03-28T18:00:00+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Gili Raanan on 20VC",
+      "videoId": "ykvvEJ2fJrM",
+      "url": "https://youtube.com/watch?v=ykvvEJ2fJrM",
+      "publishedAt": "2026-03-28T15:10:53+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Why Margins Don't Matter for Early-Stage Startups | Gili Raanan",
+      "videoId": "LCLzgK03CQ0",
+      "url": "https://youtube.com/watch?v=LCLzgK03CQ0",
+      "publishedAt": "2026-03-28T14:58:28+00:00"
     }
   ],
   "stats": {
