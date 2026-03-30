@@ -1,65 +1,57 @@
 {
-  "generatedAt": "2026-03-29T07:14:57.466Z",
+  "generatedAt": "2026-03-30T07:55:05.535Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "How NVIDIA almost went bankrupt: The big CUDA bet | Jensen Huang and Lex Fridman",
-      "videoId": "ZUSPpDBEfmQ",
-      "url": "https://youtube.com/watch?v=ZUSPpDBEfmQ",
-      "publishedAt": "2026-03-29T04:00:05+00:00"
+      "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+      "videoId": "Mf2u2b1bogE",
+      "url": "https://youtube.com/watch?v=Mf2u2b1bogE",
+      "publishedAt": "2026-03-30T04:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Greatest game of all time - according to NVIDIA CEO | Jensen Huang and Lex Fridman",
-      "videoId": "B_iAd54w6Cs",
-      "url": "https://youtube.com/watch?v=B_iAd54w6Cs",
-      "publishedAt": "2026-03-29T00:00:06+00:00"
+      "title": "Jensen Huang: $3 trillion in revenue is possible for NVIDIA in the near-future | Lex Fridman",
+      "videoId": "IQUE0gz2PYE",
+      "url": "https://youtube.com/watch?v=IQUE0gz2PYE",
+      "publishedAt": "2026-03-30T00:00:06+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Can AI be conscious? - NVIDIA CEO | Jensen Huang and Lex Fridman",
-      "videoId": "wSQR0pkf_bM",
-      "url": "https://youtube.com/watch?v=wSQR0pkf_bM",
-      "publishedAt": "2026-03-28T20:00:05+00:00"
+      "title": "How NVIDIA works - explained by NVIDIA CEO | Jensen Huang and Lex Fridman",
+      "videoId": "ugkrQzvuaDw",
+      "url": "https://youtube.com/watch?v=ugkrQzvuaDw",
+      "publishedAt": "2026-03-29T20:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Harry Stebbings on the role gaming plays in success",
-      "videoId": "0wIL0IQXcLE",
-      "url": "https://youtube.com/watch?v=0wIL0IQXcLE",
-      "publishedAt": "2026-03-28T18:00:03+00:00"
+      "title": "Marc Andreessen on 20VC | Coming Soon...",
+      "videoId": "cS0gJZVPkfY",
+      "url": "https://youtube.com/watch?v=cS0gJZVPkfY",
+      "publishedAt": "2026-03-29T19:50:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Karpathy: Stop Building for Humans",
+      "videoId": "k4RaBtlPpAg",
+      "url": "https://youtube.com/watch?v=k4RaBtlPpAg",
+      "publishedAt": "2026-03-29T17:32:14+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "AI Is Killing Brands (And Most Companies Have No Idea)",
-      "videoId": "gxze1s3dexg",
-      "url": "https://youtube.com/watch?v=gxze1s3dexg",
-      "publishedAt": "2026-03-28T18:00:00+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Gili Raanan on 20VC",
-      "videoId": "ykvvEJ2fJrM",
-      "url": "https://youtube.com/watch?v=ykvvEJ2fJrM",
-      "publishedAt": "2026-03-28T15:10:53+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Why Margins Don't Matter for Early-Stage Startups | Gili Raanan",
-      "videoId": "LCLzgK03CQ0",
-      "url": "https://youtube.com/watch?v=LCLzgK03CQ0",
-      "publishedAt": "2026-03-28T14:58:28+00:00"
+      "title": "“Stop Blaming Everyone Else”: David Friedberg on Personal Agency in the Age of AI",
+      "videoId": "j7I3QqbNr5s",
+      "url": "https://youtube.com/watch?v=j7I3QqbNr5s",
+      "publishedAt": "2026-03-29T16:00:00+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 7
+    "podcastEpisodes": 6
   }
 }
