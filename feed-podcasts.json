@@ -1,57 +1,73 @@
 {
-  "generatedAt": "2026-03-30T07:55:05.535Z",
+  "generatedAt": "2026-03-31T07:39:55.527Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
-      "videoId": "Mf2u2b1bogE",
-      "url": "https://youtube.com/watch?v=Mf2u2b1bogE",
-      "publishedAt": "2026-03-30T04:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Jensen Huang: $3 trillion in revenue is possible for NVIDIA in the near-future | Lex Fridman",
-      "videoId": "IQUE0gz2PYE",
-      "url": "https://youtube.com/watch?v=IQUE0gz2PYE",
-      "publishedAt": "2026-03-30T00:00:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "How NVIDIA works - explained by NVIDIA CEO | Jensen Huang and Lex Fridman",
-      "videoId": "ugkrQzvuaDw",
-      "url": "https://youtube.com/watch?v=ugkrQzvuaDw",
-      "publishedAt": "2026-03-29T20:00:05+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "20VC",
-      "title": "Marc Andreessen on 20VC | Coming Soon...",
-      "videoId": "cS0gJZVPkfY",
-      "url": "https://youtube.com/watch?v=cS0gJZVPkfY",
-      "publishedAt": "2026-03-29T19:50:08+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Karpathy: Stop Building for Humans",
-      "videoId": "k4RaBtlPpAg",
-      "url": "https://youtube.com/watch?v=k4RaBtlPpAg",
-      "publishedAt": "2026-03-29T17:32:14+00:00"
+      "title": "Harry Stebbings on breaking through the noise",
+      "videoId": "cyxz-Zwfi2Q",
+      "url": "https://youtube.com/watch?v=cyxz-Zwfi2Q",
+      "publishedAt": "2026-03-31T04:00:28+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "“Stop Blaming Everyone Else”: David Friedberg on Personal Agency in the Age of AI",
-      "videoId": "j7I3QqbNr5s",
-      "url": "https://youtube.com/watch?v=j7I3QqbNr5s",
-      "publishedAt": "2026-03-29T16:00:00+00:00"
+      "title": "“No good comes from kids on social media … and the industry wants them addicted”",
+      "videoId": "iT6rI2yQbHA",
+      "url": "https://youtube.com/watch?v=iT6rI2yQbHA",
+      "publishedAt": "2026-03-31T00:55:02+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, &amp; Mistral 4 — w/ Pavan Kumar Reddy &amp; Guillaume Lample",
+      "videoId": "SUjA25ijcNs",
+      "url": "https://youtube.com/watch?v=SUjA25ijcNs",
+      "publishedAt": "2026-03-30T18:48:16+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Bryan Johnson did the world's strongest psychedelic drug... here's how it went",
+      "videoId": "wB7FNRVqgW8",
+      "url": "https://youtube.com/watch?v=wB7FNRVqgW8",
+      "publishedAt": "2026-03-30T18:30:37+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Democrats Will SWEEP the Midterms if Trump Doesn't Do THIS",
+      "videoId": "2ZG_TkjIqaQ",
+      "url": "https://youtube.com/watch?v=2ZG_TkjIqaQ",
+      "publishedAt": "2026-03-30T17:53:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Marc Andreessen on stress &amp; resentment",
+      "videoId": "M-KB8YMTGpA",
+      "url": "https://youtube.com/watch?v=M-KB8YMTGpA",
+      "publishedAt": "2026-03-30T17:48:16+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Karpathy's #1 Rule for AI Research",
+      "videoId": "PT2xu9_HrVI",
+      "url": "https://youtube.com/watch?v=PT2xu9_HrVI",
+      "publishedAt": "2026-03-30T15:42:10+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Marc Andreessen on 20VC 🎧",
+      "videoId": "1orzYOv36XE",
+      "url": "https://youtube.com/watch?v=1orzYOv36XE",
+      "publishedAt": "2026-03-30T14:38:01+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 8
   }
 }
