@@ -1,25 +1,49 @@
 {
-  "generatedAt": "2026-04-02T07:24:23.871Z",
+  "generatedAt": "2026-04-03T07:20:57.535Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Most in demand companies today",
-      "videoId": "89h5UiKdpbQ",
-      "url": "https://youtube.com/watch?v=89h5UiKdpbQ",
-      "publishedAt": "2026-04-01T18:00:05+00:00"
+      "title": "Harry Stebbings on the science of content",
+      "videoId": "fAhXyfDBP9k",
+      "url": "https://youtube.com/watch?v=fAhXyfDBP9k",
+      "publishedAt": "2026-04-03T05:00:40+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "Moonlake: Multimodal, Interactive, and Efficient World Models — with Fan-yun Sun and Chris Manning",
+      "videoId": "oBWRHnggscM",
+      "url": "https://youtube.com/watch?v=oBWRHnggscM",
+      "publishedAt": "2026-04-02T16:51:58+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Unsupervised Learning",
+      "title": "Owning the System of Record, AI-Native Org Charts, &amp; Why ITSM is The Most Vulnerable Legacy Category",
+      "videoId": "Q0bxRANHjFY",
+      "url": "https://youtube.com/watch?v=Q0bxRANHjFY",
+      "publishedAt": "2026-04-02T14:39:21+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Marc Andreessen on Adam Neumann",
-      "videoId": "lzvIPUU8gXA",
-      "url": "https://youtube.com/watch?v=lzvIPUU8gXA",
-      "publishedAt": "2026-04-01T12:33:42+00:00"
+      "title": "Anthropic's Monster Week, OpenAI Kills Sora, Plus lots more...",
+      "videoId": "ECOTvTwU9PE",
+      "url": "https://youtube.com/watch?v=ECOTvTwU9PE",
+      "publishedAt": "2026-04-02T14:08:54+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "OpenAI Kills Sora &amp; Hits $100M ARR on Ads | Oura Going Public &amp; Whoop Raises at $10BN",
+      "videoId": "HMTrd9Hn3e8",
+      "url": "https://youtube.com/watch?v=HMTrd9Hn3e8",
+      "publishedAt": "2026-04-02T14:01:24+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 5
   }
 }
