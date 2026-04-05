@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-04-04T07:10:58.993Z",
+  "generatedAt": "2026-04-05T07:18:18.420Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "videoId": "N-pust8qtGI",
-      "url": "https://youtube.com/watch?v=N-pust8qtGI",
-      "publishedAt": "2026-04-03T21:49:17+00:00"
+      "title": "David Friedberg: Mining the Moon is Humanity's Next Industrial Revolution",
+      "videoId": "OxDNaae3zsw",
+      "url": "https://youtube.com/watch?v=OxDNaae3zsw",
+      "publishedAt": "2026-04-05T02:26:52+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and Why &quot;This Time Is Different&quot;",
-      "videoId": "knx2wrILP1M",
-      "url": "https://youtube.com/watch?v=knx2wrILP1M",
-      "publishedAt": "2026-04-03T16:56:23+00:00"
+      "name": "All-In Podcast",
+      "title": "Chamath’s 2026 IPO Advice: Get Public Fast or Get Left Behind",
+      "videoId": "LzfHnqJsp58",
+      "url": "https://youtube.com/watch?v=LzfHnqJsp58",
+      "publishedAt": "2026-04-04T17:00:24+00:00"
     },
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "The Evolution of Speed in Formula 1",
-      "videoId": "fsKqOEyP0d4",
-      "url": "https://youtube.com/watch?v=fsKqOEyP0d4",
-      "publishedAt": "2026-04-03T13:11:02+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus",
-      "videoId": "Oru2Jxr1xHU",
-      "url": "https://youtube.com/watch?v=Oru2Jxr1xHU",
-      "publishedAt": "2026-04-03T10:00:41+00:00"
+      "name": "20VC",
+      "title": "How Hims &amp; Hers Reached a $4.3BN Market Cap on $2.3BN of Revenue | Andrew Dudum",
+      "videoId": "2LRzttI1kbI",
+      "url": "https://youtube.com/watch?v=2LRzttI1kbI",
+      "publishedAt": "2026-04-04T14:00:03+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 3
   }
 }
