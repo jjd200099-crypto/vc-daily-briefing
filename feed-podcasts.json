@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-04-05T07:18:18.420Z",
+  "generatedAt": "2026-04-06T07:56:08.694Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "David Friedberg: Mining the Moon is Humanity's Next Industrial Revolution",
-      "videoId": "OxDNaae3zsw",
-      "url": "https://youtube.com/watch?v=OxDNaae3zsw",
-      "publishedAt": "2026-04-05T02:26:52+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Chamath’s 2026 IPO Advice: Get Public Fast or Get Left Behind",
-      "videoId": "LzfHnqJsp58",
-      "url": "https://youtube.com/watch?v=LzfHnqJsp58",
-      "publishedAt": "2026-04-04T17:00:24+00:00"
+      "name": "No Priors",
+      "title": "Why the Best AI Founders Are Physicists",
+      "videoId": "h1_ktQKfdxY",
+      "url": "https://youtube.com/watch?v=h1_ktQKfdxY",
+      "publishedAt": "2026-04-05T16:01:57+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "How Hims &amp; Hers Reached a $4.3BN Market Cap on $2.3BN of Revenue | Andrew Dudum",
-      "videoId": "2LRzttI1kbI",
-      "url": "https://youtube.com/watch?v=2LRzttI1kbI",
-      "publishedAt": "2026-04-04T14:00:03+00:00"
+      "title": "Harry Stebbings on the traits of successful CEOs &amp; founders",
+      "videoId": "A2Q0BpecJp0",
+      "url": "https://youtube.com/watch?v=A2Q0BpecJp0",
+      "publishedAt": "2026-04-05T08:59:23+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 2
   }
 }
