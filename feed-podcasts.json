@@ -1,25 +1,33 @@
 {
-  "generatedAt": "2026-04-06T07:56:08.694Z",
+  "generatedAt": "2026-04-07T07:43:15.971Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Why the Best AI Founders Are Physicists",
-      "videoId": "h1_ktQKfdxY",
-      "url": "https://youtube.com/watch?v=h1_ktQKfdxY",
-      "publishedAt": "2026-04-05T16:01:57+00:00"
+      "title": "ChatGPT Co-Creator's Shocking AI Timeline",
+      "videoId": "ioMyjS4izWo",
+      "url": "https://youtube.com/watch?v=ioMyjS4izWo",
+      "publishedAt": "2026-04-06T21:47:52+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Harry Stebbings on the traits of successful CEOs &amp; founders",
-      "videoId": "A2Q0BpecJp0",
-      "url": "https://youtube.com/watch?v=A2Q0BpecJp0",
-      "publishedAt": "2026-04-05T08:59:23+00:00"
+      "name": "All-In Podcast",
+      "title": "Retardmaxxing: The Next Great Modern Philosophy?",
+      "videoId": "kV65-IJ1DE0",
+      "url": "https://youtube.com/watch?v=kV65-IJ1DE0",
+      "publishedAt": "2026-04-06T17:33:47+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "The State of Modern War: Palantir &amp; Anduril Execs on Drones, AI, and the End of Traditional Warfare",
+      "videoId": "mjNP5IOzCbA",
+      "url": "https://youtube.com/watch?v=mjNP5IOzCbA",
+      "publishedAt": "2026-04-06T13:06:43+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 3
   }
 }
