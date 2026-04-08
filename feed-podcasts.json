@@ -1,33 +1,49 @@
 {
-  "generatedAt": "2026-04-07T07:43:15.971Z",
+  "generatedAt": "2026-04-08T07:46:56.414Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "ChatGPT Co-Creator's Shocking AI Timeline",
-      "videoId": "ioMyjS4izWo",
-      "url": "https://youtube.com/watch?v=ioMyjS4izWo",
-      "publishedAt": "2026-04-06T21:47:52+00:00"
+      "name": "20VC",
+      "title": "Google DeepMind CEO on AI Concerns",
+      "videoId": "syTr0HNl-uA",
+      "url": "https://youtube.com/watch?v=syTr0HNl-uA",
+      "publishedAt": "2026-04-07T19:15:38+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Retardmaxxing: The Next Great Modern Philosophy?",
-      "videoId": "kV65-IJ1DE0",
-      "url": "https://youtube.com/watch?v=kV65-IJ1DE0",
-      "publishedAt": "2026-04-06T17:33:47+00:00"
+      "title": "Palantir Exec Fires Back at ‘Surveillance State’ Claims",
+      "videoId": "ktE9X7VFc1I",
+      "url": "https://youtube.com/watch?v=ktE9X7VFc1I",
+      "publishedAt": "2026-04-07T17:44:55+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "The State of Modern War: Palantir &amp; Anduril Execs on Drones, AI, and the End of Traditional Warfare",
-      "videoId": "mjNP5IOzCbA",
-      "url": "https://youtube.com/watch?v=mjNP5IOzCbA",
-      "publishedAt": "2026-04-06T13:06:43+00:00"
+      "name": "Latent Space",
+      "title": "Extreme Harness Engineering for the 1B token/day Dark Factory — Ryan Lopopolo, OpenAI Frontier",
+      "videoId": "CeOXx-XTYek",
+      "url": "https://youtube.com/watch?v=CeOXx-XTYek",
+      "publishedAt": "2026-04-07T17:13:57+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;The coming of AGI is like 10X the industrial revolution&quot;",
+      "videoId": "XMt6o09_FZE",
+      "url": "https://youtube.com/watch?v=XMt6o09_FZE",
+      "publishedAt": "2026-04-07T14:10:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Demis Hassabis: Why AGI is Bigger than the Industrial Revolution &amp; Where Are The Bottlenecks in AI",
+      "videoId": "SSya123u9Yk",
+      "url": "https://youtube.com/watch?v=SSya123u9Yk",
+      "publishedAt": "2026-04-07T14:04:57+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 5
   }
 }
