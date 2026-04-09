@@ -1,49 +1,57 @@
 {
-  "generatedAt": "2026-04-08T07:46:56.414Z",
+  "generatedAt": "2026-04-09T07:49:34.436Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Google DeepMind CEO on AI Concerns",
-      "videoId": "syTr0HNl-uA",
-      "url": "https://youtube.com/watch?v=syTr0HNl-uA",
-      "publishedAt": "2026-04-07T19:15:38+00:00"
+      "title": "&quot;you can't keep up 7 days a week for 10 years&quot;",
+      "videoId": "4sOw9WbmLHg",
+      "url": "https://youtube.com/watch?v=4sOw9WbmLHg",
+      "publishedAt": "2026-04-09T05:00:04+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "After ChatGPT, Liam Fedus Is Building This",
+      "videoId": "GcJtgAT3HXk",
+      "url": "https://youtube.com/watch?v=GcJtgAT3HXk",
+      "publishedAt": "2026-04-08T17:26:38+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Palantir Exec Fires Back at ‘Surveillance State’ Claims",
-      "videoId": "ktE9X7VFc1I",
-      "url": "https://youtube.com/watch?v=ktE9X7VFc1I",
-      "publishedAt": "2026-04-07T17:44:55+00:00"
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "videoId": "MPAsUZEJHiM",
+      "url": "https://youtube.com/watch?v=MPAsUZEJHiM",
+      "publishedAt": "2026-04-08T16:09:40+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "Extreme Harness Engineering for the 1B token/day Dark Factory — Ryan Lopopolo, OpenAI Frontier",
-      "videoId": "CeOXx-XTYek",
-      "url": "https://youtube.com/watch?v=CeOXx-XTYek",
-      "publishedAt": "2026-04-07T17:13:57+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;The coming of AGI is like 10X the industrial revolution&quot;",
-      "videoId": "XMt6o09_FZE",
-      "url": "https://youtube.com/watch?v=XMt6o09_FZE",
-      "publishedAt": "2026-04-07T14:10:15+00:00"
+      "name": "Acquired",
+      "title": "Why F1 has had ZERO fatalities since 2014",
+      "videoId": "DQEvwxf_snQ",
+      "url": "https://youtube.com/watch?v=DQEvwxf_snQ",
+      "publishedAt": "2026-04-08T15:37:07+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Demis Hassabis: Why AGI is Bigger than the Industrial Revolution &amp; Where Are The Bottlenecks in AI",
-      "videoId": "SSya123u9Yk",
-      "url": "https://youtube.com/watch?v=SSya123u9Yk",
-      "publishedAt": "2026-04-07T14:04:57+00:00"
+      "title": "Google DeepMind CEO on Building in London &amp; Europe",
+      "videoId": "IB9JCj74HUA",
+      "url": "https://youtube.com/watch?v=IB9JCj74HUA",
+      "publishedAt": "2026-04-08T13:12:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "What 100 Years of American Finance Tells Us About Today",
+      "videoId": "5RnPko2HviQ",
+      "url": "https://youtube.com/watch?v=5RnPko2HviQ",
+      "publishedAt": "2026-04-08T12:00:12+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 6
   }
 }
