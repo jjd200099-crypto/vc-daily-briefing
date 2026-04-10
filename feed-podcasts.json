@@ -1,57 +1,73 @@
 {
-  "generatedAt": "2026-04-09T07:49:34.436Z",
+  "generatedAt": "2026-04-10T07:53:02.224Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;you can't keep up 7 days a week for 10 years&quot;",
-      "videoId": "4sOw9WbmLHg",
-      "url": "https://youtube.com/watch?v=4sOw9WbmLHg",
-      "publishedAt": "2026-04-09T05:00:04+00:00"
+      "title": "Why you shouldn’t have a plan B",
+      "videoId": "bh7hrpcCJW8",
+      "url": "https://youtube.com/watch?v=bh7hrpcCJW8",
+      "publishedAt": "2026-04-10T05:00:27+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "After ChatGPT, Liam Fedus Is Building This",
-      "videoId": "GcJtgAT3HXk",
-      "url": "https://youtube.com/watch?v=GcJtgAT3HXk",
-      "publishedAt": "2026-04-08T17:26:38+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-      "videoId": "MPAsUZEJHiM",
-      "url": "https://youtube.com/watch?v=MPAsUZEJHiM",
-      "publishedAt": "2026-04-08T16:09:40+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Why F1 has had ZERO fatalities since 2014",
-      "videoId": "DQEvwxf_snQ",
-      "url": "https://youtube.com/watch?v=DQEvwxf_snQ",
-      "publishedAt": "2026-04-08T15:37:07+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "The first Viking invasion of Europe: The terror of Lindisfarne | Lars Brownworth and Lex Fridman",
+      "videoId": "-dcwNV-s_K4",
+      "url": "https://youtube.com/watch?v=-dcwNV-s_K4",
+      "publishedAt": "2026-04-10T04:47:26+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Google DeepMind CEO on Building in London &amp; Europe",
-      "videoId": "IB9JCj74HUA",
-      "url": "https://youtube.com/watch?v=IB9JCj74HUA",
-      "publishedAt": "2026-04-08T13:12:08+00:00"
+      "title": "Every business owner needs to hear this in 2026",
+      "videoId": "ts-aIMkwhOU",
+      "url": "https://youtube.com/watch?v=ts-aIMkwhOU",
+      "publishedAt": "2026-04-09T19:50:15+00:00"
     },
     {
       "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "What 100 Years of American Finance Tells Us About Today",
-      "videoId": "5RnPko2HviQ",
-      "url": "https://youtube.com/watch?v=5RnPko2HviQ",
-      "publishedAt": "2026-04-08T12:00:12+00:00"
+      "name": "Acquired",
+      "title": "Spygate and Crashgate: Formula One's scandals",
+      "videoId": "Y1whzXkWoQI",
+      "url": "https://youtube.com/watch?v=Y1whzXkWoQI",
+      "publishedAt": "2026-04-09T19:49:19+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The bull case for Open router",
+      "videoId": "0FSal7dsNNk",
+      "url": "https://youtube.com/watch?v=0FSal7dsNNk",
+      "publishedAt": "2026-04-09T18:00:03+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "&quot;America should never allow itself to be bullied by Israel&quot; - PA Gov. Josh Shapiro",
+      "videoId": "qhg7F9_GUAQ",
+      "url": "https://youtube.com/watch?v=qhg7F9_GUAQ",
+      "publishedAt": "2026-04-09T17:01:11+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Unsupervised Learning",
+      "title": "OpenAI’s Chief Scientist on Continual Learning Hype, RL Beyond Code, &amp; Future Alignment Directions",
+      "videoId": "vK1qEF3a3WM",
+      "url": "https://youtube.com/watch?v=vK1qEF3a3WM",
+      "publishedAt": "2026-04-09T13:05:44+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire",
+      "videoId": "eyobeqMdbeI",
+      "url": "https://youtube.com/watch?v=eyobeqMdbeI",
+      "publishedAt": "2026-04-09T10:01:08+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 8
   }
 }
