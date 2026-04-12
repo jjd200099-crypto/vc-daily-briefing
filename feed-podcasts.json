@@ -1,57 +1,81 @@
 {
-  "generatedAt": "2026-04-11T07:11:24.346Z",
+  "generatedAt": "2026-04-12T07:25:00.219Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Why Viking raids were so successful | Lars Brownworth and Lex Fridman",
-      "videoId": "8pyyt1E0Zec",
-      "url": "https://youtube.com/watch?v=8pyyt1E0Zec",
-      "publishedAt": "2026-04-11T04:00:05+00:00"
+      "title": "Greenland in not &quot;Green&quot;: The Viking origin story of the name | Lars Brownworth and Lex Fridman",
+      "videoId": "hm9Px2Zb_c8",
+      "url": "https://youtube.com/watch?v=hm9Px2Zb_c8",
+      "publishedAt": "2026-04-12T04:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The Viking Warlord who built modern Europe | Lars Brownworth and Lex Fridman",
-      "videoId": "VV8OuDefOFw",
-      "url": "https://youtube.com/watch?v=VV8OuDefOFw",
-      "publishedAt": "2026-04-11T00:00:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Anthropic’s $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "videoId": "DVBJQQCjgXU",
-      "url": "https://youtube.com/watch?v=DVBJQQCjgXU",
-      "publishedAt": "2026-04-10T22:38:57+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "How Vikings discovered North America 500 years before Columbus | Lars Brownworth and Lex Fridman",
-      "videoId": "1YKnrGm8xek",
-      "url": "https://youtube.com/watch?v=1YKnrGm8xek",
-      "publishedAt": "2026-04-10T21:20:08+00:00"
+      "title": "How Vikings discovered Greenland | Lars Brownworth and Lex Fridman",
+      "videoId": "dczme7dr-bU",
+      "url": "https://youtube.com/watch?v=dczme7dr-bU",
+      "publishedAt": "2026-04-12T00:00:06+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "Are F1 teams a good business? Yes, for some of them…",
-      "videoId": "D9xisiU4_Xo",
-      "url": "https://youtube.com/watch?v=D9xisiU4_Xo",
-      "publishedAt": "2026-04-10T18:25:25+00:00"
+      "title": "Is F1 the only sport where you can be a fan without actually watching?",
+      "videoId": "XKWeYYdc7rc",
+      "url": "https://youtube.com/watch?v=XKWeYYdc7rc",
+      "publishedAt": "2026-04-11T20:25:01+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Brutal revenge by Viking army: The Blood Eagle | Lars Brownworth and Lex Fridman",
+      "videoId": "cSwUPs6ktNE",
+      "url": "https://youtube.com/watch?v=cSwUPs6ktNE",
+      "publishedAt": "2026-04-11T20:00:04+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Why they are trying to KILL OpenClaw",
+      "videoId": "xMRcAocdHtY",
+      "url": "https://youtube.com/watch?v=xMRcAocdHtY",
+      "publishedAt": "2026-04-11T15:01:36+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Biotech Has to Change",
+      "videoId": "YsttPoChPdg",
+      "url": "https://youtube.com/watch?v=YsttPoChPdg",
+      "publishedAt": "2026-04-11T14:25:39+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Anthropic has caught OpenAI in half the time",
-      "videoId": "ZzjccFIX6pY",
-      "url": "https://youtube.com/watch?v=ZzjccFIX6pY",
-      "publishedAt": "2026-04-10T12:45:35+00:00"
+      "title": "Inside ElevenLabs' $350M ARR Sales Machine",
+      "videoId": "SxL-Jv_YHno",
+      "url": "https://youtube.com/watch?v=SxL-Jv_YHno",
+      "publishedAt": "2026-04-11T14:13:26+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "ElevenLabs: Building an AI Sales Machine &amp; Why We Set a 20x Sales Quota",
+      "videoId": "9ereyZiA99o",
+      "url": "https://youtube.com/watch?v=9ereyZiA99o",
+      "publishedAt": "2026-04-11T14:00:02+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;people just suck at telling stories&quot;",
+      "videoId": "VEcmT2BcMZ4",
+      "url": "https://youtube.com/watch?v=VEcmT2BcMZ4",
+      "publishedAt": "2026-04-11T09:26:20+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 9
   }
 }
