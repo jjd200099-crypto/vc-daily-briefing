@@ -1,81 +1,73 @@
 {
-  "generatedAt": "2026-04-12T07:25:00.219Z",
+  "generatedAt": "2026-04-13T08:16:12.398Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Greenland in not &quot;Green&quot;: The Viking origin story of the name | Lars Brownworth and Lex Fridman",
-      "videoId": "hm9Px2Zb_c8",
-      "url": "https://youtube.com/watch?v=hm9Px2Zb_c8",
-      "publishedAt": "2026-04-12T04:00:05+00:00"
+      "name": "20VC",
+      "title": "How Exec Dinners are the best ROI for ElevenLabs",
+      "videoId": "5V4bXUfSh4Q",
+      "url": "https://youtube.com/watch?v=5V4bXUfSh4Q",
+      "publishedAt": "2026-04-13T04:00:11+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "How Vikings discovered Greenland | Lars Brownworth and Lex Fridman",
-      "videoId": "dczme7dr-bU",
-      "url": "https://youtube.com/watch?v=dczme7dr-bU",
-      "publishedAt": "2026-04-12T00:00:06+00:00"
+      "title": "Lex Fridman on the penguin: But why?",
+      "videoId": "8Rkysb_uv1w",
+      "url": "https://youtube.com/watch?v=8Rkysb_uv1w",
+      "publishedAt": "2026-04-13T04:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "The secret weapon of the Vikings | Lars Brownworth and Lex Fridman",
+      "videoId": "pbw5smttuwI",
+      "url": "https://youtube.com/watch?v=pbw5smttuwI",
+      "publishedAt": "2026-04-13T00:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "$1M Revenue = $33M in Valuation",
+      "videoId": "JF0L4m3gNjc",
+      "url": "https://youtube.com/watch?v=JF0L4m3gNjc",
+      "publishedAt": "2026-04-12T20:03:48+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Lessons from the Vikings and the Roman Empire - Historian explains | Lars Brownworth and Lex Fridman",
+      "videoId": "uxoeVxkEGb4",
+      "url": "https://youtube.com/watch?v=uxoeVxkEGb4",
+      "publishedAt": "2026-04-12T20:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "Is F1 the only sport where you can be a fan without actually watching?",
-      "videoId": "XKWeYYdc7rc",
-      "url": "https://youtube.com/watch?v=XKWeYYdc7rc",
-      "publishedAt": "2026-04-11T20:25:01+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Brutal revenge by Viking army: The Blood Eagle | Lars Brownworth and Lex Fridman",
-      "videoId": "cSwUPs6ktNE",
-      "url": "https://youtube.com/watch?v=cSwUPs6ktNE",
-      "publishedAt": "2026-04-11T20:00:04+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Why they are trying to KILL OpenClaw",
-      "videoId": "xMRcAocdHtY",
-      "url": "https://youtube.com/watch?v=xMRcAocdHtY",
-      "publishedAt": "2026-04-11T15:01:36+00:00"
+      "title": "The runaway success of &quot;F1: the Movie&quot; with Brad Pitt",
+      "videoId": "3lLyWGtt-38",
+      "url": "https://youtube.com/watch?v=3lLyWGtt-38",
+      "publishedAt": "2026-04-12T16:53:30+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Biotech Has to Change",
-      "videoId": "YsttPoChPdg",
-      "url": "https://youtube.com/watch?v=YsttPoChPdg",
-      "publishedAt": "2026-04-11T14:25:39+00:00"
+      "title": "Is GDP Growth Always Good?",
+      "videoId": "inR-b4r3fns",
+      "url": "https://youtube.com/watch?v=inR-b4r3fns",
+      "publishedAt": "2026-04-12T15:54:55+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Inside ElevenLabs' $350M ARR Sales Machine",
-      "videoId": "SxL-Jv_YHno",
-      "url": "https://youtube.com/watch?v=SxL-Jv_YHno",
-      "publishedAt": "2026-04-11T14:13:26+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "ElevenLabs: Building an AI Sales Machine &amp; Why We Set a 20x Sales Quota",
-      "videoId": "9ereyZiA99o",
-      "url": "https://youtube.com/watch?v=9ereyZiA99o",
-      "publishedAt": "2026-04-11T14:00:02+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;people just suck at telling stories&quot;",
-      "videoId": "VEcmT2BcMZ4",
-      "url": "https://youtube.com/watch?v=VEcmT2BcMZ4",
-      "publishedAt": "2026-04-11T09:26:20+00:00"
+      "title": "Why ElevenLabs are 4x better at Sales",
+      "videoId": "CCDAWsgttDM",
+      "url": "https://youtube.com/watch?v=CCDAWsgttDM",
+      "publishedAt": "2026-04-12T11:37:22+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 9
+    "podcastEpisodes": 8
   }
 }
