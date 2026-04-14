@@ -1,73 +1,89 @@
 {
-  "generatedAt": "2026-04-13T08:16:12.398Z",
+  "generatedAt": "2026-04-14T07:58:46.192Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "How Exec Dinners are the best ROI for ElevenLabs",
-      "videoId": "5V4bXUfSh4Q",
-      "url": "https://youtube.com/watch?v=5V4bXUfSh4Q",
-      "publishedAt": "2026-04-13T04:00:11+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Lex Fridman on the penguin: But why?",
-      "videoId": "8Rkysb_uv1w",
-      "url": "https://youtube.com/watch?v=8Rkysb_uv1w",
-      "publishedAt": "2026-04-13T04:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The secret weapon of the Vikings | Lars Brownworth and Lex Fridman",
-      "videoId": "pbw5smttuwI",
-      "url": "https://youtube.com/watch?v=pbw5smttuwI",
-      "publishedAt": "2026-04-13T00:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "$1M Revenue = $33M in Valuation",
-      "videoId": "JF0L4m3gNjc",
-      "url": "https://youtube.com/watch?v=JF0L4m3gNjc",
-      "publishedAt": "2026-04-12T20:03:48+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Lessons from the Vikings and the Roman Empire - Historian explains | Lars Brownworth and Lex Fridman",
-      "videoId": "uxoeVxkEGb4",
-      "url": "https://youtube.com/watch?v=uxoeVxkEGb4",
-      "publishedAt": "2026-04-12T20:00:05+00:00"
+      "title": "The start of the Viking Age: Why the Vikings began terrorizing Europe | Lars Brownworth",
+      "videoId": "n9f-GfHupoU",
+      "url": "https://youtube.com/watch?v=n9f-GfHupoU",
+      "publishedAt": "2026-04-14T04:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "The runaway success of &quot;F1: the Movie&quot; with Brad Pitt",
-      "videoId": "3lLyWGtt-38",
-      "url": "https://youtube.com/watch?v=3lLyWGtt-38",
-      "publishedAt": "2026-04-12T16:53:30+00:00"
+      "title": "Ferrari: What happens when you staple a luxury brand to a sports team? (Audio)",
+      "videoId": "JVO8roYiNXM",
+      "url": "https://youtube.com/watch?v=JVO8roYiNXM",
+      "publishedAt": "2026-04-14T03:41:12+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Why the Vikings were so terrifying | Lars Brownworth and Lex Fridman",
+      "videoId": "U0ZqSmx74C0",
+      "url": "https://youtube.com/watch?v=U0ZqSmx74C0",
+      "publishedAt": "2026-04-14T00:00:06+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "How the Vikings conquered England | Lars Brownworth and Lex Fridman",
+      "videoId": "tl1e3jpFHeA",
+      "url": "https://youtube.com/watch?v=tl1e3jpFHeA",
+      "publishedAt": "2026-04-13T20:00:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Chamath: Anthropic's Warning Is Pure Theater",
+      "videoId": "UsJfL4bJc08",
+      "url": "https://youtube.com/watch?v=UsJfL4bJc08",
+      "publishedAt": "2026-04-13T19:30:05+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy",
+      "videoId": "5KnCKadxSPY",
+      "url": "https://youtube.com/watch?v=5KnCKadxSPY",
+      "publishedAt": "2026-04-13T17:23:10+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Is GDP Growth Always Good?",
-      "videoId": "inR-b4r3fns",
-      "url": "https://youtube.com/watch?v=inR-b4r3fns",
-      "publishedAt": "2026-04-12T15:54:55+00:00"
+      "title": "AI Will Change How Governments Work",
+      "videoId": "6g3M-zgQ2Jk",
+      "url": "https://youtube.com/watch?v=6g3M-zgQ2Jk",
+      "publishedAt": "2026-04-13T16:13:23+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Anthropic is kicking OpenAI’s ass: Insights from the largest revenue explosion in tech history",
+      "videoId": "4FIDVjbcBL8",
+      "url": "https://youtube.com/watch?v=4FIDVjbcBL8",
+      "publishedAt": "2026-04-13T15:49:43+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Why ElevenLabs are 4x better at Sales",
-      "videoId": "CCDAWsgttDM",
-      "url": "https://youtube.com/watch?v=CCDAWsgttDM",
-      "publishedAt": "2026-04-12T11:37:22+00:00"
+      "title": "Advice to young people today",
+      "videoId": "erhVGEYzBKM",
+      "url": "https://youtube.com/watch?v=erhVGEYzBKM",
+      "publishedAt": "2026-04-13T14:33:12+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;ElevenLabs is gonna be extremely difficult&quot;",
+      "videoId": "3ur5EPwTinE",
+      "url": "https://youtube.com/watch?v=3ur5EPwTinE",
+      "publishedAt": "2026-04-13T11:00:13+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 8
+    "podcastEpisodes": 10
   }
 }
