@@ -1,89 +1,97 @@
 {
-  "generatedAt": "2026-04-14T07:58:46.192Z",
+  "generatedAt": "2026-04-15T07:59:44.797Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The start of the Viking Age: Why the Vikings began terrorizing Europe | Lars Brownworth",
-      "videoId": "n9f-GfHupoU",
-      "url": "https://youtube.com/watch?v=n9f-GfHupoU",
-      "publishedAt": "2026-04-14T04:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Ferrari: What happens when you staple a luxury brand to a sports team? (Audio)",
-      "videoId": "JVO8roYiNXM",
-      "url": "https://youtube.com/watch?v=JVO8roYiNXM",
-      "publishedAt": "2026-04-14T03:41:12+00:00"
+      "name": "20VC",
+      "title": "What makes Anthropic's Dario so special",
+      "videoId": "gb5PU0aE9AE",
+      "url": "https://youtube.com/watch?v=gb5PU0aE9AE",
+      "publishedAt": "2026-04-15T05:00:41+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Why the Vikings were so terrifying | Lars Brownworth and Lex Fridman",
-      "videoId": "U0ZqSmx74C0",
-      "url": "https://youtube.com/watch?v=U0ZqSmx74C0",
-      "publishedAt": "2026-04-14T00:00:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "How the Vikings conquered England | Lars Brownworth and Lex Fridman",
-      "videoId": "tl1e3jpFHeA",
-      "url": "https://youtube.com/watch?v=tl1e3jpFHeA",
-      "publishedAt": "2026-04-13T20:00:05+00:00"
+      "title": "Who were the Vikings? - Historian explains | Lars Brownworth and Lex Fridman",
+      "videoId": "T1h8GCzud2w",
+      "url": "https://youtube.com/watch?v=T1h8GCzud2w",
+      "publishedAt": "2026-04-15T04:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Chamath: Anthropic's Warning Is Pure Theater",
-      "videoId": "UsJfL4bJc08",
-      "url": "https://youtube.com/watch?v=UsJfL4bJc08",
-      "publishedAt": "2026-04-13T19:30:05+00:00"
+      "title": "David Sacks on Mythos Threat: We have no choice but to take this seriously",
+      "videoId": "CyLml3Whg9c",
+      "url": "https://youtube.com/watch?v=CyLml3Whg9c",
+      "publishedAt": "2026-04-15T00:27:24+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy",
-      "videoId": "5KnCKadxSPY",
-      "url": "https://youtube.com/watch?v=5KnCKadxSPY",
-      "publishedAt": "2026-04-13T17:23:10+00:00"
+      "title": "Notion’s Sarah Sachs &amp; Simon Last on Custom Agents, Evals, and the Future of Work",
+      "videoId": "ATt7QJgt-2k",
+      "url": "https://youtube.com/watch?v=ATt7QJgt-2k",
+      "publishedAt": "2026-04-15T00:08:37+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "From Barbarians to Kings: The Rise of the Viking Empire | Lars Brownworth and Lex Fridman",
+      "videoId": "Rd6bEFW_LI0",
+      "url": "https://youtube.com/watch?v=Rd6bEFW_LI0",
+      "publishedAt": "2026-04-15T00:00:06+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "The secret weapon of the Byzantine Empire: Greek fire | Lars Brownworth and Lex Fridman",
+      "videoId": "2FD566aVSK4",
+      "url": "https://youtube.com/watch?v=2FD566aVSK4",
+      "publishedAt": "2026-04-14T20:00:05+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "AI Will Change How Governments Work",
-      "videoId": "6g3M-zgQ2Jk",
-      "url": "https://youtube.com/watch?v=6g3M-zgQ2Jk",
-      "publishedAt": "2026-04-13T16:13:23+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Anthropic is kicking OpenAI’s ass: Insights from the largest revenue explosion in tech history",
-      "videoId": "4FIDVjbcBL8",
-      "url": "https://youtube.com/watch?v=4FIDVjbcBL8",
-      "publishedAt": "2026-04-13T15:49:43+00:00"
+      "title": "Superintelligence Has a Timeline",
+      "videoId": "Q0j9LIN-jfs",
+      "url": "https://youtube.com/watch?v=Q0j9LIN-jfs",
+      "publishedAt": "2026-04-14T18:37:22+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Advice to young people today",
-      "videoId": "erhVGEYzBKM",
-      "url": "https://youtube.com/watch?v=erhVGEYzBKM",
-      "publishedAt": "2026-04-13T14:33:12+00:00"
+      "title": "Is this what Europe needs to be competitive?",
+      "videoId": "fOhhtFgkQrI",
+      "url": "https://youtube.com/watch?v=fOhhtFgkQrI",
+      "publishedAt": "2026-04-14T18:24:47+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;ElevenLabs is gonna be extremely difficult&quot;",
-      "videoId": "3ur5EPwTinE",
-      "url": "https://youtube.com/watch?v=3ur5EPwTinE",
-      "publishedAt": "2026-04-13T11:00:13+00:00"
+      "title": "We're in 1885 Industrial Revolution England Right Now",
+      "videoId": "j9yq9-bM1dY",
+      "url": "https://youtube.com/watch?v=j9yq9-bM1dY",
+      "publishedAt": "2026-04-14T16:22:03+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem",
+      "videoId": "m7H42MCzBCQ",
+      "url": "https://youtube.com/watch?v=m7H42MCzBCQ",
+      "publishedAt": "2026-04-14T12:01:22+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "From SEO to Agent-Led Growth: Profound's James Cadwallader",
+      "videoId": "RyTwRCKeDo4",
+      "url": "https://youtube.com/watch?v=RyTwRCKeDo4",
+      "publishedAt": "2026-04-14T12:00:52+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 10
+    "podcastEpisodes": 11
   }
 }
