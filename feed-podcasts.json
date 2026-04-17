@@ -1,73 +1,41 @@
 {
-  "generatedAt": "2026-04-16T07:59:02.053Z",
+  "generatedAt": "2026-04-17T08:00:42.618Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "We're entering a new golden era",
-      "videoId": "hijAPS-HPyk",
-      "url": "https://youtube.com/watch?v=hijAPS-HPyk",
-      "publishedAt": "2026-04-16T05:00:39+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Why the Vikings refused to turn back: The psychology of great explorers | Lars Brownworth",
-      "videoId": "ATKCcUZ8_IQ",
-      "url": "https://youtube.com/watch?v=ATKCcUZ8_IQ",
-      "publishedAt": "2026-04-16T00:00:06+00:00"
+      "title": "AGI will be 10x the industrial revolution",
+      "videoId": "JZRzJbSn4e0",
+      "url": "https://youtube.com/watch?v=JZRzJbSn4e0",
+      "publishedAt": "2026-04-17T04:00:18+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Why AI Needs Blockchain",
-      "videoId": "WFymAO8Imho",
-      "url": "https://youtube.com/watch?v=WFymAO8Imho",
-      "publishedAt": "2026-04-15T23:09:42+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
-      "videoId": "-ALon5u0xW8",
-      "url": "https://youtube.com/watch?v=-ALon5u0xW8",
-      "publishedAt": "2026-04-15T20:00:05+00:00"
+      "title": "How a Drug Actually Gets Made",
+      "videoId": "b021msjBgJs",
+      "url": "https://youtube.com/watch?v=b021msjBgJs",
+      "publishedAt": "2026-04-16T19:41:20+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Anthropic's 1st Round: We Got 21 No's",
-      "videoId": "KyYyKqDNkVM",
-      "url": "https://youtube.com/watch?v=KyYyKqDNkVM",
-      "publishedAt": "2026-04-15T18:42:03+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Ragnar Lothbrok: The Legendary Viking Warrior explained by Historian | Lars Brownworth",
-      "videoId": "jvLnpeRezXY",
-      "url": "https://youtube.com/watch?v=jvLnpeRezXY",
-      "publishedAt": "2026-04-15T16:00:05+00:00"
+      "title": "This is the problem with MOATS",
+      "videoId": "TQ19Pg5lbUw",
+      "url": "https://youtube.com/watch?v=TQ19Pg5lbUw",
+      "publishedAt": "2026-04-16T19:30:10+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Building out of the Valley is a MASSIVE Advantage",
-      "videoId": "6R_X1qMSwhE",
-      "url": "https://youtube.com/watch?v=6R_X1qMSwhE",
-      "publishedAt": "2026-04-15T15:29:23+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Data Driven NYC",
-      "title": "The Future of Voice AI is Here:  Real-Time Cloning, On-Device &amp; Live Translation (Gradium CEO)",
-      "videoId": "hDgF-ynV4Co",
-      "url": "https://youtube.com/watch?v=hDgF-ynV4Co",
-      "publishedAt": "2026-04-15T13:30:50+00:00"
+      "title": "Silicon Valley Thinks They're Reinventing The World: They're Not",
+      "videoId": "Cs30htWpH8Q",
+      "url": "https://youtube.com/watch?v=Cs30htWpH8Q",
+      "publishedAt": "2026-04-16T17:34:42+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 8
+    "podcastEpisodes": 4
   }
 }
