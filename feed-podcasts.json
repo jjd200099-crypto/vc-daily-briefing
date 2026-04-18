@@ -1,41 +1,49 @@
 {
-  "generatedAt": "2026-04-17T08:00:42.618Z",
+  "generatedAt": "2026-04-18T07:20:24.317Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "AGI will be 10x the industrial revolution",
-      "videoId": "JZRzJbSn4e0",
-      "url": "https://youtube.com/watch?v=JZRzJbSn4e0",
-      "publishedAt": "2026-04-17T04:00:18+00:00"
+      "name": "All-In Podcast",
+      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "videoId": "SFdqX7IY7RY",
+      "url": "https://youtube.com/watch?v=SFdqX7IY7RY",
+      "publishedAt": "2026-04-17T20:58:37+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "How a Drug Actually Gets Made",
-      "videoId": "b021msjBgJs",
-      "url": "https://youtube.com/watch?v=b021msjBgJs",
-      "publishedAt": "2026-04-16T19:41:20+00:00"
+      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "videoId": "tNNFJa5pUEg",
+      "url": "https://youtube.com/watch?v=tNNFJa5pUEg",
+      "publishedAt": "2026-04-17T16:22:34+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "This is the problem with MOATS",
-      "videoId": "TQ19Pg5lbUw",
-      "url": "https://youtube.com/watch?v=TQ19Pg5lbUw",
-      "publishedAt": "2026-04-16T19:30:10+00:00"
+      "title": "Is Anthropic's Dario the Boy Who Cried Wolf?",
+      "videoId": "Uemfp-S8aUU",
+      "url": "https://youtube.com/watch?v=Uemfp-S8aUU",
+      "publishedAt": "2026-04-17T15:00:55+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Startups vs Big AI Labs",
+      "videoId": "XjoJuqqP3ng",
+      "url": "https://youtube.com/watch?v=XjoJuqqP3ng",
+      "publishedAt": "2026-04-17T13:51:35+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Silicon Valley Thinks They're Reinventing The World: They're Not",
-      "videoId": "Cs30htWpH8Q",
-      "url": "https://youtube.com/watch?v=Cs30htWpH8Q",
-      "publishedAt": "2026-04-16T17:34:42+00:00"
+      "title": "China’s Secret to Winning in AI",
+      "videoId": "jVISyFxDri8",
+      "url": "https://youtube.com/watch?v=jVISyFxDri8",
+      "publishedAt": "2026-04-17T12:23:14+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 5
   }
 }
