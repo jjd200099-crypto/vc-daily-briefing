@@ -1,49 +1,65 @@
 {
-  "generatedAt": "2026-04-18T07:20:24.317Z",
+  "generatedAt": "2026-04-19T07:40:45.242Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
+      "name": "20VC",
+      "title": "Would Jake Paul run for president?",
+      "videoId": "SelvsbqLjFw",
+      "url": "https://youtube.com/watch?v=SelvsbqLjFw",
+      "publishedAt": "2026-04-19T05:00:22+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil Eifrem, CEO Neo4J",
+      "videoId": "yyuVR-ML9X8",
+      "url": "https://youtube.com/watch?v=yyuVR-ML9X8",
+      "publishedAt": "2026-04-18T23:37:31+00:00"
+    },
+    {
+      "source": "podcast",
       "name": "All-In Podcast",
-      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
-      "videoId": "SFdqX7IY7RY",
-      "url": "https://youtube.com/watch?v=SFdqX7IY7RY",
-      "publishedAt": "2026-04-17T20:58:37+00:00"
+      "title": "Why did Anthropic hold back Mythos?",
+      "videoId": "aU5tX2qP_Q8",
+      "url": "https://youtube.com/watch?v=aU5tX2qP_Q8",
+      "publishedAt": "2026-04-18T22:51:31+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
-      "videoId": "tNNFJa5pUEg",
-      "url": "https://youtube.com/watch?v=tNNFJa5pUEg",
-      "publishedAt": "2026-04-17T16:22:34+00:00"
+      "title": "ServiceNow Replaced 90% of Workforce With AI Agents",
+      "videoId": "6qTr3KXZfis",
+      "url": "https://youtube.com/watch?v=6qTr3KXZfis",
+      "publishedAt": "2026-04-18T22:07:56+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "“AGI is not here yet, and it's silly for folks to say it is.”",
+      "videoId": "MjAfC_9Jii0",
+      "url": "https://youtube.com/watch?v=MjAfC_9Jii0",
+      "publishedAt": "2026-04-18T17:00:34+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Is Anthropic's Dario the Boy Who Cried Wolf?",
-      "videoId": "Uemfp-S8aUU",
-      "url": "https://youtube.com/watch?v=Uemfp-S8aUU",
-      "publishedAt": "2026-04-17T15:00:55+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Startups vs Big AI Labs",
-      "videoId": "XjoJuqqP3ng",
-      "url": "https://youtube.com/watch?v=XjoJuqqP3ng",
-      "publishedAt": "2026-04-17T13:51:35+00:00"
+      "title": "Jake Paul: Attention is more valuable than capital",
+      "videoId": "VO1pxf_xfbQ",
+      "url": "https://youtube.com/watch?v=VO1pxf_xfbQ",
+      "publishedAt": "2026-04-18T15:30:53+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "China’s Secret to Winning in AI",
-      "videoId": "jVISyFxDri8",
-      "url": "https://youtube.com/watch?v=jVISyFxDri8",
-      "publishedAt": "2026-04-17T12:23:14+00:00"
+      "title": "Jake Paul: Traditional VC is Toast &amp; Attention is More Valuable than Cash",
+      "videoId": "rWn3KgO9Dvk",
+      "url": "https://youtube.com/watch?v=rWn3KgO9Dvk",
+      "publishedAt": "2026-04-18T15:19:26+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 7
   }
 }
