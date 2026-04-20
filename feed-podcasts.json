@@ -1,65 +1,25 @@
 {
-  "generatedAt": "2026-04-19T07:40:45.242Z",
+  "generatedAt": "2026-04-20T08:22:06.070Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Would Jake Paul run for president?",
-      "videoId": "SelvsbqLjFw",
-      "url": "https://youtube.com/watch?v=SelvsbqLjFw",
-      "publishedAt": "2026-04-19T05:00:22+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Latent Space",
-      "title": "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil Eifrem, CEO Neo4J",
-      "videoId": "yyuVR-ML9X8",
-      "url": "https://youtube.com/watch?v=yyuVR-ML9X8",
-      "publishedAt": "2026-04-18T23:37:31+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Why did Anthropic hold back Mythos?",
-      "videoId": "aU5tX2qP_Q8",
-      "url": "https://youtube.com/watch?v=aU5tX2qP_Q8",
-      "publishedAt": "2026-04-18T22:51:31+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "No Priors",
-      "title": "ServiceNow Replaced 90% of Workforce With AI Agents",
-      "videoId": "6qTr3KXZfis",
-      "url": "https://youtube.com/watch?v=6qTr3KXZfis",
-      "publishedAt": "2026-04-18T22:07:56+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "“AGI is not here yet, and it's silly for folks to say it is.”",
-      "videoId": "MjAfC_9Jii0",
-      "url": "https://youtube.com/watch?v=MjAfC_9Jii0",
-      "publishedAt": "2026-04-18T17:00:34+00:00"
+      "title": "Are We Losing Something Important to AI?",
+      "videoId": "9wnK2vj2H-s",
+      "url": "https://youtube.com/watch?v=9wnK2vj2H-s",
+      "publishedAt": "2026-04-19T17:02:07+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Jake Paul: Attention is more valuable than capital",
-      "videoId": "VO1pxf_xfbQ",
-      "url": "https://youtube.com/watch?v=VO1pxf_xfbQ",
-      "publishedAt": "2026-04-18T15:30:53+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Jake Paul: Traditional VC is Toast &amp; Attention is More Valuable than Cash",
-      "videoId": "rWn3KgO9Dvk",
-      "url": "https://youtube.com/watch?v=rWn3KgO9Dvk",
-      "publishedAt": "2026-04-18T15:19:26+00:00"
+      "title": "The Titanic Rule Every Leader Should Follow",
+      "videoId": "S44Kip6aNbQ",
+      "url": "https://youtube.com/watch?v=S44Kip6aNbQ",
+      "publishedAt": "2026-04-19T15:30:00+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 7
+    "podcastEpisodes": 2
   }
 }
