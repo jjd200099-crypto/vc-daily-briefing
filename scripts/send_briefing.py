@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-每日简报 v9 — 6-section Daily Briefing
+每日简报 v10 — 7-section Daily Briefing
 VC blogs: WP API + HTML scraping + Sitemap (no Google News)
+Curated: Jina Reader for SPA sources (poche.app etc.)
 """
 
 import json
@@ -85,6 +86,12 @@ BLOG_SOURCES = [
     {"name": "kwokchain", "url": "https://kwokchain.com/feed/"},
     {"name": "Deconstructor of Fun", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
 ]
+
+# ── Curated Sources (SPA pages, fetched via Jina Reader) ──────────────────
+CURATED_SOURCES = [
+    {"name": "Fonter 精选", "url": "https://poche.app/fonter", "desc": "产品沉思录联合主理人 Fonter 的精选阅读，涵盖 AI、设计、产品、开发工具"},
+]
+JINA_READER_PREFIX = "https://r.jina.ai/"
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
@@ -291,6 +298,79 @@ def fetch_all_vc_content(cutoff, lookback_hours):
     return unique
 
 
+# ── Curated (SPA via Jina Reader) ──────────────────────────────────────────
+
+def fetch_curated_sources(lookback_hours):
+    """Fetch SPA-rendered curated pages via Jina Reader, then extract with Gemini."""
+    today = datetime.now(BJT).strftime("%Y-%m-%d")
+    pages = {}
+    for src in CURATED_SOURCES:
+        jina_url = JINA_READER_PREFIX + src["url"]
+        try:
+            text = http_get(jina_url, timeout=30)
+            pages[src["name"]] = {"text": text[:12000], "url": src["url"], "desc": src["desc"]}
+            print(f"    ✓ {src['name']} ({len(text)} chars)", file=sys.stderr)
+        except Exception as e:
+            print(f"    ✗ {src['name']}: {e}", file=sys.stderr)
+
+    if not pages:
+        return []
+
+    pages_text = []
+    for name, info in pages.items():
+        pages_text.append(f"=== {name} ===\n来源说明: {info['desc']}\n页面URL: {info['url']}\n内容:\n{info['text'][:10000]}\n")
+
+    prompt = f"""你是一位资深的科技产品分析师。今天是 {today}。
+
+我从以下精选内容策展人的页面抓取了内容。请提取过去 {lookback_hours} 小时内新增的推荐条目。
+
+重要规则：
+- 根据页面上的日期判断是否在过去 {lookback_hours} 小时内（今天是 {today}）
+- 提取每个条目的标题、原始链接URL、简要描述
+- 如果条目有标签/分类，也请提取
+- 不要编造不存在的条目
+- 只提取有明确日期且在时间范围内的条目
+
+请严格按以下 JSON 格式输出（不加 markdown 代码块标记）：
+[
+  {{"source": "策展人名称", "title": "条目标题", "url": "原始链接URL", "snippet": "简要描述或标签", "date": "发布日期"}}
+]
+
+如果没有找到近期条目，输出空数组 []
+直接输出JSON，不要任何开场白、确认语或解释。
+
+页面内容：
+{chr(10).join(pages_text)}"""
+
+    text = gemini_call(prompt, 4096)
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```\w*\n?", "", text)
+        text = re.sub(r"\n?```$", "", text)
+    try:
+        items = json.loads(text)
+    except json.JSONDecodeError:
+        m = re.search(r"\[[\s\S]*\]", text)
+        if m:
+            try:
+                items = json.loads(m.group())
+            except json.JSONDecodeError:
+                items = []
+        else:
+            items = []
+
+    entries = []
+    for item in items:
+        entries.append({
+            "source": item.get("source", ""),
+            "title": item.get("title", ""),
+            "url": item.get("url", ""),
+            "publishedAt": item.get("date", datetime.now(timezone.utc).isoformat()),
+            "snippet": item.get("snippet", ""),
+        })
+    return entries
+
+
 # ── Gemini ─────────────────────────────────────────────────────────────────
 
 def gemini_call(prompt, max_tokens=8192):
@@ -435,7 +515,10 @@ def format_item(idx, entry, summary=None, is_podcast=False):
     return lines
 
 def format_briefing(funding_text, tech_text, vc_text,
-                    media, media_sum, podcasts, pod_sum, blogs, blog_sum):
+                    media, media_sum, podcasts, pod_sum, blogs, blog_sum,
+                    curated=None, curated_sum=None):
+    curated = curated or []
+    curated_sum = curated_sum or {}
     today = datetime.now(BJT).strftime("%Y-%m-%d")
     sep, dsep = "─" * 52, "═" * 60
     L = [dsep, f"  📋 每日简报 — {today}", dsep, ""]
@@ -447,6 +530,7 @@ def format_briefing(funding_text, tech_text, vc_text,
         ("📡", "科技媒体更新", media, media_sum, False),
         ("🎙", "播客追踪", podcasts, pod_sum, True),
         ("📰", "行业资讯", blogs, blog_sum, False),
+        ("🔖", "精选推荐", curated, curated_sum, False),
     ]:
         unit = "期" if podcast_flag else "篇"
         L.extend([f"{emoji} {label}（{len(items)} {unit}）", sep, ""])
@@ -510,6 +594,10 @@ def main():
     vc = fetch_all_vc_content(cutoff, lookback_hours)
     print(f"  Total: {len(vc)} VC items", file=sys.stderr)
 
+    print("Fetching curated sources...", file=sys.stderr)
+    curated = fetch_curated_sources(lookback_hours)
+    print(f"  {len(curated)} curated items", file=sys.stderr)
+
     print("Generating AI analysis...", file=sys.stderr)
     funding_text = extract_funding_deals(funding)
     print("  ✓ Funding", file=sys.stderr)
@@ -523,10 +611,13 @@ def main():
     print(f"  ✓ {len(pod_sum)} podcasts", file=sys.stderr)
     blog_sum = summarize_items(blogs, "独立分析师/newsletter文章")
     print(f"  ✓ {len(blog_sum)} blogs", file=sys.stderr)
+    curated_sum = summarize_items(curated, "精选推荐（来自产品/设计/AI领域策展人的推荐阅读）")
+    print(f"  ✓ {len(curated_sum)} curated", file=sys.stderr)
 
     body = format_briefing(funding_text, tech_text, vc_text,
-                           media[:15], media_sum, podcasts, pod_sum, blogs, blog_sum)
-    total = len(vc) + len(media[:15]) + len(podcasts) + len(blogs)
+                           media[:15], media_sum, podcasts, pod_sum, blogs, blog_sum,
+                           curated, curated_sum)
+    total = len(vc) + len(media[:15]) + len(podcasts) + len(blogs) + len(curated)
     subject = f"📋 每日简报 — {today}（{total}+ 条更新）"
     print(f"Sending: {subject}", file=sys.stderr)
     send_gmail(subject, body)
