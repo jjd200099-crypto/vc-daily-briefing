@@ -1,25 +1,57 @@
 {
-  "generatedAt": "2026-04-20T08:22:06.070Z",
+  "generatedAt": "2026-04-21T08:04:19.221Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Are We Losing Something Important to AI?",
-      "videoId": "9wnK2vj2H-s",
-      "url": "https://youtube.com/watch?v=9wnK2vj2H-s",
-      "publishedAt": "2026-04-19T17:02:07+00:00"
+      "name": "20VC",
+      "title": "Don't Make This Hiring Mistake",
+      "videoId": "VkrZgWhf6hk",
+      "url": "https://youtube.com/watch?v=VkrZgWhf6hk",
+      "publishedAt": "2026-04-21T05:00:26+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Titanic Rule Every Leader Should Follow",
-      "videoId": "S44Kip6aNbQ",
-      "url": "https://youtube.com/watch?v=S44Kip6aNbQ",
-      "publishedAt": "2026-04-19T15:30:00+00:00"
+      "title": "We will have MORE lawyers in 5 years not LESS",
+      "videoId": "eUnBFE0jT4U",
+      "url": "https://youtube.com/watch?v=eUnBFE0jT4U",
+      "publishedAt": "2026-04-20T20:00:36+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The best young people want to be in office",
+      "videoId": "_MfazSMkDB0",
+      "url": "https://youtube.com/watch?v=_MfazSMkDB0",
+      "publishedAt": "2026-04-20T18:00:38+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa &amp; Daniel Bear, Noetik",
+      "videoId": "uqM8qjbLRHA",
+      "url": "https://youtube.com/watch?v=uqM8qjbLRHA",
+      "publishedAt": "2026-04-20T15:53:02+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "David Friedberg: Eric Swalwell's allegations were held for the perfect moment to take him out",
+      "videoId": "wKgrYAXjJvg",
+      "url": "https://youtube.com/watch?v=wKgrYAXjJvg",
+      "publishedAt": "2026-04-20T15:08:44+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Cybercrime Costs the World $1 Trillion A Month",
+      "videoId": "bjz8cYgRUsQ",
+      "url": "https://youtube.com/watch?v=bjz8cYgRUsQ",
+      "publishedAt": "2026-04-20T13:40:33+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 6
   }
 }
