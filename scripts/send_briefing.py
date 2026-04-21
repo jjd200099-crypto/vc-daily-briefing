@@ -70,6 +70,7 @@ VC_HTML_SCRAPE = [
     {"name": "Bessemer Venture Partners", "url": "https://www.bvp.com/atlas", "base": "https://www.bvp.com"},
     {"name": "NEA", "url": "https://www.nea.com/blog", "base": "https://www.nea.com"},
     {"name": "8VC", "url": "https://www.8vc.com/resources", "base": "https://www.8vc.com"},
+    {"name": "Coatue", "url": "https://www.coatue.com/c/takes", "base": "https://www.coatue.com"},
 ]
 
 # Tier 3: RSS
