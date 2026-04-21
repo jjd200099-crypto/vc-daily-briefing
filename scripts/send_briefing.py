@@ -24,19 +24,18 @@ FUNDING_SOURCES = [
     {"name": "Crunchbase News", "url": "https://news.crunchbase.com/feed/"},
     {"name": "TechCrunch Venture", "url": "https://techcrunch.com/category/venture/feed/"},
     {"name": "SaaStr", "url": "https://www.saastr.com/feed/"},
-    {"name": "CB Insights", "url": "https://www.cbinsights.com/research/feed/"},
     {"name": "AlleyWatch", "url": "https://www.alleywatch.com/feed/"},
     {"name": "Sifted (EU)", "url": "https://sifted.eu/feed"},
     {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss"},
     {"name": "36Kr", "url": "https://36kr.com/feed"},
-    {"name": "FinSMES", "url": "https://www.finsmes.com/feed"},
+    {"name": "Tech.eu", "url": "https://tech.eu/feed"},
 ]
 
 TECH_SOURCES = [
     {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml"},
     {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/"},
-    {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/"},
+    {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/"},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
     {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
     {"name": "Apple ML Research", "url": "https://machinelearning.apple.com/rss.xml"},
@@ -44,11 +43,11 @@ TECH_SOURCES = [
 
 MEDIA_SOURCES = [
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
-    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/"},
-    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
     {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/"},
-    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
-    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss"},
+    {"name": "The Register", "url": "https://www.theregister.com/headlines.atom"},
+    {"name": "Hacker News Best", "url": "https://hnrss.org/best"},
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml"},
+    {"name": "CNBC Tech", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"},
 ]
 
 # ── VC Sources ─────────────────────────────────────────────────────────────
@@ -82,8 +81,9 @@ BLOG_SOURCES = [
     {"name": "Stratechery", "url": "https://stratechery.com/feed/"},
     {"name": "Not Boring", "url": "https://www.notboring.co/feed"},
     {"name": "Lenny's Newsletter", "url": "https://www.lennysnewsletter.com/feed"},
-    {"name": "Late Checkout", "url": "https://www.latecheckout.co/feed"},
-    {"name": "kwokchain", "url": "https://kwokchain.com/feed/"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/"},
+    {"name": "Interconnects AI", "url": "https://www.interconnects.ai/feed"},
+    {"name": "Platformer", "url": "https://www.platformer.news/feed"},
     {"name": "Deconstructor of Fun", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
 ]
 
@@ -159,7 +159,11 @@ def fetch_rss_entries(sources, cutoff):
                 continue
             for entry in (root.findall("atom:entry", ns) or root.findall("entry") or [])[:10]:
                 title = entry.findtext("atom:title", "", ns) or entry.findtext("title", "Untitled")
-                link_el = entry.find("atom:link[@rel='alternate']", ns) or entry.find("atom:link", ns) or entry.find("link")
+                link_el = entry.find("atom:link[@rel='alternate']", ns)
+                if link_el is None:
+                    link_el = entry.find("atom:link", ns)
+                if link_el is None:
+                    link_el = entry.find("link")
                 link = link_el.get("href", "") if link_el is not None else ""
                 pub = entry.findtext("atom:published", "", ns) or entry.findtext("atom:updated", "", ns) or entry.findtext("published", "") or entry.findtext("updated", "")
                 summary = entry.findtext("atom:summary", "", ns) or entry.findtext("atom:content", "", ns) or entry.findtext("summary", "") or entry.findtext("content", "")
@@ -563,7 +567,7 @@ def main():
         sys.exit(0)
 
     today = datetime.now(BJT).strftime("%Y-%m-%d")
-    lookback_hours = 24
+    lookback_hours = 36  # 36h window to catch irregular publishers
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
 
     print("Fetching podcast feed...", file=sys.stderr)
