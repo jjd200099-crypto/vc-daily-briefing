@@ -27,7 +27,6 @@ FUNDING_SOURCES = [
     {"name": "AlleyWatch", "url": "https://www.alleywatch.com/feed/"},
     {"name": "Sifted (EU)", "url": "https://sifted.eu/feed"},
     {"name": "Bloomberg Tech", "url": "https://feeds.bloomberg.com/technology/news.rss"},
-    {"name": "36Kr", "url": "https://36kr.com/feed"},
     {"name": "Tech.eu", "url": "https://tech.eu/feed"},
 ]
 
@@ -51,7 +50,6 @@ MEDIA_SOURCES = [
     {"name": "The Register", "url": "https://www.theregister.com/headlines.atom"},
     {"name": "CNBC Tech", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"},
     {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/"},
-    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
 ]
 
 # ── VC Sources ─────────────────────────────────────────────────────────────
@@ -98,7 +96,6 @@ BLOG_SOURCES = [
     {"name": "Latent Space", "url": "https://www.latent.space/feed"},
     {"name": "Ahead of AI", "url": "https://magazine.sebastianraschka.com/feed"},
     {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed"},
-    {"name": "晚点LatePost", "url": "https://rsshub.rssforever.com/latepost"},
     {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed"},
 ]
 
