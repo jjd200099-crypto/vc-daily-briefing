@@ -33,21 +33,25 @@ FUNDING_SOURCES = [
 
 TECH_SOURCES = [
     {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml"},
+    {"name": "Anthropic News", "url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml"},
     {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/"},
+    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/"},
     {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/"},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
-    {"name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
     {"name": "Apple ML Research", "url": "https://machinelearning.apple.com/rss.xml"},
+    {"name": "Databricks Blog", "url": "https://www.databricks.com/feed"},
+    {"name": "xAI News", "url": "https://raw.githubusercontent.com/0xSMW/rss-feeds/main/feeds/feed_xai_news.xml"},
 ]
 
 MEDIA_SOURCES = [
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
     {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/"},
+    {"name": "The Decoder", "url": "https://the-decoder.com/feed/"},
     {"name": "The Register", "url": "https://www.theregister.com/headlines.atom"},
-    {"name": "Hacker News Best", "url": "https://hnrss.org/best"},
-    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml"},
     {"name": "CNBC Tech", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"},
+    {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/"},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
 ]
 
 # ── VC Sources ─────────────────────────────────────────────────────────────
@@ -76,6 +80,9 @@ VC_HTML_SCRAPE = [
 # Tier 3: RSS
 VC_RSS = [
     {"name": "Y Combinator", "url": "https://www.ycombinator.com/blog/rss/"},
+    {"name": "Elad Gil", "url": "https://blog.eladgil.com/feed"},
+    {"name": "Tomasz Tunguz", "url": "https://tomtunguz.com/index.xml"},
+    {"name": "Newcomer", "url": "https://www.newcomer.co/feed"},
 ]
 
 BLOG_SOURCES = [
@@ -86,6 +93,13 @@ BLOG_SOURCES = [
     {"name": "Interconnects AI", "url": "https://www.interconnects.ai/feed"},
     {"name": "Platformer", "url": "https://www.platformer.news/feed"},
     {"name": "Deconstructor of Fun", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
+    {"name": "Import AI", "url": "https://importai.substack.com/feed"},
+    {"name": "TLDR AI", "url": "https://tldr.tech/api/rss/ai"},
+    {"name": "Latent Space", "url": "https://www.latent.space/feed"},
+    {"name": "Ahead of AI", "url": "https://magazine.sebastianraschka.com/feed"},
+    {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed"},
+    {"name": "晚点LatePost", "url": "https://rsshub.rssforever.com/latepost"},
+    {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed"},
 ]
 
 # ── Curated Sources (SPA pages, fetched via Jina Reader) ──────────────────
@@ -484,17 +498,54 @@ def summarize_items(entries, section_desc):
         return {}
     items = [f"{i+1}. [{e.get('source', e.get('name',''))}] {e.get('title','')}\n   内容片段: {str(e.get('snippet', e.get('transcript','')))[:500] or '无'}" for i, e in enumerate(entries)]
     prompt = (
-        f"你是一位资深的科技投资领域分析师。请为以下{section_desc}各写一段详细的中文摘要（4-6句话）。\n"
-        f"摘要需包括：核心论点、关键数据或案例、对投资者/创业者/从业者的启示。\n"
-        f"如果标题是英文，请翻译后再总结。\n\n"
-        + "\n".join(items) + "\n\n请严格按编号给出摘要，直接输出内容，不要任何开场白、确认语或解释：\n1. 摘要\n2. 摘要\n..."
+        f"你是一位资深的科技投资领域分析师。请为以下{section_desc}各写一段详细的中文摘要。\n\n"
+        f"要求：\n"
+        f"- 每条摘要 4-6 句话，涵���：核心论点、关键数据、对投资者/创业者的启示\n"
+        f"- 英文��题先翻译成中文，再总结\n"
+        f"- 如果内容片段不够，根据标题合理推断文章主题并说明\n\n"
+        f"严格输出格式（每条之间用空行分隔，编号必须和输入一致）：\n"
+        f"1. 摘要内容\n\n2. 摘要内容\n\n...\n\n"
+        + "\n".join(items) + "\n\n直接输出，不要任何开场白或解释。"
     )
-    text = gemini_call(prompt, 6144)
+    text = gemini_call(prompt, 8192)
     if not text:
         return {}
+    return _parse_numbered_summaries(text, len(entries))
+
+
+def _parse_numbered_summaries(text, expected_count):
+    """Robustly parse numbered summaries from Gemini output."""
     summaries = {}
-    for m in re.finditer(r"(\d+)[.、]\s*(.+?)(?=\n\d+[.、]|\Z)", text, re.DOTALL):
-        summaries[int(m.group(1)) - 1] = m.group(2).strip()
+
+    # Strip markdown formatting that Gemini sometimes adds
+    text = re.sub(r"\*\*(\d+)\.\*\*", r"\1.", text)
+    text = re.sub(r"#{1,3}\s*(\d+)[.、]", r"\1.", text)
+
+    # Primary: split by number patterns at line start
+    # Matches "1." "1、" "1:" "**1.**" at the beginning of a line
+    parts = re.split(r"\n(?=\d+[.、:]\s)", "\n" + text.strip())
+
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        m = re.match(r"(\d+)[.、:]\s*([\s\S]+)", part)
+        if m:
+            idx = int(m.group(1)) - 1
+            summary = m.group(2).strip()
+            # Collapse multi-line into single line for email display
+            summary = re.sub(r"\n+", " ", summary).strip()
+            if summary and 0 <= idx < expected_count:
+                summaries[idx] = summary
+
+    # Fallback: if we got fewer than half expected, try line-by-line greedy match
+    if len(summaries) < expected_count // 2:
+        for m in re.finditer(r"(\d+)[.、:]\s*(.+?)(?=\n\s*\d+[.、:]|\Z)", text, re.DOTALL):
+            idx = int(m.group(1)) - 1
+            summary = re.sub(r"\n+", " ", m.group(2)).strip()
+            if summary and 0 <= idx < expected_count and idx not in summaries:
+                summaries[idx] = summary
+
     return summaries
 
 # ── Email ──────────────────────────────────────────────────────────────────
