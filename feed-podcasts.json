@@ -1,57 +1,41 @@
 {
-  "generatedAt": "2026-04-21T08:04:19.221Z",
+  "generatedAt": "2026-04-22T08:00:53.060Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Don't Make This Hiring Mistake",
-      "videoId": "VkrZgWhf6hk",
-      "url": "https://youtube.com/watch?v=VkrZgWhf6hk",
-      "publishedAt": "2026-04-21T05:00:26+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "We will have MORE lawyers in 5 years not LESS",
-      "videoId": "eUnBFE0jT4U",
-      "url": "https://youtube.com/watch?v=eUnBFE0jT4U",
-      "publishedAt": "2026-04-20T20:00:36+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "The best young people want to be in office",
-      "videoId": "_MfazSMkDB0",
-      "url": "https://youtube.com/watch?v=_MfazSMkDB0",
-      "publishedAt": "2026-04-20T18:00:38+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Latent Space",
-      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa &amp; Daniel Bear, Noetik",
-      "videoId": "uqM8qjbLRHA",
-      "url": "https://youtube.com/watch?v=uqM8qjbLRHA",
-      "publishedAt": "2026-04-20T15:53:02+00:00"
+      "title": "You can't fix bad attitude",
+      "videoId": "47kyy0DlVFE",
+      "url": "https://youtube.com/watch?v=47kyy0DlVFE",
+      "publishedAt": "2026-04-22T06:28:09+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "David Friedberg: Eric Swalwell's allegations were held for the perfect moment to take him out",
-      "videoId": "wKgrYAXjJvg",
-      "url": "https://youtube.com/watch?v=wKgrYAXjJvg",
-      "publishedAt": "2026-04-20T15:08:44+00:00"
+      "title": "Chamath: Nancy Pelosi's returns are so good because Reg FD does not apply to people in Congress",
+      "videoId": "sBI3_gPf13s",
+      "url": "https://youtube.com/watch?v=sBI3_gPf13s",
+      "publishedAt": "2026-04-21T17:03:07+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Cybercrime Costs the World $1 Trillion A Month",
-      "videoId": "bjz8cYgRUsQ",
-      "url": "https://youtube.com/watch?v=bjz8cYgRUsQ",
-      "publishedAt": "2026-04-20T13:40:33+00:00"
+      "name": "Invest Like the Best",
+      "title": "GLP-1s, Peptides, and The Trillion-Dollar Health Revolution",
+      "videoId": "QVSP8bGm2KQ",
+      "url": "https://youtube.com/watch?v=QVSP8bGm2KQ",
+      "publishedAt": "2026-04-21T12:00:58+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The future of job roles",
+      "videoId": "djWrtzkayUw",
+      "url": "https://youtube.com/watch?v=djWrtzkayUw",
+      "publishedAt": "2026-04-21T11:03:43+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 4
   }
 }
