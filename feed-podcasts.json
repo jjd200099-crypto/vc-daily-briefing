@@ -1,49 +1,41 @@
 {
-  "generatedAt": "2026-04-24T08:15:31.115Z",
+  "generatedAt": "2026-04-25T07:40:15.033Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Why wait 30 days for a designer anymore?",
-      "videoId": "ql9VIdcIGtw",
-      "url": "https://youtube.com/watch?v=ql9VIdcIGtw",
-      "publishedAt": "2026-04-24T05:30:34+00:00"
+      "name": "All-In Podcast",
+      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+      "videoId": "1bCXCxrDsCs",
+      "url": "https://youtube.com/watch?v=1bCXCxrDsCs",
+      "publishedAt": "2026-04-24T22:38:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "David Friedberg: The datacenter is the new temple of the wealthy, and people hate the rich",
+      "videoId": "AOMz7LfzC40",
+      "url": "https://youtube.com/watch?v=AOMz7LfzC40",
+      "publishedAt": "2026-04-24T16:26:59+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "Enzo Ferrari’s first company was a failure",
+      "videoId": "McQracAOu9Q",
+      "url": "https://youtube.com/watch?v=McQracAOu9Q",
+      "publishedAt": "2026-04-24T13:39:23+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Why the SpaceX-Cursor deal makes sense",
-      "videoId": "S2NYY73wqEA",
-      "url": "https://youtube.com/watch?v=S2NYY73wqEA",
-      "publishedAt": "2026-04-23T17:23:30+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "This is the big f***ing deal",
-      "videoId": "WOmmhz094cY",
-      "url": "https://youtube.com/watch?v=WOmmhz094cY",
-      "publishedAt": "2026-04-23T14:08:34+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Unsupervised Learning",
-      "title": "AI investor + engineer discuss the current state of AI",
-      "videoId": "A_7WafI9bhE",
-      "url": "https://youtube.com/watch?v=A_7WafI9bhE",
-      "publishedAt": "2026-04-23T13:05:41+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
-      "videoId": "5u7AjPardvo",
-      "url": "https://youtube.com/watch?v=5u7AjPardvo",
-      "publishedAt": "2026-04-23T10:00:18+00:00"
+      "title": "don't box yourself in",
+      "videoId": "JN5qkHZ0am8",
+      "url": "https://youtube.com/watch?v=JN5qkHZ0am8",
+      "publishedAt": "2026-04-24T11:05:23+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 4
   }
 }
