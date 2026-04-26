@@ -1,41 +1,73 @@
 {
-  "generatedAt": "2026-04-25T07:40:15.033Z",
+  "generatedAt": "2026-04-26T07:48:55.326Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-      "videoId": "1bCXCxrDsCs",
-      "url": "https://youtube.com/watch?v=1bCXCxrDsCs",
-      "publishedAt": "2026-04-24T22:38:15+00:00"
+      "name": "20VC",
+      "title": "Adam Foroughi on 20VC | Coming Soon",
+      "videoId": "mDOxLSTtgu0",
+      "url": "https://youtube.com/watch?v=mDOxLSTtgu0",
+      "publishedAt": "2026-04-26T05:00:44+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "David Friedberg: The datacenter is the new temple of the wealthy, and people hate the rich",
-      "videoId": "AOMz7LfzC40",
-      "url": "https://youtube.com/watch?v=AOMz7LfzC40",
-      "publishedAt": "2026-04-24T16:26:59+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Enzo Ferrari’s first company was a failure",
-      "videoId": "McQracAOu9Q",
-      "url": "https://youtube.com/watch?v=McQracAOu9Q",
-      "publishedAt": "2026-04-24T13:39:23+00:00"
+      "title": "“If I ever do that again, punch me in the face.” - Chamath's debt story",
+      "videoId": "0wPXfh4e6Ho",
+      "url": "https://youtube.com/watch?v=0wPXfh4e6Ho",
+      "publishedAt": "2026-04-25T23:00:01+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "don't box yourself in",
-      "videoId": "JN5qkHZ0am8",
-      "url": "https://youtube.com/watch?v=JN5qkHZ0am8",
-      "publishedAt": "2026-04-24T11:05:23+00:00"
+      "title": "Finding REAL Product Market Fit",
+      "videoId": "zWcVR93Dn4o",
+      "url": "https://youtube.com/watch?v=zWcVR93Dn4o",
+      "publishedAt": "2026-04-25T20:00:27+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "David Friedberg on the Nonprofit Scam: 90% Are Bullsh*t",
+      "videoId": "zFPQVOD4M0k",
+      "url": "https://youtube.com/watch?v=zFPQVOD4M0k",
+      "publishedAt": "2026-04-25T19:15:02+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "The One Constant in Software",
+      "videoId": "RqQrwCJXnJI",
+      "url": "https://youtube.com/watch?v=RqQrwCJXnJI",
+      "publishedAt": "2026-04-25T17:54:42+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "How Ferrari was recruited to compete with Germany in the 1930s Grand Prix scene",
+      "videoId": "m00uKRrQTI0",
+      "url": "https://youtube.com/watch?v=m00uKRrQTI0",
+      "publishedAt": "2026-04-25T15:12:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Replit CEO on Why Coding Models are Plateauing &amp; More...",
+      "videoId": "diB12yFoN9s",
+      "url": "https://youtube.com/watch?v=diB12yFoN9s",
+      "publishedAt": "2026-04-25T14:03:35+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
+      "videoId": "LF3aUIM57uw",
+      "url": "https://youtube.com/watch?v=LF3aUIM57uw",
+      "publishedAt": "2026-04-23T12:00:39+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 8
   }
 }
