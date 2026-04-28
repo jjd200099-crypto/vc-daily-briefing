@@ -1,25 +1,49 @@
 {
-  "generatedAt": "2026-04-27T08:37:46.801Z",
+  "generatedAt": "2026-04-28T08:35:24.372Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
+      "name": "20VC",
+      "title": "Is it unjust to say CEO's should be payed less?⁠",
+      "videoId": "t_D21gLji-o",
+      "url": "https://youtube.com/watch?v=t_D21gLji-o",
+      "publishedAt": "2026-04-28T05:01:00+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, &amp; 1K Engineers—Applied Intuition",
+      "videoId": "rv23_KcHt4s",
+      "url": "https://youtube.com/watch?v=rv23_KcHt4s",
+      "publishedAt": "2026-04-27T22:56:47+00:00"
+    },
+    {
+      "source": "podcast",
       "name": "All-In Podcast",
-      "title": "David Sacks: Nonprofits need to manufacture problems in America to stay in business",
-      "videoId": "kdAdhcVrF7w",
-      "url": "https://youtube.com/watch?v=kdAdhcVrF7w",
-      "publishedAt": "2026-04-26T17:10:41+00:00"
+      "title": "Chamath: Why Donors Should Sue the SPLC",
+      "videoId": "EtgfPcfqGM8",
+      "url": "https://youtube.com/watch?v=EtgfPcfqGM8",
+      "publishedAt": "2026-04-27T19:23:45+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "What models does Replit use?",
-      "videoId": "ot1Cp4TW9_U",
-      "url": "https://youtube.com/watch?v=ot1Cp4TW9_U",
-      "publishedAt": "2026-04-26T14:01:24+00:00"
+      "title": "Founders don't tend to be motivated by money",
+      "videoId": "c2sxcbhxlHI",
+      "url": "https://youtube.com/watch?v=c2sxcbhxlHI",
+      "publishedAt": "2026-04-27T18:01:12+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "There is no company on the planet like AppLovin",
+      "videoId": "STAUcD5m89A",
+      "url": "https://youtube.com/watch?v=STAUcD5m89A",
+      "publishedAt": "2026-04-27T14:38:21+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 5
   }
 }
