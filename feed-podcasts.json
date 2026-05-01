@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-04-30T08:31:35.338Z",
+  "generatedAt": "2026-05-01T08:21:51.794Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "kindness is slowing you down",
-      "videoId": "n7d46AhRiF8",
-      "url": "https://youtube.com/watch?v=n7d46AhRiF8",
-      "publishedAt": "2026-04-30T05:00:48+00:00"
+      "title": "The 2 Battles No One is Talking About",
+      "videoId": "hHTHiFgUcTg",
+      "url": "https://youtube.com/watch?v=hHTHiFgUcTg",
+      "publishedAt": "2026-05-01T05:00:50+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "AI Replacing Jobs is the Wrong Narrative",
-      "videoId": "D2TNYboZEak",
-      "url": "https://youtube.com/watch?v=D2TNYboZEak",
-      "publishedAt": "2026-04-29T18:16:32+00:00"
+      "name": "20VC",
+      "title": "The Biggest News in Tech This Week",
+      "videoId": "hw4IEs-qCh8",
+      "url": "https://youtube.com/watch?v=hw4IEs-qCh8",
+      "publishedAt": "2026-04-30T14:02:45+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself &amp; How a Republican Can Win",
-      "videoId": "9WQu7w1tII0",
-      "url": "https://youtube.com/watch?v=9WQu7w1tII0",
-      "publishedAt": "2026-04-29T15:22:07+00:00"
+      "name": "20VC",
+      "title": "Anthropic Raises $45B but Falls Short on Compute &amp; Thoma Bravo Hand Back Medallia Keys to Creditors",
+      "videoId": "aXToQKc430c",
+      "url": "https://youtube.com/watch?v=aXToQKc430c",
+      "publishedAt": "2026-04-30T14:00:26+00:00"
     }
   ],
   "stats": {
