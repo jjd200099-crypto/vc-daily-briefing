@@ -1,33 +1,41 @@
 {
-  "generatedAt": "2026-05-01T08:21:51.794Z",
+  "generatedAt": "2026-05-02T07:53:55.759Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "The 2 Battles No One is Talking About",
-      "videoId": "hHTHiFgUcTg",
-      "url": "https://youtube.com/watch?v=hHTHiFgUcTg",
-      "publishedAt": "2026-05-01T05:00:50+00:00"
+      "name": "Latent Space",
+      "title": "⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company — Yasser Elsaid, Founder, Chatbase",
+      "videoId": "CSYWbbP_OkY",
+      "url": "https://youtube.com/watch?v=CSYWbbP_OkY",
+      "publishedAt": "2026-05-02T03:45:06+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Biggest News in Tech This Week",
-      "videoId": "hw4IEs-qCh8",
-      "url": "https://youtube.com/watch?v=hw4IEs-qCh8",
-      "publishedAt": "2026-04-30T14:02:45+00:00"
+      "title": "Investors need to give CEOs better comp packages",
+      "videoId": "GeKAro2K3s0",
+      "url": "https://youtube.com/watch?v=GeKAro2K3s0",
+      "publishedAt": "2026-05-01T23:00:15+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Anthropic Raises $45B but Falls Short on Compute &amp; Thoma Bravo Hand Back Medallia Keys to Creditors",
-      "videoId": "aXToQKc430c",
-      "url": "https://youtube.com/watch?v=aXToQKc430c",
-      "publishedAt": "2026-04-30T14:00:26+00:00"
+      "name": "All-In Podcast",
+      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "videoId": "fpC4sbawSzQ",
+      "url": "https://youtube.com/watch?v=fpC4sbawSzQ",
+      "publishedAt": "2026-05-01T22:08:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Baseten CEO Tuhin Srivastava on Custom Models, and Building the Inference Cloud",
+      "videoId": "XAbKflCncDo",
+      "url": "https://youtube.com/watch?v=XAbKflCncDo",
+      "publishedAt": "2026-05-01T15:07:25+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 4
   }
 }
