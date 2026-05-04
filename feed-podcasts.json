@@ -1,41 +1,25 @@
 {
-  "generatedAt": "2026-05-03T08:09:21.589Z",
+  "generatedAt": "2026-05-04T08:39:19.812Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Does your LinkedIn show a story?",
-      "videoId": "GiUyt_wP6Aw",
-      "url": "https://youtube.com/watch?v=GiUyt_wP6Aw",
-      "publishedAt": "2026-05-02T19:24:11+00:00"
+      "name": "All-In Podcast",
+      "title": "&quot;What the f*** is he doing!?&quot; - The Besties React to the Elon/Sam Altman Trial 😂",
+      "videoId": "jROZdAU0jV0",
+      "url": "https://youtube.com/watch?v=jROZdAU0jV0",
+      "publishedAt": "2026-05-03T19:00:37+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Inside Clay's $100M Sales Playbook",
-      "videoId": "1Vyv36Rv7i4",
-      "url": "https://youtube.com/watch?v=1Vyv36Rv7i4",
-      "publishedAt": "2026-05-02T14:05:28+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Inside Clay's Sales Playbook | Becca Lindquist",
-      "videoId": "d_nWswprCqk",
-      "url": "https://youtube.com/watch?v=d_nWswprCqk",
-      "publishedAt": "2026-05-02T14:00:19+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Enzo Ferrari did not sell a single car until he was 50 years old",
-      "videoId": "ZZs94h3cMoI",
-      "url": "https://youtube.com/watch?v=ZZs94h3cMoI",
-      "publishedAt": "2026-05-02T12:43:52+00:00"
+      "name": "All-In Podcast",
+      "title": "“Rumination is the path to unhappiness.” - J Cal",
+      "videoId": "FfC-A0Wdgug",
+      "url": "https://youtube.com/watch?v=FfC-A0Wdgug",
+      "publishedAt": "2026-05-03T15:15:02+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 2
   }
 }
