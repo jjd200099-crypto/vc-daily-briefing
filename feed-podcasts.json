@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-05-19T09:59:10.151Z",
+  "generatedAt": "2026-05-20T09:49:07.601Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Why Most Founders Quit Too Early",
-      "videoId": "5T0dXOjju7s",
-      "url": "https://youtube.com/watch?v=5T0dXOjju7s",
-      "publishedAt": "2026-05-19T05:00:08+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Vanguard: The communist capitalist who saved investors a trillion dollars (Audio)",
-      "videoId": "ipiKIgdynZE",
-      "url": "https://youtube.com/watch?v=ipiKIgdynZE",
-      "publishedAt": "2026-05-18T20:44:21+00:00"
+      "title": "You Can’t Leave Until You Raise A Seed Round",
+      "videoId": "Sddp6_O-Q3w",
+      "url": "https://youtube.com/watch?v=Sddp6_O-Q3w",
+      "publishedAt": "2026-05-20T05:00:17+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Marc Benioff hilariously recaps the last year in AI: “Sex bots off, coding agents on!” 😂",
-      "videoId": "TCdglOfn_NM",
-      "url": "https://youtube.com/watch?v=TCdglOfn_NM",
-      "publishedAt": "2026-05-18T19:15:37+00:00"
+      "title": "David Friedberg: El Niño Could Trigger a Global Food Crisis",
+      "videoId": "F4U1P2cuWgA",
+      "url": "https://youtube.com/watch?v=F4U1P2cuWgA",
+      "publishedAt": "2026-05-19T17:59:11+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "Our episode on Vanguard is now live!",
+      "videoId": "guUruw49kKc",
+      "url": "https://youtube.com/watch?v=guUruw49kKc",
+      "publishedAt": "2026-05-19T17:35:47+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;I take all the money I make and buy land&quot;",
-      "videoId": "4QRPhi0d1uc",
-      "url": "https://youtube.com/watch?v=4QRPhi0d1uc",
-      "publishedAt": "2026-05-18T18:00:08+00:00"
+      "title": "We Turned The Facebook House Into A Growth Hack",
+      "videoId": "QHRXglScV4g",
+      "url": "https://youtube.com/watch?v=QHRXglScV4g",
+      "publishedAt": "2026-05-19T14:00:35+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "The one man accelerator at Four Seasons",
-      "videoId": "JRvqG8mN1nU",
-      "url": "https://youtube.com/watch?v=JRvqG8mN1nU",
-      "publishedAt": "2026-05-18T14:14:50+00:00"
+      "name": "Data Driven NYC",
+      "title": "AI is Building Our Data Pipelines Now (Estuary Live Demo)",
+      "videoId": "WslkscPp1ro",
+      "url": "https://youtube.com/watch?v=WslkscPp1ro",
+      "publishedAt": "2026-05-19T13:04:27+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "The Next War Is Already Here — Yaroslav Azhnyuk, The Fourth Law &amp; Noah Smith, Noahpinion",
-      "videoId": "UmCZBwsibgs",
-      "url": "https://youtube.com/watch?v=UmCZBwsibgs",
-      "publishedAt": "2026-05-18T13:00:48+00:00"
+      "name": "Training Data",
+      "title": "Rebuilding IT From the Ground Up for the AI Age: Serval's Jake Stauch",
+      "videoId": "j7ypvRUFY7M",
+      "url": "https://youtube.com/watch?v=j7ypvRUFY7M",
+      "publishedAt": "2026-05-19T12:00:56+00:00"
     }
   ],
   "stats": {
