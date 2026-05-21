@@ -1,57 +1,33 @@
 {
-  "generatedAt": "2026-05-20T09:49:07.601Z",
+  "generatedAt": "2026-05-21T09:56:31.917Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "You Can’t Leave Until You Raise A Seed Round",
-      "videoId": "Sddp6_O-Q3w",
-      "url": "https://youtube.com/watch?v=Sddp6_O-Q3w",
-      "publishedAt": "2026-05-20T05:00:17+00:00"
+      "title": "Dropping out of college is overrated",
+      "videoId": "ORjZ6kQorGY",
+      "url": "https://youtube.com/watch?v=ORjZ6kQorGY",
+      "publishedAt": "2026-05-21T05:00:19+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "David Friedberg: El Niño Could Trigger a Global Food Crisis",
-      "videoId": "F4U1P2cuWgA",
-      "url": "https://youtube.com/watch?v=F4U1P2cuWgA",
-      "publishedAt": "2026-05-19T17:59:11+00:00"
+      "name": "Latent Space",
+      "title": "The Agent-Native Cloud: 3M Users, 100K Signups/Wk, Data Centers, &amp; Death PRs — Jake Cooper, Railway",
+      "videoId": "LzCUYNP5UTI",
+      "url": "https://youtube.com/watch?v=LzCUYNP5UTI",
+      "publishedAt": "2026-05-20T22:44:03+00:00"
     },
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "Our episode on Vanguard is now live!",
-      "videoId": "guUruw49kKc",
-      "url": "https://youtube.com/watch?v=guUruw49kKc",
-      "publishedAt": "2026-05-19T17:35:47+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "We Turned The Facebook House Into A Growth Hack",
-      "videoId": "QHRXglScV4g",
-      "url": "https://youtube.com/watch?v=QHRXglScV4g",
-      "publishedAt": "2026-05-19T14:00:35+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Data Driven NYC",
-      "title": "AI is Building Our Data Pipelines Now (Estuary Live Demo)",
-      "videoId": "WslkscPp1ro",
-      "url": "https://youtube.com/watch?v=WslkscPp1ro",
-      "publishedAt": "2026-05-19T13:04:27+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Training Data",
-      "title": "Rebuilding IT From the Ground Up for the AI Age: Serval's Jake Stauch",
-      "videoId": "j7ypvRUFY7M",
-      "url": "https://youtube.com/watch?v=j7ypvRUFY7M",
-      "publishedAt": "2026-05-19T12:00:56+00:00"
+      "name": "Invest Like the Best",
+      "title": "Gavin Baker on Orbital Compute, TSMC, and Frontier Models",
+      "videoId": "Mmj_G9RlW-I",
+      "url": "https://youtube.com/watch?v=Mmj_G9RlW-I",
+      "publishedAt": "2026-05-20T12:00:40+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 3
   }
 }
