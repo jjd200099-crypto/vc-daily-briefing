@@ -1,41 +1,25 @@
 {
-  "generatedAt": "2026-05-23T08:27:57.790Z",
+  "generatedAt": "2026-05-24T08:40:00.372Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "SpaceX’s $2T Case, Nvidia’s Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-      "videoId": "HGbA6ze0_3M",
-      "url": "https://youtube.com/watch?v=HGbA6ze0_3M",
-      "publishedAt": "2026-05-22T23:24:57+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Slow AI Is Dead",
-      "videoId": "hfsGo4Ftx54",
-      "url": "https://youtube.com/watch?v=hfsGo4Ftx54",
-      "publishedAt": "2026-05-22T22:55:49+00:00"
+      "name": "20VC",
+      "title": "The Secrets to Building a World Class Sales Team",
+      "videoId": "f8uqnQepOD0",
+      "url": "https://youtube.com/watch?v=f8uqnQepOD0",
+      "publishedAt": "2026-05-23T14:13:32+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Inside ElevenLabs' Ruthless Sales Culture",
-      "videoId": "dTZpI9s0IEc",
-      "url": "https://youtube.com/watch?v=dTZpI9s0IEc",
-      "publishedAt": "2026-05-22T13:01:40+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Unsupervised Learning",
-      "title": "Gemini Co-Lead on World Models, RL's Next Domains &amp; Continual Learning",
-      "videoId": "NQczevdpxq0",
-      "url": "https://youtube.com/watch?v=NQczevdpxq0",
-      "publishedAt": "2026-05-22T13:00:11+00:00"
+      "title": "Why Anthropic Are Causing a Comp Crisis &amp; Why You’d Never Hire From Salesforce or ServiceNow",
+      "videoId": "vRPBhik_AXU",
+      "url": "https://youtube.com/watch?v=vRPBhik_AXU",
+      "publishedAt": "2026-05-23T14:01:10+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 2
   }
 }
