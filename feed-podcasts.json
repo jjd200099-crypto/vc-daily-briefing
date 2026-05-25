@@ -1,25 +1,57 @@
 {
-  "generatedAt": "2026-05-24T08:40:00.372Z",
+  "generatedAt": "2026-05-25T10:23:47.113Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Secrets to Building a World Class Sales Team",
-      "videoId": "f8uqnQepOD0",
-      "url": "https://youtube.com/watch?v=f8uqnQepOD0",
-      "publishedAt": "2026-05-23T14:13:32+00:00"
+      "title": "The Worst Type Of Board Member",
+      "videoId": "beS4bLd5ON4",
+      "url": "https://youtube.com/watch?v=beS4bLd5ON4",
+      "publishedAt": "2026-05-25T05:00:33+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "AI Is About to Create Industries You Can't See",
+      "videoId": "f1ZdVkb78uI",
+      "url": "https://youtube.com/watch?v=f1ZdVkb78uI",
+      "publishedAt": "2026-05-25T01:13:34+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "SpaceX's Unknown Origin Story: Elon Wanted to Back Up Earth",
+      "videoId": "enIK5neD52Q",
+      "url": "https://youtube.com/watch?v=enIK5neD52Q",
+      "publishedAt": "2026-05-24T21:00:32+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "⚡️ Why you should build Science Fiction — Sunil Pai, Cloudflare",
+      "videoId": "287Q-bs_pEU",
+      "url": "https://youtube.com/watch?v=287Q-bs_pEU",
+      "publishedAt": "2026-05-24T17:31:16+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "SpaceX is About to Explode:  $15B from Anthropic is just the beginning",
+      "videoId": "PxL1QTrseGE",
+      "url": "https://youtube.com/watch?v=PxL1QTrseGE",
+      "publishedAt": "2026-05-24T15:30:01+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Why Anthropic Are Causing a Comp Crisis &amp; Why You’d Never Hire From Salesforce or ServiceNow",
-      "videoId": "vRPBhik_AXU",
-      "url": "https://youtube.com/watch?v=vRPBhik_AXU",
-      "publishedAt": "2026-05-23T14:01:10+00:00"
+      "title": "Fire The Bottom 10% Every Year",
+      "videoId": "wJCYNszh6Ec",
+      "url": "https://youtube.com/watch?v=wJCYNszh6Ec",
+      "publishedAt": "2026-05-24T14:05:35+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 6
   }
 }
