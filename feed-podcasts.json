@@ -1,33 +1,57 @@
 {
-  "generatedAt": "2026-05-26T10:11:08.885Z",
+  "generatedAt": "2026-05-27T10:09:18.454Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Problem With Forward Deployed Engineers",
-      "videoId": "D5OMXOiRbm4",
-      "url": "https://youtube.com/watch?v=D5OMXOiRbm4",
-      "publishedAt": "2026-05-26T05:00:08+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Chamath Lays Out the Case for SpaceX at $2 Trillion",
-      "videoId": "6f3yzCihfsE",
-      "url": "https://youtube.com/watch?v=6f3yzCihfsE",
-      "publishedAt": "2026-05-25T15:30:22+00:00"
+      "title": "HR Is About to Be Automated",
+      "videoId": "73d_ZalvgHQ",
+      "url": "https://youtube.com/watch?v=73d_ZalvgHQ",
+      "publishedAt": "2026-05-27T05:00:25+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Salesforce Reps Can't Actually Sell",
-      "videoId": "qNuxLiRngjo",
-      "url": "https://youtube.com/watch?v=qNuxLiRngjo",
-      "publishedAt": "2026-05-25T14:00:48+00:00"
+      "title": "AI Didn’t Cause These Layoffs",
+      "videoId": "lpLQnL2DKn4",
+      "url": "https://youtube.com/watch?v=lpLQnL2DKn4",
+      "publishedAt": "2026-05-26T18:00:24+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "Chamath Rips Cloudflare CEO’s Layoff Memo: “Shut the f**k up. You suck at this.”",
+      "videoId": "ZJFevnwiCww",
+      "url": "https://youtube.com/watch?v=ZJFevnwiCww",
+      "publishedAt": "2026-05-26T14:51:04+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The $25 Billion AI Backlog Nobody's Talking About",
+      "videoId": "K340uuY_Ucs",
+      "url": "https://youtube.com/watch?v=K340uuY_Ucs",
+      "publishedAt": "2026-05-26T14:40:42+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL",
+      "videoId": "UDTr9yUnLUI",
+      "url": "https://youtube.com/watch?v=UDTr9yUnLUI",
+      "publishedAt": "2026-05-26T12:00:19+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "The New Endgame: Remaking Global Theaters in America's Interest",
+      "videoId": "7-HmjiXKlvg",
+      "url": "https://youtube.com/watch?v=7-HmjiXKlvg",
+      "publishedAt": "2026-05-26T12:00:04+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 6
   }
 }
