@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-05-28T10:18:04.287Z",
+  "generatedAt": "2026-05-29T10:07:56.484Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
-      "videoId": "QDsbFLEt9ro",
-      "url": "https://youtube.com/watch?v=QDsbFLEt9ro",
-      "publishedAt": "2026-05-28T10:00:14+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "How index funds were born",
-      "videoId": "XPzO-9d7W1s",
-      "url": "https://youtube.com/watch?v=XPzO-9d7W1s",
-      "publishedAt": "2026-05-28T08:45:32+00:00"
+      "name": "20VC",
+      "title": "The SpaceX IPO Is a Starlink Bet",
+      "videoId": "Auj75g4NJqk",
+      "url": "https://youtube.com/watch?v=Auj75g4NJqk",
+      "publishedAt": "2026-05-29T05:00:39+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Cerebras CEO WARNS About Selling AI Chips to China",
-      "videoId": "HBA4bKgS-wo",
-      "url": "https://youtube.com/watch?v=HBA4bKgS-wo",
-      "publishedAt": "2026-05-28T05:00:17+00:00"
+      "title": "OpenAI vs Anthropic",
+      "videoId": "Cg8iG6nk69M",
+      "url": "https://youtube.com/watch?v=Cg8iG6nk69M",
+      "publishedAt": "2026-05-28T23:13:37+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "videoId": "XdevS0GSuiQ",
-      "url": "https://youtube.com/watch?v=XdevS0GSuiQ",
-      "publishedAt": "2026-05-27T17:32:38+00:00"
+      "title": "Devin’s 80% Moment: Background Agents, 7x PRs, &amp; End of Hand-Held Coding — Walden Yan &amp; Cole Murray",
+      "videoId": "0fgJPhYcbVk",
+      "url": "https://youtube.com/watch?v=0fgJPhYcbVk",
+      "publishedAt": "2026-05-28T17:57:06+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "Legendary Investor Dan Loeb on AI, Credit, &amp; Third Point’s $25B Strategy",
+      "videoId": "vhTi_8QwXjg",
+      "url": "https://youtube.com/watch?v=vhTi_8QwXjg",
+      "publishedAt": "2026-05-28T16:17:35+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "OpenAI &amp; SpaceX S1 Drops | Layoffs at Cloudflare &amp; ClickUp | OpenRouter &amp; Polsia Raise Mega Rounds",
+      "videoId": "jhZsQb3YvDg",
+      "url": "https://youtube.com/watch?v=jhZsQb3YvDg",
+      "publishedAt": "2026-05-28T15:35:48+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "3 Reasons Why College Students Hate AI - David Friedberg",
-      "videoId": "14TQ7Ww5yKs",
-      "url": "https://youtube.com/watch?v=14TQ7Ww5yKs",
-      "publishedAt": "2026-05-27T16:00:32+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "A WWI pilot's good luck charm became the Ferrari logo",
-      "videoId": "gWPOpLc5Wus",
-      "url": "https://youtube.com/watch?v=gWPOpLc5Wus",
-      "publishedAt": "2026-05-27T15:20:17+00:00"
+      "title": "David Sacks: AI Will Create More Jobs, Not Destroy Them",
+      "videoId": "8L14ufi8YI8",
+      "url": "https://youtube.com/watch?v=8L14ufi8YI8",
+      "publishedAt": "2026-05-28T14:33:28+00:00"
     }
   ],
   "stats": {
