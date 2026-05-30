@@ -1,57 +1,65 @@
 {
-  "generatedAt": "2026-05-29T10:07:56.484Z",
+  "generatedAt": "2026-05-30T08:35:52.061Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The SpaceX IPO Is a Starlink Bet",
-      "videoId": "Auj75g4NJqk",
-      "url": "https://youtube.com/watch?v=Auj75g4NJqk",
-      "publishedAt": "2026-05-29T05:00:39+00:00"
+      "title": "Why The SpaceX S-1 Makes No Sense",
+      "videoId": "-mFchlf755Q",
+      "url": "https://youtube.com/watch?v=-mFchlf755Q",
+      "publishedAt": "2026-05-30T05:00:10+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "OpenAI vs Anthropic",
-      "videoId": "Cg8iG6nk69M",
-      "url": "https://youtube.com/watch?v=Cg8iG6nk69M",
-      "publishedAt": "2026-05-28T23:13:37+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Is dark matter real? - Why can't we find it? - physicist explains | Don Lincoln and Lex Fridman",
+      "videoId": "OE0ZvZYipwI",
+      "url": "https://youtube.com/watch?v=OE0ZvZYipwI",
+      "publishedAt": "2026-05-30T04:00:07+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "Devin’s 80% Moment: Background Agents, 7x PRs, &amp; End of Hand-Held Coding — Walden Yan &amp; Cole Murray",
-      "videoId": "0fgJPhYcbVk",
-      "url": "https://youtube.com/watch?v=0fgJPhYcbVk",
-      "publishedAt": "2026-05-28T17:57:06+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "The most shocking discovery in physics: Speed of Light from Electricity and Magnetism | Don Lincoln",
+      "videoId": "E0JB-DirSFs",
+      "url": "https://youtube.com/watch?v=E0JB-DirSFs",
+      "publishedAt": "2026-05-30T01:00:19+00:00"
     },
     {
       "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "Legendary Investor Dan Loeb on AI, Credit, &amp; Third Point’s $25B Strategy",
-      "videoId": "vhTi_8QwXjg",
-      "url": "https://youtube.com/watch?v=vhTi_8QwXjg",
-      "publishedAt": "2026-05-28T16:17:35+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "OpenAI &amp; SpaceX S1 Drops | Layoffs at Cloudflare &amp; ClickUp | OpenRouter &amp; Polsia Raise Mega Rounds",
-      "videoId": "jhZsQb3YvDg",
-      "url": "https://youtube.com/watch?v=jhZsQb3YvDg",
-      "publishedAt": "2026-05-28T15:35:48+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Why anything exists at all: The great antimatter mystery of our universe | Don Lincoln",
+      "videoId": "Xn2oCeVo_R4",
+      "url": "https://youtube.com/watch?v=Xn2oCeVo_R4",
+      "publishedAt": "2026-05-30T00:00:07+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "David Sacks: AI Will Create More Jobs, Not Destroy Them",
-      "videoId": "8L14ufi8YI8",
-      "url": "https://youtube.com/watch?v=8L14ufi8YI8",
-      "publishedAt": "2026-05-28T14:33:28+00:00"
+      "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "videoId": "4oq91rzQcO8",
+      "url": "https://youtube.com/watch?v=4oq91rzQcO8",
+      "publishedAt": "2026-05-29T22:47:49+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The Founder that lives in the office | Coming Soon...",
+      "videoId": "3KUEQbkxOKM",
+      "url": "https://youtube.com/watch?v=3KUEQbkxOKM",
+      "publishedAt": "2026-05-29T16:56:30+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "How index funds changed investing forever",
+      "videoId": "Hb95Vii6rp4",
+      "url": "https://youtube.com/watch?v=Hb95Vii6rp4",
+      "publishedAt": "2026-05-29T12:30:17+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 7
   }
 }
