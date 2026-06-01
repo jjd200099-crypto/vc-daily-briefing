@@ -1,41 +1,57 @@
 {
-  "generatedAt": "2026-05-31T08:56:19.914Z",
+  "generatedAt": "2026-06-01T11:49:43.093Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Claude Code can destroy your database",
-      "videoId": "2Xxr3XtOA0A",
-      "url": "https://youtube.com/watch?v=2Xxr3XtOA0A",
-      "publishedAt": "2026-05-30T22:35:42+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Higgs field gives mass to particles - physicist explains | Don Lincoln and Lex Fridman",
+      "videoId": "yf0QjMoLBGo",
+      "url": "https://youtube.com/watch?v=yf0QjMoLBGo",
+      "publishedAt": "2026-05-31T22:00:07+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "By 1996 Vanguard's index funds forced the entire industry to follow",
+      "videoId": "j3mAgvy2Sjo",
+      "url": "https://youtube.com/watch?v=j3mAgvy2Sjo",
+      "publishedAt": "2026-05-31T18:54:34+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "The search for the &quot;God Particle&quot; - physicist explains discovery of the Higgs bosons | Don Lincoln",
+      "videoId": "LgGVLro-FJU",
+      "url": "https://youtube.com/watch?v=LgGVLro-FJU",
+      "publishedAt": "2026-05-31T18:00:07+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Why we work 7 days a week",
+      "videoId": "2tBYkKzTqME",
+      "url": "https://youtube.com/watch?v=2tBYkKzTqME",
+      "publishedAt": "2026-05-31T14:00:39+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "&quot;They're Midwifing a Deity.&quot; - Bill Gurley on Anthropic's Digital God",
-      "videoId": "keI-wXX2hf0",
-      "url": "https://youtube.com/watch?v=keI-wXX2hf0",
-      "publishedAt": "2026-05-30T15:58:09+00:00"
+      "title": "Billionaires Impressed By New College Grads Being AI Natives: They Are Totally Cracked",
+      "videoId": "LtF6vT7l5ac",
+      "url": "https://youtube.com/watch?v=LtF6vT7l5ac",
+      "publishedAt": "2026-05-31T14:00:08+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "We Work 7 Days a Week",
-      "videoId": "e4GOe8mmJGI",
-      "url": "https://youtube.com/watch?v=e4GOe8mmJGI",
-      "publishedAt": "2026-05-30T14:00:20+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "The Most Intense Workplace Culture in America | The Journey from $0 to $2.6BN Valuation",
-      "videoId": "VgkXOE-V-fc",
-      "url": "https://youtube.com/watch?v=VgkXOE-V-fc",
-      "publishedAt": "2026-05-30T13:58:11+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Why a theory of everything is so hard to find - physicist explains | Don Lincoln and Lex Fridman",
+      "videoId": "YmvVKRn8OVE",
+      "url": "https://youtube.com/watch?v=YmvVKRn8OVE",
+      "publishedAt": "2026-05-31T12:00:06+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 6
   }
 }
