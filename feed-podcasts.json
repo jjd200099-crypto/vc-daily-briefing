@@ -1,89 +1,81 @@
 {
-  "generatedAt": "2026-06-02T10:48:36.627Z",
+  "generatedAt": "2026-06-03T11:16:07.410Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "This startup spends $400k/month on Anthropic",
-      "videoId": "T76_vuXv-ok",
-      "url": "https://youtube.com/watch?v=T76_vuXv-ok",
-      "publishedAt": "2026-06-02T05:00:30+00:00"
+      "title": "The $10B Startup Running on AI Agents",
+      "videoId": "5uMx8JieXsk",
+      "url": "https://youtube.com/watch?v=5uMx8JieXsk",
+      "publishedAt": "2026-06-03T05:00:34+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Where is antimatter hiding? - Physics explains the mystery of missing antimatter | Don Lincoln",
-      "videoId": "WiopO3_r59w",
-      "url": "https://youtube.com/watch?v=WiopO3_r59w",
-      "publishedAt": "2026-06-01T22:00:07+00:00"
+      "title": "General Relativity: The greatest idea in physics | Don Lincoln and Lex Fridman",
+      "videoId": "YMerFyqTbXI",
+      "url": "https://youtube.com/watch?v=YMerFyqTbXI",
+      "publishedAt": "2026-06-03T04:00:07+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Empty space is not empty: The mind-blowing idea of virtual prticles | Don Lincoln and Lex Fridman",
+      "videoId": "BUHWMc759YI",
+      "url": "https://youtube.com/watch?v=BUHWMc759YI",
+      "publishedAt": "2026-06-03T00:00:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "A billion particle collisions a second: How large particle colliders work | Don Lincoln",
+      "videoId": "VZhIbbEq8OI",
+      "url": "https://youtube.com/watch?v=VZhIbbEq8OI",
+      "publishedAt": "2026-06-02T20:00:07+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "Three tailwinds that made indexing win over active management",
-      "videoId": "SKVKwMT1ZNE",
-      "url": "https://youtube.com/watch?v=SKVKwMT1ZNE",
-      "publishedAt": "2026-06-01T21:11:20+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Baseten: &quot;We've Never Lost Our Top Customers”",
-      "videoId": "lYZJZMqgSjI",
-      "url": "https://youtube.com/watch?v=lYZJZMqgSjI",
-      "publishedAt": "2026-06-01T20:42:24+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "AI Is Creating Jobs Faster Than Ever",
-      "videoId": "vWHTnDPeueU",
-      "url": "https://youtube.com/watch?v=vWHTnDPeueU",
-      "publishedAt": "2026-06-01T19:02:30+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The value of hard work - Advice for young people | Don Lincoln and Lex Fridman",
-      "videoId": "JlPtDa7KFJI",
-      "url": "https://youtube.com/watch?v=JlPtDa7KFJI",
-      "publishedAt": "2026-06-01T18:00:27+00:00"
+      "title": "The Wellington Fund went from $2 billion to $480 million by 1973",
+      "videoId": "rowIxEF5tpQ",
+      "url": "https://youtube.com/watch?v=rowIxEF5tpQ",
+      "publishedAt": "2026-06-02T17:56:36+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He",
-      "videoId": "jPtQlILfkhA",
-      "url": "https://youtube.com/watch?v=jPtQlILfkhA",
-      "publishedAt": "2026-06-01T15:42:33+00:00"
+      "title": "GitHub’s Agent Era: 14x Commits, 200M Developers, Copilot’s Next Act — Kyle Daigle",
+      "videoId": "LEwlSyR0cXA",
+      "url": "https://youtube.com/watch?v=LEwlSyR0cXA",
+      "publishedAt": "2026-06-02T16:28:30+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "videoId": "TjrShuj_Zsg",
+      "url": "https://youtube.com/watch?v=TjrShuj_Zsg",
+      "publishedAt": "2026-06-02T15:40:44+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;We spend more on tokens than salaries&quot;",
-      "videoId": "zlWqZgSKIrM",
-      "url": "https://youtube.com/watch?v=zlWqZgSKIrM",
-      "publishedAt": "2026-06-01T14:15:51+00:00"
+      "title": "Why AI Won't Take Your Job",
+      "videoId": "XOp3q53ti_0",
+      "url": "https://youtube.com/watch?v=XOp3q53ti_0",
+      "publishedAt": "2026-06-02T14:00:27+00:00"
     },
     {
       "source": "podcast",
-      "name": "Unsupervised Learning",
-      "title": "A Conversation With Demis Hassabis' Biographer",
-      "videoId": "WC_embCiwgU",
-      "url": "https://youtube.com/watch?v=WC_embCiwgU",
-      "publishedAt": "2026-06-01T13:00:23+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Is string theory dead? | Don Lincoln and Lex Fridman",
-      "videoId": "5hjBpKknTJo",
-      "url": "https://youtube.com/watch?v=5hjBpKknTJo",
-      "publishedAt": "2026-06-01T12:00:06+00:00"
+      "name": "Training Data",
+      "title": "Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss",
+      "videoId": "Rumft-rsEu4",
+      "url": "https://youtube.com/watch?v=Rumft-rsEu4",
+      "publishedAt": "2026-06-02T12:00:00+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 10
+    "podcastEpisodes": 9
   }
 }
