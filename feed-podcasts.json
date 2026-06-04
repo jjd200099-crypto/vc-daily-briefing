@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-06-03T11:16:07.410Z",
+  "generatedAt": "2026-06-04T10:10:05.322Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The $10B Startup Running on AI Agents",
-      "videoId": "5uMx8JieXsk",
-      "url": "https://youtube.com/watch?v=5uMx8JieXsk",
-      "publishedAt": "2026-06-03T05:00:34+00:00"
+      "title": "Why we should increase capital gains tax",
+      "videoId": "VcIqk-0r1Pw",
+      "url": "https://youtube.com/watch?v=VcIqk-0r1Pw",
+      "publishedAt": "2026-06-04T05:00:32+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "General Relativity: The greatest idea in physics | Don Lincoln and Lex Fridman",
-      "videoId": "YMerFyqTbXI",
-      "url": "https://youtube.com/watch?v=YMerFyqTbXI",
-      "publishedAt": "2026-06-03T04:00:07+00:00"
+      "title": "Anti-matter &amp; nuclear weapons: Why technology is always a double-edge sword | Don Lincoln",
+      "videoId": "EyjMQUXra74",
+      "url": "https://youtube.com/watch?v=EyjMQUXra74",
+      "publishedAt": "2026-06-04T04:00:26+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "Empty space is not empty: The mind-blowing idea of virtual prticles | Don Lincoln and Lex Fridman",
-      "videoId": "BUHWMc759YI",
-      "url": "https://youtube.com/watch?v=BUHWMc759YI",
-      "publishedAt": "2026-06-03T00:00:08+00:00"
+      "title": "Why antimatter costs $63 trillion dollars to produce | Don Lincoln and Lex Fridman",
+      "videoId": "4vEyGD5NdQQ",
+      "url": "https://youtube.com/watch?v=4vEyGD5NdQQ",
+      "publishedAt": "2026-06-04T00:00:07+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "A billion particle collisions a second: How large particle colliders work | Don Lincoln",
-      "videoId": "VZhIbbEq8OI",
-      "url": "https://youtube.com/watch?v=VZhIbbEq8OI",
-      "publishedAt": "2026-06-02T20:00:07+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "The Wellington Fund went from $2 billion to $480 million by 1973",
-      "videoId": "rowIxEF5tpQ",
-      "url": "https://youtube.com/watch?v=rowIxEF5tpQ",
-      "publishedAt": "2026-06-02T17:56:36+00:00"
+      "title": "Is loop quantum gravity wrong? - physicist explains | Don Lincoln and Lex Fridman",
+      "videoId": "2VaNidEwk3o",
+      "url": "https://youtube.com/watch?v=2VaNidEwk3o",
+      "publishedAt": "2026-06-03T20:00:07+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "GitHub’s Agent Era: 14x Commits, 200M Developers, Copilot’s Next Act — Kyle Daigle",
-      "videoId": "LEwlSyR0cXA",
-      "url": "https://youtube.com/watch?v=LEwlSyR0cXA",
-      "publishedAt": "2026-06-02T16:28:30+00:00"
+      "title": "Scaling Past Informal AI - Carina Hong, Axiom Math",
+      "videoId": "abYcV5LHMG4",
+      "url": "https://youtube.com/watch?v=abYcV5LHMG4",
+      "publishedAt": "2026-06-03T19:11:22+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Unsupervised Learning",
+      "title": "AI Research Legend’s Honest Assessment of Where We Are",
+      "videoId": "N1geOimmdDo",
+      "url": "https://youtube.com/watch?v=N1geOimmdDo",
+      "publishedAt": "2026-06-03T13:04:37+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "Uber CEO on AI, Autonomous Vehicles, and the Future of Transportation",
+      "videoId": "ThMtheE5eO0",
+      "url": "https://youtube.com/watch?v=ThMtheE5eO0",
+      "publishedAt": "2026-06-03T12:30:05+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
-      "videoId": "TjrShuj_Zsg",
-      "url": "https://youtube.com/watch?v=TjrShuj_Zsg",
-      "publishedAt": "2026-06-02T15:40:44+00:00"
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "videoId": "_TJFqEhxQg4",
+      "url": "https://youtube.com/watch?v=_TJFqEhxQg4",
+      "publishedAt": "2026-06-03T12:08:28+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Why AI Won't Take Your Job",
-      "videoId": "XOp3q53ti_0",
-      "url": "https://youtube.com/watch?v=XOp3q53ti_0",
-      "publishedAt": "2026-06-02T14:00:27+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Training Data",
-      "title": "Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss",
-      "videoId": "Rumft-rsEu4",
-      "url": "https://youtube.com/watch?v=Rumft-rsEu4",
-      "publishedAt": "2026-06-02T12:00:00+00:00"
+      "name": "Latent Space",
+      "title": "Satya Nadella on AI: @NoPriorsPodcast  x Latent Space Crossover Special at Microsoft Build 2026",
+      "videoId": "cFNI2FORAc0",
+      "url": "https://youtube.com/watch?v=cFNI2FORAc0",
+      "publishedAt": "2026-06-03T11:40:52+00:00"
     }
   ],
   "stats": {
