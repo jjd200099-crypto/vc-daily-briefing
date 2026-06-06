@@ -1,65 +1,41 @@
 {
-  "generatedAt": "2026-06-05T10:04:24.183Z",
+  "generatedAt": "2026-06-06T08:42:57.412Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Tokens Over Humans?",
-      "videoId": "ahfOzGYBhAk",
-      "url": "https://youtube.com/watch?v=ahfOzGYBhAk",
-      "publishedAt": "2026-06-05T05:00:36+00:00"
+      "name": "Latent Space",
+      "title": "⚡️Making DeepSeek v4 outperform Opus 4.7 with Taste — @AhmadAwais , CommandCode.ai",
+      "videoId": "-rIAVuaRjOg",
+      "url": "https://youtube.com/watch?v=-rIAVuaRjOg",
+      "publishedAt": "2026-06-06T04:30:44+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "A low cost index fund will outperform 85% of actively managed funds",
-      "videoId": "h467OrLtpWw",
-      "url": "https://youtube.com/watch?v=h467OrLtpWw",
-      "publishedAt": "2026-06-04T21:13:33+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Latent Space",
-      "title": "When AI Agents Run Businesses — Lukas Petersson and Axel Backlund of Andon Labs",
-      "videoId": "T8u7wOXhDb0",
-      "url": "https://youtube.com/watch?v=T8u7wOXhDb0",
-      "publishedAt": "2026-06-04T20:03:44+00:00"
+      "title": "Investment fees matter more than you think",
+      "videoId": "sIu3gWdl1wo",
+      "url": "https://youtube.com/watch?v=sIu3gWdl1wo",
+      "publishedAt": "2026-06-05T21:43:29+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Thomas Laffont: The $4T AI IPO Wave Is Coming… and We’ve Never Seen Anything Like It",
-      "videoId": "UIoV8rG_25s",
-      "url": "https://youtube.com/watch?v=UIoV8rG_25s",
-      "publishedAt": "2026-06-04T18:32:07+00:00"
+      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
+      "videoId": "i8OI8CNdZgU",
+      "url": "https://youtube.com/watch?v=i8OI8CNdZgU",
+      "publishedAt": "2026-06-05T19:37:19+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;Loosing money is like s*x&quot;",
-      "videoId": "ntSrwmIeV3w",
-      "url": "https://youtube.com/watch?v=ntSrwmIeV3w",
-      "publishedAt": "2026-06-04T14:09:22+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation",
-      "videoId": "jPBG1F2Y8Mw",
-      "url": "https://youtube.com/watch?v=jPBG1F2Y8Mw",
-      "publishedAt": "2026-06-04T14:02:43+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
-      "videoId": "RQE8OS392dU",
-      "url": "https://youtube.com/watch?v=RQE8OS392dU",
-      "publishedAt": "2026-06-04T10:00:31+00:00"
+      "title": "&quot;The Model is the Product&quot;",
+      "videoId": "_apEhOGr6v4",
+      "url": "https://youtube.com/watch?v=_apEhOGr6v4",
+      "publishedAt": "2026-06-05T15:11:57+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 7
+    "podcastEpisodes": 4
   }
 }
