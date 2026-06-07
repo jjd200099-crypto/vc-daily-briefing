@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-06-06T08:42:57.412Z",
+  "generatedAt": "2026-06-07T09:27:36.579Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "⚡️Making DeepSeek v4 outperform Opus 4.7 with Taste — @AhmadAwais , CommandCode.ai",
-      "videoId": "-rIAVuaRjOg",
-      "url": "https://youtube.com/watch?v=-rIAVuaRjOg",
-      "publishedAt": "2026-06-06T04:30:44+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "Acquired",
-      "title": "Investment fees matter more than you think",
-      "videoId": "sIu3gWdl1wo",
-      "url": "https://youtube.com/watch?v=sIu3gWdl1wo",
-      "publishedAt": "2026-06-05T21:43:29+00:00"
+      "title": "Vanguard forced out Saint Jack Bogle in 1999",
+      "videoId": "03IdZlyiyIs",
+      "url": "https://youtube.com/watch?v=03IdZlyiyIs",
+      "publishedAt": "2026-06-06T21:23:31+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
-      "videoId": "i8OI8CNdZgU",
-      "url": "https://youtube.com/watch?v=i8OI8CNdZgU",
-      "publishedAt": "2026-06-05T19:37:19+00:00"
+      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
+      "videoId": "jLICvWE7w2Q",
+      "url": "https://youtube.com/watch?v=jLICvWE7w2Q",
+      "publishedAt": "2026-06-06T16:30:25+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;The Model is the Product&quot;",
-      "videoId": "_apEhOGr6v4",
-      "url": "https://youtube.com/watch?v=_apEhOGr6v4",
-      "publishedAt": "2026-06-05T15:11:57+00:00"
+      "title": "&quot;No one in the 800 pound gorilla is excited to be there&quot;",
+      "videoId": "lR-9nuHvKGY",
+      "url": "https://youtube.com/watch?v=lR-9nuHvKGY",
+      "publishedAt": "2026-06-06T14:12:12+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Why Token Maxing is Failing Enterprise Startups | Legora CTO",
+      "videoId": "UkERw3cBEAo",
+      "url": "https://youtube.com/watch?v=UkERw3cBEAo",
+      "publishedAt": "2026-06-06T13:57:55+00:00"
     }
   ],
   "stats": {
