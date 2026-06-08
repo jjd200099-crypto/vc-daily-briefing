@@ -1,41 +1,25 @@
 {
-  "generatedAt": "2026-06-07T09:27:36.579Z",
+  "generatedAt": "2026-06-08T11:11:02.070Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "Vanguard forced out Saint Jack Bogle in 1999",
-      "videoId": "03IdZlyiyIs",
-      "url": "https://youtube.com/watch?v=03IdZlyiyIs",
-      "publishedAt": "2026-06-06T21:23:31+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "All-In Podcast",
-      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
-      "videoId": "jLICvWE7w2Q",
-      "url": "https://youtube.com/watch?v=jLICvWE7w2Q",
-      "publishedAt": "2026-06-06T16:30:25+00:00"
+      "title": "Why Secondary Markets Are Eating the IPO | All-In Liquidity Secondary Markets Panel",
+      "videoId": "V0lFjTWx36I",
+      "url": "https://youtube.com/watch?v=V0lFjTWx36I",
+      "publishedAt": "2026-06-07T18:26:25+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "&quot;No one in the 800 pound gorilla is excited to be there&quot;",
-      "videoId": "lR-9nuHvKGY",
-      "url": "https://youtube.com/watch?v=lR-9nuHvKGY",
-      "publishedAt": "2026-06-06T14:12:12+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Why Token Maxing is Failing Enterprise Startups | Legora CTO",
-      "videoId": "UkERw3cBEAo",
-      "url": "https://youtube.com/watch?v=UkERw3cBEAo",
-      "publishedAt": "2026-06-06T13:57:55+00:00"
+      "title": "Legora CTO on the tools they vibe code",
+      "videoId": "B1XfV0CQUsI",
+      "url": "https://youtube.com/watch?v=B1XfV0CQUsI",
+      "publishedAt": "2026-06-07T14:42:19+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 2
   }
 }
