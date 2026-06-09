@@ -1,25 +1,57 @@
 {
-  "generatedAt": "2026-06-08T11:11:02.070Z",
+  "generatedAt": "2026-06-09T09:57:39.239Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
+      "name": "20VC",
+      "title": "The Biggest Threat to Nebius",
+      "videoId": "hdjVgl4izDg",
+      "url": "https://youtube.com/watch?v=hdjVgl4izDg",
+      "publishedAt": "2026-06-09T05:00:19+00:00"
+    },
+    {
+      "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Why Secondary Markets Are Eating the IPO | All-In Liquidity Secondary Markets Panel",
-      "videoId": "V0lFjTWx36I",
-      "url": "https://youtube.com/watch?v=V0lFjTWx36I",
-      "publishedAt": "2026-06-07T18:26:25+00:00"
+      "title": "Palo Alto Networks CEO: &quot;AI Found 5 Years of Bugs in 6 Weeks&quot;",
+      "videoId": "hObRMv6qCi0",
+      "url": "https://youtube.com/watch?v=hObRMv6qCi0",
+      "publishedAt": "2026-06-08T20:06:28+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Legora CTO on the tools they vibe code",
-      "videoId": "B1XfV0CQUsI",
-      "url": "https://youtube.com/watch?v=B1XfV0CQUsI",
-      "publishedAt": "2026-06-07T14:42:19+00:00"
+      "title": "AI is changing education",
+      "videoId": "woUGh6SZl7Q",
+      "url": "https://youtube.com/watch?v=woUGh6SZl7Q",
+      "publishedAt": "2026-06-08T18:06:25+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Satya Nadella: Why Humans Still Create Value",
+      "videoId": "j-bmCzMxOI4",
+      "url": "https://youtube.com/watch?v=j-bmCzMxOI4",
+      "publishedAt": "2026-06-08T15:44:06+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;Who has power against Nvidia...&quot;",
+      "videoId": "MvS5Ld_hdcU",
+      "url": "https://youtube.com/watch?v=MvS5Ld_hdcU",
+      "publishedAt": "2026-06-08T14:54:49+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "Warren Buffett crushed the S&amp;P 500",
+      "videoId": "1cGJK9K7j_I",
+      "url": "https://youtube.com/watch?v=1cGJK9K7j_I",
+      "publishedAt": "2026-06-08T12:05:51+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 6
   }
 }
