@@ -1,57 +1,33 @@
 {
-  "generatedAt": "2026-06-09T09:57:39.239Z",
+  "generatedAt": "2026-06-10T10:15:27.645Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Biggest Threat to Nebius",
-      "videoId": "hdjVgl4izDg",
-      "url": "https://youtube.com/watch?v=hdjVgl4izDg",
-      "publishedAt": "2026-06-09T05:00:19+00:00"
+      "title": "Legora CTO on Remote Engineers",
+      "videoId": "b4oI4iLkRwg",
+      "url": "https://youtube.com/watch?v=b4oI4iLkRwg",
+      "publishedAt": "2026-06-10T05:00:07+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Palo Alto Networks CEO: &quot;AI Found 5 Years of Bugs in 6 Weeks&quot;",
-      "videoId": "hObRMv6qCi0",
-      "url": "https://youtube.com/watch?v=hObRMv6qCi0",
-      "publishedAt": "2026-06-08T20:06:28+00:00"
+      "title": "Dan Dreyfus: The Next AI Bottleneck is Copper",
+      "videoId": "xTO1aQ_m44I",
+      "url": "https://youtube.com/watch?v=xTO1aQ_m44I",
+      "publishedAt": "2026-06-10T03:25:44+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "AI is changing education",
-      "videoId": "woUGh6SZl7Q",
-      "url": "https://youtube.com/watch?v=woUGh6SZl7Q",
-      "publishedAt": "2026-06-08T18:06:25+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Satya Nadella: Why Humans Still Create Value",
-      "videoId": "j-bmCzMxOI4",
-      "url": "https://youtube.com/watch?v=j-bmCzMxOI4",
-      "publishedAt": "2026-06-08T15:44:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;Who has power against Nvidia...&quot;",
-      "videoId": "MvS5Ld_hdcU",
-      "url": "https://youtube.com/watch?v=MvS5Ld_hdcU",
-      "publishedAt": "2026-06-08T14:54:49+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "Warren Buffett crushed the S&amp;P 500",
-      "videoId": "1cGJK9K7j_I",
-      "url": "https://youtube.com/watch?v=1cGJK9K7j_I",
-      "publishedAt": "2026-06-08T12:05:51+00:00"
+      "name": "All-In Podcast",
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "videoId": "0umrMuUClC4",
+      "url": "https://youtube.com/watch?v=0umrMuUClC4",
+      "publishedAt": "2026-06-09T15:30:54+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 3
   }
 }
