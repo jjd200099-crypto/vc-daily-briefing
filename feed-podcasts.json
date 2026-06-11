@@ -1,33 +1,57 @@
 {
-  "generatedAt": "2026-06-10T10:15:27.645Z",
+  "generatedAt": "2026-06-11T10:50:06.015Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Legora CTO on Remote Engineers",
-      "videoId": "b4oI4iLkRwg",
-      "url": "https://youtube.com/watch?v=b4oI4iLkRwg",
-      "publishedAt": "2026-06-10T05:00:07+00:00"
+      "title": "Legora CTO: We are here to build something HUGE",
+      "videoId": "3DTFx3K8Jw0",
+      "url": "https://youtube.com/watch?v=3DTFx3K8Jw0",
+      "publishedAt": "2026-06-11T05:00:15+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Mark Zuckerberg's Plan to End All Disease",
+      "videoId": "ydkq6-tM58s",
+      "url": "https://youtube.com/watch?v=ydkq6-tM58s",
+      "publishedAt": "2026-06-10T19:23:49+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Dan Dreyfus: The Next AI Bottleneck is Copper",
-      "videoId": "xTO1aQ_m44I",
-      "url": "https://youtube.com/watch?v=xTO1aQ_m44I",
-      "publishedAt": "2026-06-10T03:25:44+00:00"
+      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+      "videoId": "0y28p0jqPro",
+      "url": "https://youtube.com/watch?v=0y28p0jqPro",
+      "publishedAt": "2026-06-10T18:46:55+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-      "videoId": "0umrMuUClC4",
-      "url": "https://youtube.com/watch?v=0umrMuUClC4",
-      "publishedAt": "2026-06-09T15:30:54+00:00"
+      "name": "No Priors",
+      "title": "Biohub: The Future of Biology is Open-Source with Mark Zuckerberg, Priscilla Chan, and Alex Rives",
+      "videoId": "u8cYwaLzN-k",
+      "url": "https://youtube.com/watch?v=u8cYwaLzN-k",
+      "publishedAt": "2026-06-10T13:00:36+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "NVIDIA's Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "videoId": "2UpQbeAZuqA",
+      "url": "https://youtube.com/watch?v=2UpQbeAZuqA",
+      "publishedAt": "2026-06-10T12:00:18+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "Why the AI Boom Is Just Getting Started",
+      "videoId": "DZt1DDmMNGk",
+      "url": "https://youtube.com/watch?v=DZt1DDmMNGk",
+      "publishedAt": "2026-06-09T12:00:33+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 6
   }
 }
