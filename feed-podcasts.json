@@ -1,57 +1,73 @@
 {
-  "generatedAt": "2026-06-11T10:50:06.015Z",
+  "generatedAt": "2026-06-12T10:24:53.751Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Legora CTO: We are here to build something HUGE",
-      "videoId": "3DTFx3K8Jw0",
-      "url": "https://youtube.com/watch?v=3DTFx3K8Jw0",
-      "publishedAt": "2026-06-11T05:00:15+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Mark Zuckerberg's Plan to End All Disease",
-      "videoId": "ydkq6-tM58s",
-      "url": "https://youtube.com/watch?v=ydkq6-tM58s",
-      "publishedAt": "2026-06-10T19:23:49+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "All-In Podcast",
-      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
-      "videoId": "0y28p0jqPro",
-      "url": "https://youtube.com/watch?v=0y28p0jqPro",
-      "publishedAt": "2026-06-10T18:46:55+00:00"
+      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
+      "videoId": "fO5sC7qS04E",
+      "url": "https://youtube.com/watch?v=fO5sC7qS04E",
+      "publishedAt": "2026-06-12T01:36:11+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Biohub: The Future of Biology is Open-Source with Mark Zuckerberg, Priscilla Chan, and Alex Rives",
-      "videoId": "u8cYwaLzN-k",
-      "url": "https://youtube.com/watch?v=u8cYwaLzN-k",
-      "publishedAt": "2026-06-10T13:00:36+00:00"
+      "title": "Is AI's Energy Bill Worth It? | Satya Nadella",
+      "videoId": "VwTRutriGoc",
+      "url": "https://youtube.com/watch?v=VwTRutriGoc",
+      "publishedAt": "2026-06-11T23:32:20+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "BG2Pod",
+      "title": "The SpaceX IPO, Fable 5, AI Capex Update &amp; Market Check w/ Gavin Baker, Andrew Fox &amp; Clark Tang",
+      "videoId": "Tx9jT2c6e3U",
+      "url": "https://youtube.com/watch?v=Tx9jT2c6e3U",
+      "publishedAt": "2026-06-11T23:15:21+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "Vanguard went from 0% index funds in 1974 to managing $10 trillion in passive funds today",
+      "videoId": "89o5Rjcygrk",
+      "url": "https://youtube.com/watch?v=89o5Rjcygrk",
+      "publishedAt": "2026-06-11T22:07:52+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "SpaceX is an Amazing Technical Company",
+      "videoId": "6HYagcuvQnk",
+      "url": "https://youtube.com/watch?v=6HYagcuvQnk",
+      "publishedAt": "2026-06-11T19:17:21+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Why Revolut is worth $115B",
+      "videoId": "mwbV66VBLqQ",
+      "url": "https://youtube.com/watch?v=mwbV66VBLqQ",
+      "publishedAt": "2026-06-11T19:00:38+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "SpaceX Launches Largest EVER IPO",
+      "videoId": "zjJa41sRepY",
+      "url": "https://youtube.com/watch?v=zjJa41sRepY",
+      "publishedAt": "2026-06-11T14:02:10+00:00"
     },
     {
       "source": "podcast",
       "name": "Training Data",
-      "title": "NVIDIA's Jensen Huang on Building the Dynamo of the Intelligence Age",
-      "videoId": "2UpQbeAZuqA",
-      "url": "https://youtube.com/watch?v=2UpQbeAZuqA",
-      "publishedAt": "2026-06-10T12:00:18+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "Why the AI Boom Is Just Getting Started",
-      "videoId": "DZt1DDmMNGk",
-      "url": "https://youtube.com/watch?v=DZt1DDmMNGk",
-      "publishedAt": "2026-06-09T12:00:33+00:00"
+      "title": "Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "videoId": "cMAs8z2dehs",
+      "url": "https://youtube.com/watch?v=cMAs8z2dehs",
+      "publishedAt": "2026-06-11T12:00:05+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 8
   }
 }
