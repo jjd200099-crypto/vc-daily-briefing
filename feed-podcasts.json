@@ -1,73 +1,49 @@
 {
-  "generatedAt": "2026-06-12T10:24:53.751Z",
+  "generatedAt": "2026-06-13T09:27:05.972Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-      "videoId": "fO5sC7qS04E",
-      "url": "https://youtube.com/watch?v=fO5sC7qS04E",
-      "publishedAt": "2026-06-12T01:36:11+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Is AI's Energy Bill Worth It? | Satya Nadella",
-      "videoId": "VwTRutriGoc",
-      "url": "https://youtube.com/watch?v=VwTRutriGoc",
-      "publishedAt": "2026-06-11T23:32:20+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "BG2Pod",
-      "title": "The SpaceX IPO, Fable 5, AI Capex Update &amp; Market Check w/ Gavin Baker, Andrew Fox &amp; Clark Tang",
-      "videoId": "Tx9jT2c6e3U",
-      "url": "https://youtube.com/watch?v=Tx9jT2c6e3U",
-      "publishedAt": "2026-06-11T23:15:21+00:00"
+      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up &amp; California’s Broken Elections",
+      "videoId": "gH4FTjDm9FQ",
+      "url": "https://youtube.com/watch?v=gH4FTjDm9FQ",
+      "publishedAt": "2026-06-13T05:10:15+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "Vanguard went from 0% index funds in 1974 to managing $10 trillion in passive funds today",
-      "videoId": "89o5Rjcygrk",
-      "url": "https://youtube.com/watch?v=89o5Rjcygrk",
-      "publishedAt": "2026-06-11T22:07:52+00:00"
+      "title": "How SpaceX proved the world wrong and landed a rocket back on Earth",
+      "videoId": "-YbezpgEUDw",
+      "url": "https://youtube.com/watch?v=-YbezpgEUDw",
+      "publishedAt": "2026-06-12T19:39:22+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "SpaceX is an Amazing Technical Company",
-      "videoId": "6HYagcuvQnk",
-      "url": "https://youtube.com/watch?v=6HYagcuvQnk",
-      "publishedAt": "2026-06-11T19:17:21+00:00"
+      "title": "Perplexity CEO: &quot;I have nothing to lose&quot;",
+      "videoId": "o1QsTJgg6Ko",
+      "url": "https://youtube.com/watch?v=o1QsTJgg6Ko",
+      "publishedAt": "2026-06-12T18:17:26+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Why Revolut is worth $115B",
-      "videoId": "mwbV66VBLqQ",
-      "url": "https://youtube.com/watch?v=mwbV66VBLqQ",
-      "publishedAt": "2026-06-11T19:00:38+00:00"
+      "name": "No Priors",
+      "title": "Modern Medicine Is Just Guessing",
+      "videoId": "TRyuFpQUO_s",
+      "url": "https://youtube.com/watch?v=TRyuFpQUO_s",
+      "publishedAt": "2026-06-12T16:12:47+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "SpaceX Launches Largest EVER IPO",
-      "videoId": "zjJa41sRepY",
-      "url": "https://youtube.com/watch?v=zjJa41sRepY",
-      "publishedAt": "2026-06-11T14:02:10+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Training Data",
-      "title": "Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
-      "videoId": "cMAs8z2dehs",
-      "url": "https://youtube.com/watch?v=cMAs8z2dehs",
-      "publishedAt": "2026-06-11T12:00:05+00:00"
+      "name": "Unsupervised Learning",
+      "title": "AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions",
+      "videoId": "W_iO8XxgD_I",
+      "url": "https://youtube.com/watch?v=W_iO8XxgD_I",
+      "publishedAt": "2026-06-12T13:00:53+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 8
+    "podcastEpisodes": 5
   }
 }
