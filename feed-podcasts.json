@@ -1,25 +1,33 @@
 {
-  "generatedAt": "2026-06-14T09:48:35.929Z",
+  "generatedAt": "2026-06-15T12:33:08.899Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "The Physicist Building a $1.5BN AI Lab",
-      "videoId": "KhBUbsLKAr4",
-      "url": "https://youtube.com/watch?v=KhBUbsLKAr4",
-      "publishedAt": "2026-06-13T14:00:24+00:00"
+      "name": "Acquired",
+      "title": "The SpaceX Falcon 1's first flight... not exactly a success",
+      "videoId": "zY8fZcyrulI",
+      "url": "https://youtube.com/watch?v=zY8fZcyrulI",
+      "publishedAt": "2026-06-14T15:45:29+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "David Friedberg: California’s Voting System Looks Fraudulent, But It’s Working Exactly as Designed",
+      "videoId": "jKZeMwiDJRg",
+      "url": "https://youtube.com/watch?v=jKZeMwiDJRg",
+      "publishedAt": "2026-06-14T14:00:04+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "OpenAI vs Anthropic vs Open-Source | Token Maxing, AI Hangovers &amp; The Coming ROI Reckoning",
-      "videoId": "lgo_QbgV198",
-      "url": "https://youtube.com/watch?v=lgo_QbgV198",
-      "publishedAt": "2026-06-13T13:59:54+00:00"
+      "title": "What makes the best engineers in an AI world",
+      "videoId": "SbMyPxDqUbY",
+      "url": "https://youtube.com/watch?v=SbMyPxDqUbY",
+      "publishedAt": "2026-06-14T13:40:32+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 2
+    "podcastEpisodes": 3
   }
 }
