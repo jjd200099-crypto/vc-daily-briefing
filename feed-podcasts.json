@@ -1,33 +1,49 @@
 {
-  "generatedAt": "2026-06-15T12:33:08.899Z",
+  "generatedAt": "2026-06-16T11:26:05.728Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "The SpaceX Falcon 1's first flight... not exactly a success",
-      "videoId": "zY8fZcyrulI",
-      "url": "https://youtube.com/watch?v=zY8fZcyrulI",
-      "publishedAt": "2026-06-14T15:45:29+00:00"
+      "name": "20VC",
+      "title": "From Lower Middle Class in India to a $20bn Company",
+      "videoId": "j0MyQOIuH0o",
+      "url": "https://youtube.com/watch?v=j0MyQOIuH0o",
+      "publishedAt": "2026-06-16T05:00:34+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "David Friedberg: California’s Voting System Looks Fraudulent, But It’s Working Exactly as Designed",
-      "videoId": "jKZeMwiDJRg",
-      "url": "https://youtube.com/watch?v=jKZeMwiDJRg",
-      "publishedAt": "2026-06-14T14:00:04+00:00"
+      "name": "Acquired",
+      "title": "Where Elon got the first rocket for SpaceX in 2001",
+      "videoId": "3YqxeW4TARw",
+      "url": "https://youtube.com/watch?v=3YqxeW4TARw",
+      "publishedAt": "2026-06-15T19:02:33+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "What makes the best engineers in an AI world",
-      "videoId": "SbMyPxDqUbY",
-      "url": "https://youtube.com/watch?v=SbMyPxDqUbY",
-      "publishedAt": "2026-06-14T13:40:32+00:00"
+      "title": "Everyone's Wrong About AI and Jobs",
+      "videoId": "9-uPKaxoMC4",
+      "url": "https://youtube.com/watch?v=9-uPKaxoMC4",
+      "publishedAt": "2026-06-15T19:00:28+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "We're seeing semi-conscious AI",
+      "videoId": "nlvO7xZuYAY",
+      "url": "https://youtube.com/watch?v=nlvO7xZuYAY",
+      "publishedAt": "2026-06-15T14:14:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Perplexity CEO On Why Google AI Mode Looks Familiar",
+      "videoId": "7fvaZpLiLZs",
+      "url": "https://youtube.com/watch?v=7fvaZpLiLZs",
+      "publishedAt": "2026-06-15T14:11:38+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 5
   }
 }
