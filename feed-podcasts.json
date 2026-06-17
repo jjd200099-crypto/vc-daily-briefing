@@ -1,49 +1,65 @@
 {
-  "generatedAt": "2026-06-16T11:26:05.728Z",
+  "generatedAt": "2026-06-17T11:09:57.630Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "From Lower Middle Class in India to a $20bn Company",
-      "videoId": "j0MyQOIuH0o",
-      "url": "https://youtube.com/watch?v=j0MyQOIuH0o",
-      "publishedAt": "2026-06-16T05:00:34+00:00"
+      "title": "CEO of @perplexity-ai on Why Google Dominates the Ad Business",
+      "videoId": "zo44gb-GAaA",
+      "url": "https://youtube.com/watch?v=zo44gb-GAaA",
+      "publishedAt": "2026-06-17T05:00:09+00:00"
     },
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "Where Elon got the first rocket for SpaceX in 2001",
-      "videoId": "3YqxeW4TARw",
-      "url": "https://youtube.com/watch?v=3YqxeW4TARw",
-      "publishedAt": "2026-06-15T19:02:33+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Everyone's Wrong About AI and Jobs",
-      "videoId": "9-uPKaxoMC4",
-      "url": "https://youtube.com/watch?v=9-uPKaxoMC4",
-      "publishedAt": "2026-06-15T19:00:28+00:00"
+      "name": "All-In Podcast",
+      "title": "The Trade That Put Bill Ackman on the Map: Forcing Wendy's to Spin Out Tim Hortons",
+      "videoId": "_1BXHND0CRE",
+      "url": "https://youtube.com/watch?v=_1BXHND0CRE",
+      "publishedAt": "2026-06-16T20:41:57+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "We're seeing semi-conscious AI",
-      "videoId": "nlvO7xZuYAY",
-      "url": "https://youtube.com/watch?v=nlvO7xZuYAY",
-      "publishedAt": "2026-06-15T14:14:08+00:00"
+      "title": "Satya Nadella: Microsoft's Next Ambitions With AI",
+      "videoId": "QoDPzshX8Ks",
+      "url": "https://youtube.com/watch?v=QoDPzshX8Ks",
+      "publishedAt": "2026-06-16T16:12:48+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "All-In Podcast",
+      "title": "David Friedberg: The AI Jobs Panic Is a Crock of Sh*t",
+      "videoId": "imjQRQHcIUw",
+      "url": "https://youtube.com/watch?v=imjQRQHcIUw",
+      "publishedAt": "2026-06-16T15:45:45+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "Clay’s Unusual Path to Building a Multi-Billion Dollar Company",
+      "videoId": "3bKLiUU2cb8",
+      "url": "https://youtube.com/watch?v=3bKLiUU2cb8",
+      "publishedAt": "2026-06-16T14:04:22+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Perplexity CEO On Why Google AI Mode Looks Familiar",
-      "videoId": "7fvaZpLiLZs",
-      "url": "https://youtube.com/watch?v=7fvaZpLiLZs",
-      "publishedAt": "2026-06-15T14:11:38+00:00"
+      "title": "Perplexity's CEO on How Elon Musk Really Operates",
+      "videoId": "YJ06fS7__v8",
+      "url": "https://youtube.com/watch?v=YJ06fS7__v8",
+      "publishedAt": "2026-06-16T14:00:14+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "Simulating Humans at Scale: Simile's Joon Sung Park",
+      "videoId": "lfhFmwcESRw",
+      "url": "https://youtube.com/watch?v=lfhFmwcESRw",
+      "publishedAt": "2026-06-16T12:00:11+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 7
   }
 }
