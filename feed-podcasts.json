@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-06-18T10:41:01.169Z",
+  "generatedAt": "2026-06-19T10:50:12.726Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
-      "videoId": "asCgCv2XB4s",
-      "url": "https://youtube.com/watch?v=asCgCv2XB4s",
-      "publishedAt": "2026-06-18T10:00:05+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "OpenAI’s CFO Teases Their First Device",
-      "videoId": "_afLPYkXln0",
-      "url": "https://youtube.com/watch?v=_afLPYkXln0",
-      "publishedAt": "2026-06-17T19:36:24+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "Mark Zuckerberg: This is the Problem with Centralized AI",
-      "videoId": "mqLgCM0SnAM",
-      "url": "https://youtube.com/watch?v=mqLgCM0SnAM",
-      "publishedAt": "2026-06-17T18:02:05+00:00"
+      "name": "20VC",
+      "title": "What happens when the government gates access to superintelligence?",
+      "videoId": "DpvfYnQ6kBs",
+      "url": "https://youtube.com/watch?v=DpvfYnQ6kBs",
+      "publishedAt": "2026-06-18T18:08:36+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "🔬 The Limits of AI in Science - Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
-      "videoId": "4-sWFytOfRw",
-      "url": "https://youtube.com/watch?v=4-sWFytOfRw",
-      "publishedAt": "2026-06-17T17:28:06+00:00"
+      "title": "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP",
+      "videoId": "h5dlIPM0X18",
+      "url": "https://youtube.com/watch?v=h5dlIPM0X18",
+      "publishedAt": "2026-06-18T17:25:22+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;Anyone that has been loyal to Elon has become stupidly rich&quot;",
+      "videoId": "fqO6xF0ikTU",
+      "url": "https://youtube.com/watch?v=fqO6xF0ikTU",
+      "publishedAt": "2026-06-18T14:12:28+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Anthropic's Fable Banned by US Government | Wix &amp; Adobe Hit All-Time Lows | Mistral Raising at $20BN",
+      "videoId": "kQn3GQBZ0Cs",
+      "url": "https://youtube.com/watch?v=kQn3GQBZ0Cs",
+      "publishedAt": "2026-06-18T14:00:11+00:00"
     }
   ],
   "stats": {
