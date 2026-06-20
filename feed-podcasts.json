@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-06-19T10:50:12.726Z",
+  "generatedAt": "2026-06-20T09:29:33.877Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "What happens when the government gates access to superintelligence?",
-      "videoId": "DpvfYnQ6kBs",
-      "url": "https://youtube.com/watch?v=DpvfYnQ6kBs",
-      "publishedAt": "2026-06-18T18:08:36+00:00"
+      "name": "Acquired",
+      "title": "In 2012, SpaceX started doing stuff that only governments used to do",
+      "videoId": "vljsDEvndTI",
+      "url": "https://youtube.com/watch?v=vljsDEvndTI",
+      "publishedAt": "2026-06-20T08:23:34+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP",
-      "videoId": "h5dlIPM0X18",
-      "url": "https://youtube.com/watch?v=h5dlIPM0X18",
-      "publishedAt": "2026-06-18T17:25:22+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;Anyone that has been loyal to Elon has become stupidly rich&quot;",
-      "videoId": "fqO6xF0ikTU",
-      "url": "https://youtube.com/watch?v=fqO6xF0ikTU",
-      "publishedAt": "2026-06-18T14:12:28+00:00"
+      "name": "All-In Podcast",
+      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "videoId": "3Amlu4y94Ho",
+      "url": "https://youtube.com/watch?v=3Amlu4y94Ho",
+      "publishedAt": "2026-06-19T22:22:20+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Anthropic's Fable Banned by US Government | Wix &amp; Adobe Hit All-Time Lows | Mistral Raising at $20BN",
-      "videoId": "kQn3GQBZ0Cs",
-      "url": "https://youtube.com/watch?v=kQn3GQBZ0Cs",
-      "publishedAt": "2026-06-18T14:00:11+00:00"
+      "title": "Perplexity CEO on the Impact of Export Controls",
+      "videoId": "vKLDxdoq3FU",
+      "url": "https://youtube.com/watch?v=vKLDxdoq3FU",
+      "publishedAt": "2026-06-19T17:30:08+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 3
   }
 }
