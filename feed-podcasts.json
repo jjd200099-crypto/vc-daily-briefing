@@ -1,41 +1,33 @@
 {
-  "generatedAt": "2026-06-21T09:59:42.638Z",
+  "generatedAt": "2026-06-22T12:18:59.319Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Two Questions Every Startup Needs to Ask on Growth",
-      "videoId": "DUBuHXStZfY",
-      "url": "https://youtube.com/watch?v=DUBuHXStZfY",
-      "publishedAt": "2026-06-21T05:00:35+00:00"
+      "name": "All-In Podcast",
+      "title": "The Great Lie: It's not rich vs poor, it's makers vs takers",
+      "videoId": "FvxUX5oSDPw",
+      "url": "https://youtube.com/watch?v=FvxUX5oSDPw",
+      "publishedAt": "2026-06-21T22:46:11+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Intel CEO on Elon Musk",
-      "videoId": "lmiVL8_Lzr8",
-      "url": "https://youtube.com/watch?v=lmiVL8_Lzr8",
-      "publishedAt": "2026-06-20T23:09:39+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;Remote Work is White Collar Fraud&quot;",
-      "videoId": "dn4ZLRhx6WQ",
-      "url": "https://youtube.com/watch?v=dn4ZLRhx6WQ",
-      "publishedAt": "2026-06-20T13:58:49+00:00"
+      "name": "Latent Space",
+      "title": "⚡️Every product of the future will be a living system  — Ronak Malde, Trajectory.ai",
+      "videoId": "DcvgPEApHT8",
+      "url": "https://youtube.com/watch?v=DcvgPEApHT8",
+      "publishedAt": "2026-06-21T22:10:55+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Flexport CEO: Why Revenge and Patriotism are the Best Founder Traits",
-      "videoId": "v8u_7PPEzZE",
-      "url": "https://youtube.com/watch?v=v8u_7PPEzZE",
-      "publishedAt": "2026-06-20T13:57:41+00:00"
+      "title": "$8BN Founder on Pitching to VCs",
+      "videoId": "0zqSrVxhaAE",
+      "url": "https://youtube.com/watch?v=0zqSrVxhaAE",
+      "publishedAt": "2026-06-21T14:00:19+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 3
   }
 }
