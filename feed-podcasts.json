@@ -1,33 +1,49 @@
 {
-  "generatedAt": "2026-06-22T12:18:59.319Z",
+  "generatedAt": "2026-06-23T09:57:08.909Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "The Great Lie: It's not rich vs poor, it's makers vs takers",
-      "videoId": "FvxUX5oSDPw",
-      "url": "https://youtube.com/watch?v=FvxUX5oSDPw",
-      "publishedAt": "2026-06-21T22:46:11+00:00"
+      "name": "20VC",
+      "title": "life is simple...",
+      "videoId": "0RhsCszHbc8",
+      "url": "https://youtube.com/watch?v=0RhsCszHbc8",
+      "publishedAt": "2026-06-23T04:55:25+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "⚡️Every product of the future will be a living system  — Ronak Malde, Trajectory.ai",
-      "videoId": "DcvgPEApHT8",
-      "url": "https://youtube.com/watch?v=DcvgPEApHT8",
-      "publishedAt": "2026-06-21T22:10:55+00:00"
+      "title": "AI Security After Codex and Claude Code — Zico Kolter &amp; Matt Fredrikson, Gray Swan",
+      "videoId": "j8BAficRjEc",
+      "url": "https://youtube.com/watch?v=j8BAficRjEc",
+      "publishedAt": "2026-06-22T20:45:21+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "$8BN Founder on Pitching to VCs",
-      "videoId": "0zqSrVxhaAE",
-      "url": "https://youtube.com/watch?v=0zqSrVxhaAE",
-      "publishedAt": "2026-06-21T14:00:19+00:00"
+      "title": "The Problem with Token Budgets",
+      "videoId": "35qiH-Phtiw",
+      "url": "https://youtube.com/watch?v=35qiH-Phtiw",
+      "publishedAt": "2026-06-22T20:00:27+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Intel CEO: America Has No Choice",
+      "videoId": "KlxWyYtgOeI",
+      "url": "https://youtube.com/watch?v=KlxWyYtgOeI",
+      "publishedAt": "2026-06-22T16:52:47+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "&quot;You could be obsolete...&quot;",
+      "videoId": "kFCBjn1STNo",
+      "url": "https://youtube.com/watch?v=kFCBjn1STNo",
+      "publishedAt": "2026-06-22T14:04:54+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 3
+    "podcastEpisodes": 5
   }
 }
