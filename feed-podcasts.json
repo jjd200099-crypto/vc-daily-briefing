@@ -1,49 +1,65 @@
 {
-  "generatedAt": "2026-06-23T09:57:08.909Z",
+  "generatedAt": "2026-06-24T09:44:06.557Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "life is simple...",
-      "videoId": "0RhsCszHbc8",
-      "url": "https://youtube.com/watch?v=0RhsCszHbc8",
-      "publishedAt": "2026-06-23T04:55:25+00:00"
+      "title": "The Problem with Building AI Tools",
+      "videoId": "Dk8sE2osu-M",
+      "url": "https://youtube.com/watch?v=Dk8sE2osu-M",
+      "publishedAt": "2026-06-24T04:55:20+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "AI Security After Codex and Claude Code — Zico Kolter &amp; Matt Fredrikson, Gray Swan",
-      "videoId": "j8BAficRjEc",
-      "url": "https://youtube.com/watch?v=j8BAficRjEc",
-      "publishedAt": "2026-06-22T20:45:21+00:00"
+      "name": "All-In Podcast",
+      "title": "GameStop CEO Ryan Cohen’s $56B Plan to Take Over eBay",
+      "videoId": "4j9RPGLENNI",
+      "url": "https://youtube.com/watch?v=4j9RPGLENNI",
+      "publishedAt": "2026-06-23T21:13:14+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "How did Disney become the best business of all the classic Hollywood studios?",
+      "videoId": "vMWFu1HP7LE",
+      "url": "https://youtube.com/watch?v=vMWFu1HP7LE",
+      "publishedAt": "2026-06-23T18:49:14+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "The Walt Disney Company: The most successful enterprise for monetizing human nostalgia (Audio)",
+      "videoId": "7EUVr0-V6DA",
+      "url": "https://youtube.com/watch?v=7EUVr0-V6DA",
+      "publishedAt": "2026-06-23T16:05:40+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Problem with Token Budgets",
-      "videoId": "35qiH-Phtiw",
-      "url": "https://youtube.com/watch?v=35qiH-Phtiw",
-      "publishedAt": "2026-06-22T20:00:27+00:00"
+      "title": "&quot;Remote Work is like White Collar Fraud&quot;",
+      "videoId": "K-iy0kH5bX8",
+      "url": "https://youtube.com/watch?v=K-iy0kH5bX8",
+      "publishedAt": "2026-06-23T14:00:28+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "Intel CEO: America Has No Choice",
-      "videoId": "KlxWyYtgOeI",
-      "url": "https://youtube.com/watch?v=KlxWyYtgOeI",
-      "publishedAt": "2026-06-22T16:52:47+00:00"
+      "title": "The #1 Thing That Kills Company Culture",
+      "videoId": "4oF2tIb-lJs",
+      "url": "https://youtube.com/watch?v=4oF2tIb-lJs",
+      "publishedAt": "2026-06-23T12:41:24+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;You could be obsolete...&quot;",
-      "videoId": "kFCBjn1STNo",
-      "url": "https://youtube.com/watch?v=kFCBjn1STNo",
-      "publishedAt": "2026-06-22T14:04:54+00:00"
+      "name": "Invest Like the Best",
+      "title": "Investing a $120 Billion Balance Sheet with No Outside Investors",
+      "videoId": "OxHWFmFHnoc",
+      "url": "https://youtube.com/watch?v=OxHWFmFHnoc",
+      "publishedAt": "2026-06-23T12:00:35+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 7
   }
 }
