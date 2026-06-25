@@ -1,65 +1,41 @@
 {
-  "generatedAt": "2026-06-24T09:44:06.557Z",
+  "generatedAt": "2026-06-25T09:35:25.802Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Problem with Building AI Tools",
-      "videoId": "Dk8sE2osu-M",
-      "url": "https://youtube.com/watch?v=Dk8sE2osu-M",
-      "publishedAt": "2026-06-24T04:55:20+00:00"
+      "title": "San Fransisco's Loyalty Problem",
+      "videoId": "0mLPvv4hOXY",
+      "url": "https://youtube.com/watch?v=0mLPvv4hOXY",
+      "publishedAt": "2026-06-25T04:00:18+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "The Agent Cloud: Databricks’ Bet on the Future of AI — Matei Zaharia and Reynold Xin",
+      "videoId": "Yp_u1NpbkJg",
+      "url": "https://youtube.com/watch?v=Yp_u1NpbkJg",
+      "publishedAt": "2026-06-24T18:40:29+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "GameStop CEO Ryan Cohen’s $56B Plan to Take Over eBay",
-      "videoId": "4j9RPGLENNI",
-      "url": "https://youtube.com/watch?v=4j9RPGLENNI",
-      "publishedAt": "2026-06-23T21:13:14+00:00"
+      "title": "GameStop CEO: 3 Ways I’d Fix eBay",
+      "videoId": "PeNclyAl9N4",
+      "url": "https://youtube.com/watch?v=PeNclyAl9N4",
+      "publishedAt": "2026-06-24T18:36:16+00:00"
     },
     {
       "source": "podcast",
-      "name": "Acquired",
-      "title": "How did Disney become the best business of all the classic Hollywood studios?",
-      "videoId": "vMWFu1HP7LE",
-      "url": "https://youtube.com/watch?v=vMWFu1HP7LE",
-      "publishedAt": "2026-06-23T18:49:14+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "The Walt Disney Company: The most successful enterprise for monetizing human nostalgia (Audio)",
-      "videoId": "7EUVr0-V6DA",
-      "url": "https://youtube.com/watch?v=7EUVr0-V6DA",
-      "publishedAt": "2026-06-23T16:05:40+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;Remote Work is like White Collar Fraud&quot;",
-      "videoId": "K-iy0kH5bX8",
-      "url": "https://youtube.com/watch?v=K-iy0kH5bX8",
-      "publishedAt": "2026-06-23T14:00:28+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "The #1 Thing That Kills Company Culture",
-      "videoId": "4oF2tIb-lJs",
-      "url": "https://youtube.com/watch?v=4oF2tIb-lJs",
-      "publishedAt": "2026-06-23T12:41:24+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "Investing a $120 Billion Balance Sheet with No Outside Investors",
-      "videoId": "OxHWFmFHnoc",
-      "url": "https://youtube.com/watch?v=OxHWFmFHnoc",
-      "publishedAt": "2026-06-23T12:00:35+00:00"
+      "name": "Training Data",
+      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "videoId": "aiR7F4jqjXY",
+      "url": "https://youtube.com/watch?v=aiR7F4jqjXY",
+      "publishedAt": "2026-06-24T12:00:39+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 7
+    "podcastEpisodes": 4
   }
 }
