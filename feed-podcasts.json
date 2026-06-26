@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-06-25T09:35:25.802Z",
+  "generatedAt": "2026-06-26T09:41:33.074Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "San Fransisco's Loyalty Problem",
-      "videoId": "0mLPvv4hOXY",
-      "url": "https://youtube.com/watch?v=0mLPvv4hOXY",
-      "publishedAt": "2026-06-25T04:00:18+00:00"
+      "title": "Is the way we build startups changing?",
+      "videoId": "wTfozzdRJGs",
+      "url": "https://youtube.com/watch?v=wTfozzdRJGs",
+      "publishedAt": "2026-06-26T04:55:25+00:00"
     },
     {
       "source": "podcast",
       "name": "Latent Space",
-      "title": "The Agent Cloud: Databricks’ Bet on the Future of AI — Matei Zaharia and Reynold Xin",
-      "videoId": "Yp_u1NpbkJg",
-      "url": "https://youtube.com/watch?v=Yp_u1NpbkJg",
-      "publishedAt": "2026-06-24T18:40:29+00:00"
+      "title": "Cooking with OpenAI’s Research Chief: AGI, o1, Evals, and Scaling Laws — Mark Chen",
+      "videoId": "fpAthTtha8c",
+      "url": "https://youtube.com/watch?v=fpAthTtha8c",
+      "publishedAt": "2026-06-25T21:32:27+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "GameStop CEO: 3 Ways I’d Fix eBay",
-      "videoId": "PeNclyAl9N4",
-      "url": "https://youtube.com/watch?v=PeNclyAl9N4",
-      "publishedAt": "2026-06-24T18:36:16+00:00"
+      "name": "20VC",
+      "title": "Vertical integration makes NO sense for OpenAI &amp; Anthropic",
+      "videoId": "6kwvJgu8C0Y",
+      "url": "https://youtube.com/watch?v=6kwvJgu8C0Y",
+      "publishedAt": "2026-06-25T19:55:46+00:00"
     },
     {
       "source": "podcast",
-      "name": "Training Data",
-      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
-      "videoId": "aiR7F4jqjXY",
-      "url": "https://youtube.com/watch?v=aiR7F4jqjXY",
-      "publishedAt": "2026-06-24T12:00:39+00:00"
+      "name": "20VC",
+      "title": "DeepSeek Raises at $50BN, Wall St's $725BN AI Question &amp; The Rise of Open Source",
+      "videoId": "LnzVsY7iEh4",
+      "url": "https://youtube.com/watch?v=LnzVsY7iEh4",
+      "publishedAt": "2026-06-25T14:08:11+00:00"
     }
   ],
   "stats": {
