@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-27T08:45:40.125Z",
+  "generatedAt": "2026-06-28T09:22:35.716Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
-      "videoId": "w8ah_tA0yfg",
-      "url": "https://youtube.com/watch?v=w8ah_tA0yfg",
-      "publishedAt": "2026-06-27T00:24:53+00:00"
+      "name": "20VC",
+      "title": "What founders get wrong about equity",
+      "videoId": "8MX34-cvSAs",
+      "url": "https://youtube.com/watch?v=8MX34-cvSAs",
+      "publishedAt": "2026-06-27T14:00:28+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
-      "videoId": "AZrU6y3pUcU",
-      "url": "https://youtube.com/watch?v=AZrU6y3pUcU",
-      "publishedAt": "2026-06-26T10:25:40+00:00"
+      "name": "20VC",
+      "title": "How We Got Fred Wilson, Benchmark and Index to Invest $94M | Why Robinhood's Strategy is Wrong",
+      "videoId": "Z3nyCnsMMog",
+      "url": "https://youtube.com/watch?v=Z3nyCnsMMog",
+      "publishedAt": "2026-06-27T13:57:34+00:00"
     }
   ],
   "stats": {
