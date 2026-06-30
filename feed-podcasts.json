@@ -1,41 +1,49 @@
 {
-  "generatedAt": "2026-06-29T11:16:30.293Z",
+  "generatedAt": "2026-06-30T09:54:11.994Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "The Blueprint for Autonomous Work Agents | Gavriel Cohen, NanoClaw",
-      "videoId": "hLUGXO5DSpo",
-      "url": "https://youtube.com/watch?v=hLUGXO5DSpo",
-      "publishedAt": "2026-06-29T07:00:06+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "What the UK's Social Media Ban is REALLY About",
-      "videoId": "iGG6bjAz2QM",
-      "url": "https://youtube.com/watch?v=iGG6bjAz2QM",
-      "publishedAt": "2026-06-28T20:30:31+00:00"
+      "name": "20VC",
+      "title": "The mindset behind one of the world's fastest growing energy companies",
+      "videoId": "C1R-jqj8OT8",
+      "url": "https://youtube.com/watch?v=C1R-jqj8OT8",
+      "publishedAt": "2026-06-30T05:00:26+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "We worked 8 months without pay",
-      "videoId": "tXGVUqm5TD0",
-      "url": "https://youtube.com/watch?v=tXGVUqm5TD0",
-      "publishedAt": "2026-06-28T14:55:23+00:00"
+      "title": "Why every monopoly eventually falls",
+      "videoId": "ogzf8L6p0dc",
+      "url": "https://youtube.com/watch?v=ogzf8L6p0dc",
+      "publishedAt": "2026-06-29T18:00:38+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "2 Reasons Socialism is Rising in America",
-      "videoId": "I4aXr3-aAco",
-      "url": "https://youtube.com/watch?v=I4aXr3-aAco",
-      "publishedAt": "2026-06-28T14:00:11+00:00"
+      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading &amp; AOC Might Win It All in 2028",
+      "videoId": "ihq_ngvKKmc",
+      "url": "https://youtube.com/watch?v=ihq_ngvKKmc",
+      "publishedAt": "2026-06-29T16:48:53+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "AI benchmark scores don’t tell you what you think they do",
+      "videoId": "ta3Y6AdfGxI",
+      "url": "https://youtube.com/watch?v=ta3Y6AdfGxI",
+      "publishedAt": "2026-06-29T14:53:07+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "Bloom Energy CEO: &quot;To lose is something I simply cannot contemplate&quot;",
+      "videoId": "dFRBiF9oGGQ",
+      "url": "https://youtube.com/watch?v=dFRBiF9oGGQ",
+      "publishedAt": "2026-06-29T14:00:44+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 4
+    "podcastEpisodes": 5
   }
 }
