@@ -1,49 +1,89 @@
 {
-  "generatedAt": "2026-06-30T09:54:11.994Z",
+  "generatedAt": "2026-07-01T10:03:02.590Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "The mindset behind one of the world's fastest growing energy companies",
-      "videoId": "C1R-jqj8OT8",
-      "url": "https://youtube.com/watch?v=C1R-jqj8OT8",
-      "publishedAt": "2026-06-30T05:00:26+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Taxation in the Roman Empire - historian explains | Anthony Kaldellis and Lex Fridman",
+      "videoId": "aUCiRwvzB4M",
+      "url": "https://youtube.com/watch?v=aUCiRwvzB4M",
+      "publishedAt": "2026-07-01T05:20:53+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Why every monopoly eventually falls",
-      "videoId": "ogzf8L6p0dc",
-      "url": "https://youtube.com/watch?v=ogzf8L6p0dc",
-      "publishedAt": "2026-06-29T18:00:38+00:00"
+      "title": "The Real Reason AI Data Centres Are Slow",
+      "videoId": "t4lfhGz0BBw",
+      "url": "https://youtube.com/watch?v=t4lfhGz0BBw",
+      "publishedAt": "2026-07-01T05:00:27+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading &amp; AOC Might Win It All in 2028",
-      "videoId": "ihq_ngvKKmc",
-      "url": "https://youtube.com/watch?v=ihq_ngvKKmc",
-      "publishedAt": "2026-06-29T16:48:53+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "The 3 biggest threats to the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "1FnOEUmEzs0",
+      "url": "https://youtube.com/watch?v=1FnOEUmEzs0",
+      "publishedAt": "2026-07-01T01:10:35+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Latent Space",
+      "title": "🔬 &quot;The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation&quot;",
+      "videoId": "YQWXxnkK4dw",
+      "url": "https://youtube.com/watch?v=YQWXxnkK4dw",
+      "publishedAt": "2026-06-30T21:41:29+00:00"
     },
     {
       "source": "podcast",
       "name": "No Priors",
-      "title": "AI benchmark scores don’t tell you what you think they do",
-      "videoId": "ta3Y6AdfGxI",
-      "url": "https://youtube.com/watch?v=ta3Y6AdfGxI",
-      "publishedAt": "2026-06-29T14:53:07+00:00"
+      "title": "Nobody truly knows what AI Models are capable of",
+      "videoId": "-kMLjDGZ33o",
+      "url": "https://youtube.com/watch?v=-kMLjDGZ33o",
+      "publishedAt": "2026-06-30T18:54:24+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Invest Like the Best",
+      "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
+      "videoId": "BagWrgPww1o",
+      "url": "https://youtube.com/watch?v=BagWrgPww1o",
+      "publishedAt": "2026-06-30T15:05:08+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "Bloom Energy CEO: &quot;To lose is something I simply cannot contemplate&quot;",
-      "videoId": "dFRBiF9oGGQ",
-      "url": "https://youtube.com/watch?v=dFRBiF9oGGQ",
-      "publishedAt": "2026-06-29T14:00:44+00:00"
+      "title": "The Hottest Companies Right Now",
+      "videoId": "Dxk2NmM0_Sc",
+      "url": "https://youtube.com/watch?v=Dxk2NmM0_Sc",
+      "publishedAt": "2026-06-30T15:00:29+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Acquired",
+      "title": "How Traditional Animation Was Made at Disney",
+      "videoId": "pr9Td0q7PVk",
+      "url": "https://youtube.com/watch?v=pr9Td0q7PVk",
+      "publishedAt": "2026-06-30T14:07:10+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Training Data",
+      "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+      "videoId": "f6D_aiy8qyU",
+      "url": "https://youtube.com/watch?v=f6D_aiy8qyU",
+      "publishedAt": "2026-06-30T12:00:25+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "20VC",
+      "title": "The Plan to Power Every Country on Earth",
+      "videoId": "EoXqGzDi2wk",
+      "url": "https://youtube.com/watch?v=EoXqGzDi2wk",
+      "publishedAt": "2026-06-30T11:00:27+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 5
+    "podcastEpisodes": 10
   }
 }
