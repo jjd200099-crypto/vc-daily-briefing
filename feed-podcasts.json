@@ -1,89 +1,57 @@
 {
-  "generatedAt": "2026-07-01T10:03:02.590Z",
+  "generatedAt": "2026-07-02T09:25:58.709Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Taxation in the Roman Empire - historian explains | Anthony Kaldellis and Lex Fridman",
-      "videoId": "aUCiRwvzB4M",
-      "url": "https://youtube.com/watch?v=aUCiRwvzB4M",
-      "publishedAt": "2026-07-01T05:20:53+00:00"
-    },
-    {
-      "source": "podcast",
       "name": "20VC",
-      "title": "The Real Reason AI Data Centres Are Slow",
-      "videoId": "t4lfhGz0BBw",
-      "url": "https://youtube.com/watch?v=t4lfhGz0BBw",
-      "publishedAt": "2026-07-01T05:00:27+00:00"
+      "title": "The Question Andy Grove Asked That Changed Everything",
+      "videoId": "gpfnKZzncMs",
+      "url": "https://youtube.com/watch?v=gpfnKZzncMs",
+      "publishedAt": "2026-07-02T05:30:34+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The 3 biggest threats to the Roman Empire | Anthony Kaldellis and Lex Fridman",
-      "videoId": "1FnOEUmEzs0",
-      "url": "https://youtube.com/watch?v=1FnOEUmEzs0",
-      "publishedAt": "2026-07-01T01:10:35+00:00"
+      "title": "The rise of the Roman Empire in the East | Anthony Kaldellis and Lex Fridman",
+      "videoId": "yHFSoMVD3HM",
+      "url": "https://youtube.com/watch?v=yHFSoMVD3HM",
+      "publishedAt": "2026-07-02T04:00:09+00:00"
     },
     {
       "source": "podcast",
-      "name": "Latent Space",
-      "title": "🔬 &quot;The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation&quot;",
-      "videoId": "YQWXxnkK4dw",
-      "url": "https://youtube.com/watch?v=YQWXxnkK4dw",
-      "publishedAt": "2026-06-30T21:41:29+00:00"
+      "name": "All-In Podcast",
+      "title": "$50B Fund Manager Breaks Down SpaceX’s Soaring Valuation",
+      "videoId": "V3luvOVc4to",
+      "url": "https://youtube.com/watch?v=V3luvOVc4to",
+      "publishedAt": "2026-07-02T03:06:48+00:00"
     },
     {
       "source": "podcast",
-      "name": "No Priors",
-      "title": "Nobody truly knows what AI Models are capable of",
-      "videoId": "-kMLjDGZ33o",
-      "url": "https://youtube.com/watch?v=-kMLjDGZ33o",
-      "publishedAt": "2026-06-30T18:54:24+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "Why Christianity succeeded and spread throughout the world | Anthony Kaldellis and Lex Fridman",
+      "videoId": "1Nsb1BlNhcE",
+      "url": "https://youtube.com/watch?v=1Nsb1BlNhcE",
+      "publishedAt": "2026-07-01T23:00:09+00:00"
     },
     {
       "source": "podcast",
-      "name": "Invest Like the Best",
-      "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
-      "videoId": "BagWrgPww1o",
-      "url": "https://youtube.com/watch?v=BagWrgPww1o",
-      "publishedAt": "2026-06-30T15:05:08+00:00"
+      "name": "All-In Podcast",
+      "title": "David Sacks: The DSA Is Taking Over the Democratic Party, Here Are Their Goals",
+      "videoId": "8YWTkqpJYtc",
+      "url": "https://youtube.com/watch?v=8YWTkqpJYtc",
+      "publishedAt": "2026-07-01T21:14:02+00:00"
     },
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "The Hottest Companies Right Now",
-      "videoId": "Dxk2NmM0_Sc",
-      "url": "https://youtube.com/watch?v=Dxk2NmM0_Sc",
-      "publishedAt": "2026-06-30T15:00:29+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Acquired",
-      "title": "How Traditional Animation Was Made at Disney",
-      "videoId": "pr9Td0q7PVk",
-      "url": "https://youtube.com/watch?v=pr9Td0q7PVk",
-      "publishedAt": "2026-06-30T14:07:10+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Training Data",
-      "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
-      "videoId": "f6D_aiy8qyU",
-      "url": "https://youtube.com/watch?v=f6D_aiy8qyU",
-      "publishedAt": "2026-06-30T12:00:25+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "The Plan to Power Every Country on Earth",
-      "videoId": "EoXqGzDi2wk",
-      "url": "https://youtube.com/watch?v=EoXqGzDi2wk",
-      "publishedAt": "2026-06-30T11:00:27+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "The role of violence in the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "Qobvx4iLXpk",
+      "url": "https://youtube.com/watch?v=Qobvx4iLXpk",
+      "publishedAt": "2026-07-01T18:04:36+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 10
+    "podcastEpisodes": 6
   }
 }
