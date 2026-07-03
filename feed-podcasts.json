@@ -1,57 +1,81 @@
 {
-  "generatedAt": "2026-07-02T09:25:58.709Z",
+  "generatedAt": "2026-07-03T09:29:40.627Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The Question Andy Grove Asked That Changed Everything",
-      "videoId": "gpfnKZzncMs",
-      "url": "https://youtube.com/watch?v=gpfnKZzncMs",
-      "publishedAt": "2026-07-02T05:30:34+00:00"
+      "title": "Will there be a US ban on Chinese AI models?",
+      "videoId": "GtAgerhjNRM",
+      "url": "https://youtube.com/watch?v=GtAgerhjNRM",
+      "publishedAt": "2026-07-03T04:55:23+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The rise of the Roman Empire in the East | Anthony Kaldellis and Lex Fridman",
-      "videoId": "yHFSoMVD3HM",
-      "url": "https://youtube.com/watch?v=yHFSoMVD3HM",
-      "publishedAt": "2026-07-02T04:00:09+00:00"
+      "title": "The battle for power in the Roman Empire - lesson from Machiavelli | Anthony Kaldellis",
+      "videoId": "tqEdwXlo12A",
+      "url": "https://youtube.com/watch?v=tqEdwXlo12A",
+      "publishedAt": "2026-07-03T04:00:28+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Who is a Roman: The identity of the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "SMyDLuujvr0",
+      "url": "https://youtube.com/watch?v=SMyDLuujvr0",
+      "publishedAt": "2026-07-03T00:00:09+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "Was the Roman Empire a military dictatorship? | Anthony Kaldellis and Lex Fridman",
+      "videoId": "B-rUKB-ZkNc",
+      "url": "https://youtube.com/watch?v=B-rUKB-ZkNc",
+      "publishedAt": "2026-07-02T20:00:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "videoId": "5Xvbq_zvOQ4",
+      "url": "https://youtube.com/watch?v=5Xvbq_zvOQ4",
+      "publishedAt": "2026-07-02T15:00:00+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "$50B Fund Manager Breaks Down SpaceX’s Soaring Valuation",
-      "videoId": "V3luvOVc4to",
-      "url": "https://youtube.com/watch?v=V3luvOVc4to",
-      "publishedAt": "2026-07-02T03:06:48+00:00"
+      "title": "What Anthropic is Actually Worth... It's More Than You Think",
+      "videoId": "86RP8smtuWo",
+      "url": "https://youtube.com/watch?v=86RP8smtuWo",
+      "publishedAt": "2026-07-02T14:30:34+00:00"
     },
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Why Christianity succeeded and spread throughout the world | Anthony Kaldellis and Lex Fridman",
-      "videoId": "1Nsb1BlNhcE",
-      "url": "https://youtube.com/watch?v=1Nsb1BlNhcE",
-      "publishedAt": "2026-07-01T23:00:09+00:00"
+      "name": "20VC",
+      "title": "&quot;AI is gonna be like the oil situation in the Persian Gulf today...&quot;",
+      "videoId": "RmkqsFR9OgY",
+      "url": "https://youtube.com/watch?v=RmkqsFR9OgY",
+      "publishedAt": "2026-07-02T14:03:35+00:00"
     },
     {
       "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "David Sacks: The DSA Is Taking Over the Democratic Party, Here Are Their Goals",
-      "videoId": "8YWTkqpJYtc",
-      "url": "https://youtube.com/watch?v=8YWTkqpJYtc",
-      "publishedAt": "2026-07-01T21:14:02+00:00"
+      "name": "20VC",
+      "title": "Coinbase Cuts AI Spend by 50% | Kalshi's $40B Valuation &amp; Impending IPO | The Year for SaaS Roll-Ups",
+      "videoId": "uINvYTxGCQE",
+      "url": "https://youtube.com/watch?v=uINvYTxGCQE",
+      "publishedAt": "2026-07-02T14:00:16+00:00"
     },
     {
       "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "The role of violence in the Roman Empire | Anthony Kaldellis and Lex Fridman",
-      "videoId": "Qobvx4iLXpk",
-      "url": "https://youtube.com/watch?v=Qobvx4iLXpk",
-      "publishedAt": "2026-07-01T18:04:36+00:00"
+      "name": "Acquired",
+      "title": "How Mickey Mouse Got His Name",
+      "videoId": "CzDH3by42OM",
+      "url": "https://youtube.com/watch?v=CzDH3by42OM",
+      "publishedAt": "2026-07-02T09:40:21+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 9
   }
 }
