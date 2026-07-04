@@ -1,81 +1,57 @@
 {
-  "generatedAt": "2026-07-03T09:29:40.627Z",
+  "generatedAt": "2026-07-04T08:46:42.335Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
-      "name": "20VC",
-      "title": "Will there be a US ban on Chinese AI models?",
-      "videoId": "GtAgerhjNRM",
-      "url": "https://youtube.com/watch?v=GtAgerhjNRM",
-      "publishedAt": "2026-07-03T04:55:23+00:00"
+      "name": "Lex Fridman Podcast",
+      "title": "The Roman tax system that held an empire together for 1,000 years | Anthony Kaldellis",
+      "videoId": "nARGiPlDgl8",
+      "url": "https://youtube.com/watch?v=nARGiPlDgl8",
+      "publishedAt": "2026-07-04T04:00:49+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The battle for power in the Roman Empire - lesson from Machiavelli | Anthony Kaldellis",
-      "videoId": "tqEdwXlo12A",
-      "url": "https://youtube.com/watch?v=tqEdwXlo12A",
-      "publishedAt": "2026-07-03T04:00:28+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Who is a Roman: The identity of the Roman Empire | Anthony Kaldellis and Lex Fridman",
-      "videoId": "SMyDLuujvr0",
-      "url": "https://youtube.com/watch?v=SMyDLuujvr0",
-      "publishedAt": "2026-07-03T00:00:09+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "Lex Fridman Podcast",
-      "title": "Was the Roman Empire a military dictatorship? | Anthony Kaldellis and Lex Fridman",
-      "videoId": "B-rUKB-ZkNc",
-      "url": "https://youtube.com/watch?v=B-rUKB-ZkNc",
-      "publishedAt": "2026-07-02T20:00:08+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "No Priors",
-      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
-      "videoId": "5Xvbq_zvOQ4",
-      "url": "https://youtube.com/watch?v=5Xvbq_zvOQ4",
-      "publishedAt": "2026-07-02T15:00:00+00:00"
+      "title": "Murder of Roman Emperors - The crisis that almost destroyed the Roman Empire | Anthony Kaldellis",
+      "videoId": "3kM3KQSIN94",
+      "url": "https://youtube.com/watch?v=3kM3KQSIN94",
+      "publishedAt": "2026-07-04T00:00:09+00:00"
     },
     {
       "source": "podcast",
       "name": "All-In Podcast",
-      "title": "What Anthropic is Actually Worth... It's More Than You Think",
-      "videoId": "86RP8smtuWo",
-      "url": "https://youtube.com/watch?v=86RP8smtuWo",
-      "publishedAt": "2026-07-02T14:30:34+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "&quot;AI is gonna be like the oil situation in the Persian Gulf today...&quot;",
-      "videoId": "RmkqsFR9OgY",
-      "url": "https://youtube.com/watch?v=RmkqsFR9OgY",
-      "publishedAt": "2026-07-02T14:03:35+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "20VC",
-      "title": "Coinbase Cuts AI Spend by 50% | Kalshi's $40B Valuation &amp; Impending IPO | The Year for SaaS Roll-Ups",
-      "videoId": "uINvYTxGCQE",
-      "url": "https://youtube.com/watch?v=uINvYTxGCQE",
-      "publishedAt": "2026-07-02T14:00:16+00:00"
+      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom’s CA Budget Lie",
+      "videoId": "wgdxSCsmS-Q",
+      "url": "https://youtube.com/watch?v=wgdxSCsmS-Q",
+      "publishedAt": "2026-07-03T23:31:28+00:00"
     },
     {
       "source": "podcast",
       "name": "Acquired",
-      "title": "How Mickey Mouse Got His Name",
-      "videoId": "CzDH3by42OM",
-      "url": "https://youtube.com/watch?v=CzDH3by42OM",
-      "publishedAt": "2026-07-02T09:40:21+00:00"
+      "title": "The First Movie Soundtrack",
+      "videoId": "NLAiyPU6KQw",
+      "url": "https://youtube.com/watch?v=NLAiyPU6KQw",
+      "publishedAt": "2026-07-03T20:49:41+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman Podcast",
+      "title": "The revolutionary idea that changed the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "cNH_djxfAuU",
+      "url": "https://youtube.com/watch?v=cNH_djxfAuU",
+      "publishedAt": "2026-07-03T20:00:08+00:00"
+    },
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "NVIDIA's AI Chip Is Now Running on Nuclear Power",
+      "videoId": "F23u22awHjo",
+      "url": "https://youtube.com/watch?v=F23u22awHjo",
+      "publishedAt": "2026-07-03T10:55:52+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 9
+    "podcastEpisodes": 6
   }
 }
