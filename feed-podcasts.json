@@ -1,57 +1,41 @@
 {
-  "generatedAt": "2026-07-05T09:16:24.445Z",
+  "generatedAt": "2026-07-06T10:52:26.489Z",
   "lookbackHours": 72,
   "podcasts": [
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "The Rise and Fall of the Roman Empire: 2,200 years of the Roman State | Anthony Kaldellis",
-      "videoId": "hNiOJDe4-oA",
-      "url": "https://youtube.com/watch?v=hNiOJDe4-oA",
-      "publishedAt": "2026-07-05T04:00:08+00:00"
+      "title": "Historian explains human nature | Anthony Kaldellis and Lex Fridman",
+      "videoId": "fkxNp4n6GA4",
+      "url": "https://youtube.com/watch?v=fkxNp4n6GA4",
+      "publishedAt": "2026-07-06T04:00:28+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "How Christianity took over the Roman Empire | Anthony Kaldellis and Lex Fridman",
-      "videoId": "1xCICG2KGWI",
-      "url": "https://youtube.com/watch?v=1xCICG2KGWI",
-      "publishedAt": "2026-07-05T00:00:29+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Friedberg’s Immigration Test: Workers vs Welfare",
-      "videoId": "JR3HuyXIt-A",
-      "url": "https://youtube.com/watch?v=JR3HuyXIt-A",
-      "publishedAt": "2026-07-04T21:00:00+00:00"
+      "title": "Why the Arabs attacked the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "a9lLNM1j2vg",
+      "url": "https://youtube.com/watch?v=a9lLNM1j2vg",
+      "publishedAt": "2026-07-06T00:00:09+00:00"
     },
     {
       "source": "podcast",
       "name": "Lex Fridman Podcast",
-      "title": "How powerful were Roman Emperors? | Anthony Kaldellis and Lex Fridman",
-      "videoId": "BJsQezcOv6k",
-      "url": "https://youtube.com/watch?v=BJsQezcOv6k",
-      "publishedAt": "2026-07-04T20:00:28+00:00"
-    },
-    {
-      "source": "podcast",
-      "name": "All-In Podcast",
-      "title": "Don't trust OpenAI. Use your own models.",
-      "videoId": "qt_74JM1om4",
-      "url": "https://youtube.com/watch?v=qt_74JM1om4",
-      "publishedAt": "2026-07-04T14:00:31+00:00"
+      "title": "Wars of conquest that weakened the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "MUoAmcBEloY",
+      "url": "https://youtube.com/watch?v=MUoAmcBEloY",
+      "publishedAt": "2026-07-05T20:00:08+00:00"
     },
     {
       "source": "podcast",
       "name": "20VC",
-      "title": "The $100,000 token budget EVERY engineer will need | Sierra Co-Founder",
-      "videoId": "YWg_YCQEZhI",
-      "url": "https://youtube.com/watch?v=YWg_YCQEZhI",
-      "publishedAt": "2026-07-04T13:57:03+00:00"
+      "title": "Unfair advantage that young people have today",
+      "videoId": "eqn8rnLy3JM",
+      "url": "https://youtube.com/watch?v=eqn8rnLy3JM",
+      "publishedAt": "2026-07-05T15:45:49+00:00"
     }
   ],
   "stats": {
-    "podcastEpisodes": 6
+    "podcastEpisodes": 4
   }
 }
